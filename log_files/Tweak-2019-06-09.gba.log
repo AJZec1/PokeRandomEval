@@ -1,0 +1,1594 @@
+﻿--Patching for National Dex at Start of Game--
+Patch successful!
+
+--Pokemon Base Stats & Types--
+NUM|NAME      |TYPE             |  HP| ATK| DEF| SPE|SATK|SDEF|ABILITY1    |ABILITY2    |ITEM
+  1|BULBASAUR |GRASS/POISON     |  45|  49|  49|  45|  65|  65|OVERGROW    |-------     |
+  2|IVYSAUR   |GRASS/POISON     |  60|  62|  63|  60|  80|  80|OVERGROW    |-------     |
+  3|VENUSAUR  |GRASS/POISON     |  80|  82|  83|  80| 100| 100|OVERGROW    |-------     |TM01 (common), TM31 (rare)
+  4|CHARMANDER|FIRE             |  39|  52|  43|  65|  60|  50|BLAZE       |-------     |
+  5|CHARMELEON|FIRE             |  58|  64|  58|  80|  80|  65|BLAZE       |-------     |
+  6|CHARIZARD |FIRE/FLYING      |  78|  84|  78| 100| 109|  85|BLAZE       |-------     |LEAF STONE (rare)
+  7|SQUIRTLE  |WATER            |  44|  48|  65|  43|  50|  64|TORRENT     |-------     |TM36 (common)
+  8|WARTORTLE |WATER            |  59|  63|  80|  58|  65|  80|TORRENT     |-------     |TM41 (common)
+  9|BLASTOISE |WATER            |  79|  83| 100|  78|  85| 105|TORRENT     |-------     |
+ 10|CATERPIE  |BUG              |  45|  30|  35|  45|  20|  20|SHIELD DUST |-------     |QUICK CLAW (rare)
+ 11|METAPOD   |BUG              |  50|  20|  55|  30|  25|  25|SHED SKIN   |-------     |
+ 12|BUTTERFREE|BUG/FLYING       |  60|  45|  50|  70|  80|  80|COMPOUNDEYES|-------     |
+ 13|WEEDLE    |BUG/POISON       |  40|  35|  30|  50|  20|  20|SHIELD DUST |-------     |
+ 14|KAKUNA    |BUG/POISON       |  45|  25|  50|  35|  25|  25|SHED SKIN   |-------     |
+ 15|BEEDRILL  |BUG/POISON       |  65|  80|  40|  75|  45|  80|SWARM       |-------     |DEEPSEASCALE (common)
+ 16|PIDGEY    |NORMAL/FLYING    |  40|  45|  40|  56|  35|  35|KEEN EYE    |-------     |
+ 17|PIDGEOTTO |NORMAL/FLYING    |  63|  60|  55|  71|  50|  50|KEEN EYE    |-------     |
+ 18|PIDGEOT   |NORMAL/FLYING    |  83|  80|  75|  91|  70|  70|KEEN EYE    |-------     |
+ 19|RATTATA   |NORMAL           |  30|  56|  35|  72|  25|  35|RUN AWAY    |GUTS        |TM04 (common), PREMIER BALL (rare)
+ 20|RATICATE  |NORMAL           |  55|  81|  60|  97|  50|  70|RUN AWAY    |GUTS        |
+ 21|SPEAROW   |NORMAL/FLYING    |  40|  60|  30|  70|  31|  31|KEEN EYE    |-------     |HEAL POWDER (100%)
+ 22|FEAROW    |NORMAL/FLYING    |  65|  90|  65| 100|  61|  61|KEEN EYE    |-------     |SPELL TAG (common), TM03 (rare)
+ 23|EKANS     |POISON           |  35|  60|  44|  55|  40|  54|INTIMIDATE  |SHED SKIN   |STARDUST (common)
+ 24|ARBOK     |POISON           |  60|  85|  69|  80|  65|  79|INTIMIDATE  |SHED SKIN   |TM46 (rare)
+ 25|PIKACHU   |ELECTRIC         |  35|  55|  30|  90|  50|  40|STATIC      |-------     |HP UP (100%)
+ 26|RAICHU    |ELECTRIC         |  60|  90|  55| 100|  90|  80|STATIC      |-------     |
+ 27|SANDSHREW |GROUND           |  50|  75|  85|  40|  20|  30|SAND VEIL   |-------     |
+ 28|SANDSLASH |GROUND           |  75| 100| 110|  65|  45|  55|SAND VEIL   |-------     |
+ 29|NIDORAN♀  |POISON           |  55|  47|  52|  41|  40|  40|POISON POINT|-------     |
+ 30|NIDORINA  |POISON           |  70|  62|  67|  56|  55|  55|POISON POINT|-------     |TM15 (common), SUN STONE (rare)
+ 31|NIDOQUEEN |POISON/GROUND    |  90|  82|  87|  76|  75|  85|POISON POINT|-------     |TM34 (rare)
+ 32|NIDORAN♂  |POISON           |  46|  57|  40|  50|  40|  40|POISON POINT|-------     |HEART SCALE (100%)
+ 33|NIDORINO  |POISON           |  61|  72|  57|  65|  55|  55|POISON POINT|-------     |TM13 (rare)
+ 34|NIDOKING  |POISON/GROUND    |  81|  92|  77|  85|  85|  75|POISON POINT|-------     |
+ 35|CLEFAIRY  |NORMAL           |  70|  45|  48|  35|  60|  65|CUTE CHARM  |-------     |RED SHARD (common), TM48 (rare)
+ 36|CLEFABLE  |NORMAL           |  95|  70|  73|  60|  85|  90|CUTE CHARM  |-------     |NEVERMELTICE (100%)
+ 37|VULPIX    |FIRE             |  38|  41|  40|  65|  50|  65|FLASH FIRE  |-------     |PARLYZ HEAL (100%)
+ 38|NINETALES |FIRE             |  73|  76|  75| 100|  81| 100|FLASH FIRE  |-------     |TM50 (100%)
+ 39|JIGGLYPUFF|NORMAL           | 115|  45|  20|  20|  45|  25|CUTE CHARM  |-------     |
+ 40|WIGGLYTUFF|NORMAL           | 140|  70|  45|  45|  75|  50|CUTE CHARM  |-------     |
+ 41|ZUBAT     |POISON/FLYING    |  40|  45|  35|  55|  30|  40|INNER FOCUS |-------     |
+ 42|GOLBAT    |POISON/FLYING    |  75|  80|  70|  90|  65|  75|INNER FOCUS |-------     |TM41 (common)
+ 43|ODDISH    |GRASS/POISON     |  45|  50|  55|  30|  75|  65|CHLOROPHYLL |-------     |
+ 44|GLOOM     |GRASS/POISON     |  60|  65|  70|  40|  85|  75|CHLOROPHYLL |-------     |
+ 45|VILEPLUME |GRASS/POISON     |  75|  80|  85|  50| 100|  90|CHLOROPHYLL |-------     |
+ 46|PARAS     |BUG/GRASS        |  35|  70|  55|  25|  45|  55|EFFECT SPORE|-------     |
+ 47|PARASECT  |BUG/GRASS        |  60|  95|  80|  30|  60|  80|EFFECT SPORE|-------     |TM41 (common), TM37 (rare)
+ 48|VENONAT   |BUG/POISON       |  60|  55|  50|  45|  40|  55|COMPOUNDEYES|-------     |
+ 49|VENOMOTH  |BUG/POISON       |  70|  65|  60|  90|  90|  75|SHIELD DUST |-------     |
+ 50|DIGLETT   |GROUND           |  10|  55|  25|  95|  35|  45|SAND VEIL   |ARENA TRAP  |PP MAX (rare)
+ 51|DUGTRIO   |GROUND           |  35|  80|  50| 120|  50|  70|SAND VEIL   |ARENA TRAP  |
+ 52|MEOWTH    |NORMAL           |  40|  45|  35|  90|  40|  40|PICKUP      |-------     |
+ 53|PERSIAN   |NORMAL           |  65|  70|  60| 115|  65|  65|LIMBER      |-------     |DEEPSEASCALE (common)
+ 54|PSYDUCK   |WATER            |  50|  52|  48|  55|  65|  50|DAMP        |CLOUD NINE  |TM26 (common), ENERGY ROOT (rare)
+ 55|GOLDUCK   |WATER            |  80|  82|  78|  85|  95|  80|DAMP        |CLOUD NINE  |MAX ETHER (100%)
+ 56|MANKEY    |FIGHTING         |  40|  80|  35|  70|  35|  45|VITAL SPIRIT|-------     |REPEAT BALL (common), IRON (rare)
+ 57|PRIMEAPE  |FIGHTING         |  65| 105|  60|  95|  60|  70|VITAL SPIRIT|-------     |
+ 58|GROWLITHE |FIRE             |  55|  70|  45|  60|  70|  50|INTIMIDATE  |FLASH FIRE  |REVIVAL HERB (100%)
+ 59|ARCANINE  |FIRE             |  90| 110|  80|  95| 100|  80|INTIMIDATE  |FLASH FIRE  |MIRACLE SEED (100%)
+ 60|POLIWAG   |WATER            |  40|  50|  40|  90|  40|  40|WATER ABSORB|DAMP        |TM17 (rare)
+ 61|POLIWHIRL |WATER            |  65|  65|  65|  90|  50|  50|WATER ABSORB|DAMP        |CHOICE BAND (rare)
+ 62|POLIWRATH |WATER/FIGHTING   |  90|  85|  95|  70|  70|  90|WATER ABSORB|DAMP        |POISON BARB (common)
+ 63|ABRA      |PSYCHIC          |  25|  20|  15|  90| 105|  55|SYNCHRONIZE |INNER FOCUS |AMULET COIN (rare)
+ 64|KADABRA   |PSYCHIC          |  40|  35|  30| 105| 120|  70|SYNCHRONIZE |INNER FOCUS |
+ 65|ALAKAZAM  |PSYCHIC          |  55|  50|  45| 120| 135|  85|SYNCHRONIZE |INNER FOCUS |PARLYZ HEAL (common), LAX INCENSE (rare)
+ 66|MACHOP    |FIGHTING         |  70|  80|  50|  35|  35|  35|GUTS        |-------     |HARD STONE (common), GREEN SHARD (rare)
+ 67|MACHOKE   |FIGHTING         |  80| 100|  70|  45|  50|  60|GUTS        |-------     |
+ 68|MACHAMP   |FIGHTING         |  90| 130|  80|  55|  65|  85|GUTS        |-------     |
+ 69|BELLSPROUT|GRASS/POISON     |  50|  75|  35|  40|  70|  30|CHLOROPHYLL |-------     |SEA INCENSE (common), NET BALL (rare)
+ 70|WEEPINBELL|GRASS/POISON     |  65|  90|  50|  55|  85|  45|CHLOROPHYLL |-------     |TM50 (rare)
+ 71|VICTREEBEL|GRASS/POISON     |  80| 105|  65|  70| 100|  60|CHLOROPHYLL |-------     |
+ 72|TENTACOOL |WATER/POISON     |  40|  40|  35|  70|  50| 100|CLEAR BODY  |LIQUID OOZE |MAX REVIVE (common)
+ 73|TENTACRUEL|WATER/POISON     |  80|  70|  65| 100|  80| 120|CLEAR BODY  |LIQUID OOZE |
+ 74|GEODUDE   |ROCK/GROUND      |  40|  80| 100|  20|  30|  30|ROCK HEAD   |STURDY      |
+ 75|GRAVELER  |ROCK/GROUND      |  55|  95| 115|  35|  45|  45|ROCK HEAD   |STURDY      |TM03 (common)
+ 76|GOLEM     |ROCK/GROUND      |  80| 110| 130|  45|  55|  65|ROCK HEAD   |STURDY      |LEMONADE (100%)
+ 77|PONYTA    |FIRE             |  50|  85|  55|  90|  65|  65|RUN AWAY    |FLASH FIRE  |TM11 (common)
+ 78|RAPIDASH  |FIRE             |  65| 100|  70| 105|  80|  80|RUN AWAY    |FLASH FIRE  |TM19 (common)
+ 79|SLOWPOKE  |WATER/PSYCHIC    |  90|  65|  65|  15|  40|  40|OBLIVIOUS   |OWN TEMPO   |
+ 80|SLOWBRO   |WATER/PSYCHIC    |  95|  75| 110|  30| 100|  80|OBLIVIOUS   |OWN TEMPO   |
+ 81|MAGNEMITE |ELECTRIC/STEEL   |  25|  35|  70|  45|  95|  55|MAGNET PULL |STURDY      |TM11 (common)
+ 82|MAGNETON  |ELECTRIC/STEEL   |  50|  60|  95|  70| 120|  70|MAGNET PULL |STURDY      |POTION (100%)
+ 83|FARFETCH’D|NORMAL/FLYING    |  52|  65|  55|  60|  58|  62|KEEN EYE    |INNER FOCUS |TM26 (rare)
+ 84|DODUO     |NORMAL/FLYING    |  35|  85|  45|  75|  35|  35|RUN AWAY    |EARLY BIRD  |TM49 (100%)
+ 85|DODRIO    |NORMAL/FLYING    |  60| 110|  70| 100|  60|  60|RUN AWAY    |EARLY BIRD  |
+ 86|SEEL      |WATER            |  65|  45|  55|  45|  45|  70|THICK FAT   |-------     |HEAL POWDER (rare)
+ 87|DEWGONG   |WATER/ICE        |  90|  70|  80|  70|  70|  95|THICK FAT   |-------     |SOFT SAND (common), X DEFEND (rare)
+ 88|GRIMER    |POISON           |  80|  80|  50|  25|  40|  50|STENCH      |STICKY HOLD |
+ 89|MUK       |POISON           | 105| 105|  75|  50|  65| 100|STENCH      |STICKY HOLD |LEFTOVERS (common), MENTAL HERB (rare)
+ 90|SHELLDER  |WATER            |  30|  65| 100|  40|  45|  25|SHELL ARMOR |-------     |
+ 91|CLOYSTER  |WATER/ICE        |  50|  95| 180|  70|  85|  45|SHELL ARMOR |-------     |PP MAX (rare)
+ 92|GASTLY    |GHOST/POISON     |  30|  35|  30|  80| 100|  35|LEVITATE    |-------     |
+ 93|HAUNTER   |GHOST/POISON     |  45|  50|  45|  95| 115|  55|LEVITATE    |-------     |TM38 (common)
+ 94|GENGAR    |GHOST/POISON     |  60|  65|  60| 110| 130|  75|LEVITATE    |-------     |AMULET COIN (common), MOOMOO MILK (rare)
+ 95|ONIX      |ROCK/GROUND      |  35|  45| 160|  70|  30|  45|ROCK HEAD   |STURDY      |LUXURY BALL (common)
+ 96|DROWZEE   |PSYCHIC          |  60|  48|  45|  42|  43|  90|INSOMNIA    |-------     |
+ 97|HYPNO     |PSYCHIC          |  85|  73|  70|  67|  73| 115|INSOMNIA    |-------     |
+ 98|KRABBY    |WATER            |  30| 105|  90|  50|  25|  25|HYPER CUTTER|SHELL ARMOR |SEA INCENSE (rare)
+ 99|KINGLER   |WATER            |  55| 130| 115|  75|  50|  50|HYPER CUTTER|SHELL ARMOR |NET BALL (common)
+100|VOLTORB   |ELECTRIC         |  40|  30|  50| 100|  55|  55|SOUNDPROOF  |STATIC      |
+101|ELECTRODE |ELECTRIC         |  60|  50|  70| 140|  80|  80|SOUNDPROOF  |STATIC      |FLUFFY TAIL (rare)
+102|EXEGGCUTE |GRASS/PSYCHIC    |  60|  40|  80|  40|  60|  45|CHLOROPHYLL |-------     |
+103|EXEGGUTOR |GRASS/PSYCHIC    |  95|  95|  85|  55| 125|  65|CHLOROPHYLL |-------     |
+104|CUBONE    |GROUND           |  50|  50|  95|  35|  40|  50|ROCK HEAD   |LIGHTNINGROD|TM03 (rare)
+105|MAROWAK   |GROUND           |  60|  80| 110|  45|  50|  80|ROCK HEAD   |LIGHTNINGROD|CHESTO BERRY (common)
+106|HITMONLEE |FIGHTING         |  50| 120|  53|  87|  35| 110|LIMBER      |-------     |
+107|HITMONCHAN|FIGHTING         |  50| 105|  79|  76|  35| 110|KEEN EYE    |-------     |HEAL POWDER (rare)
+108|LICKITUNG |NORMAL           |  90|  55|  75|  30|  60|  75|OWN TEMPO   |OBLIVIOUS   |CLEANSE TAG (common)
+109|KOFFING   |POISON           |  40|  65|  95|  35|  60|  45|LEVITATE    |-------     |FULL RESTORE (common), GUARD SPEC. (rare)
+110|WEEZING   |POISON           |  65|  90| 120|  60|  85|  70|LEVITATE    |-------     |
+111|RHYHORN   |GROUND/ROCK      |  80|  85|  95|  25|  30|  30|LIGHTNINGROD|ROCK HEAD   |
+112|RHYDON    |GROUND/ROCK      | 105| 130| 120|  40|  45|  45|LIGHTNINGROD|ROCK HEAD   |
+113|CHANSEY   |NORMAL           | 250|   5|   5|  50|  35| 105|NATURAL CURE|SERENE GRACE|
+114|TANGELA   |GRASS            |  65|  55| 115|  60| 100|  40|CHLOROPHYLL |-------     |
+115|KANGASKHAN|NORMAL           | 105|  95|  80|  90|  40|  80|EARLY BIRD  |-------     |
+116|HORSEA    |WATER            |  30|  40|  70|  60|  70|  25|SWIFT SWIM  |-------     |TWISTEDSPOON (common), MAX ELIXIR (rare)
+117|SEADRA    |WATER            |  55|  65|  95|  85|  95|  45|POISON POINT|-------     |
+118|GOLDEEN   |WATER            |  45|  67|  60|  63|  35|  50|SWIFT SWIM  |WATER VEIL  |MACHO BRACE (common), TM25 (rare)
+119|SEAKING   |WATER            |  80|  92|  65|  68|  65|  80|SWIFT SWIM  |WATER VEIL  |SPELL TAG (rare)
+120|STARYU    |WATER            |  30|  45|  55|  85|  70|  55|ILLUMINATE  |NATURAL CURE|FIRE STONE (100%)
+121|STARMIE   |WATER/PSYCHIC    |  60|  75|  85| 115| 100|  85|ILLUMINATE  |NATURAL CURE|TM24 (rare)
+122|MR. MIME  |PSYCHIC          |  40|  45|  65|  90| 100| 120|SOUNDPROOF  |-------     |
+123|SCYTHER   |BUG/FLYING       |  70| 110|  80| 105|  55|  80|SWARM       |-------     |
+124|JYNX      |ICE/PSYCHIC      |  65|  50|  35|  95| 115|  95|OBLIVIOUS   |-------     |SPELL TAG (100%)
+125|ELECTABUZZ|ELECTRIC         |  65|  83|  57| 105|  95|  85|STATIC      |-------     |TM33 (common), SOFT SAND (rare)
+126|MAGMAR    |FIRE             |  65|  95|  57|  93| 100|  85|FLAME BODY  |-------     |ENERGY ROOT (100%)
+127|PINSIR    |BUG              |  65| 125| 100|  85|  55|  70|HYPER CUTTER|-------     |
+128|TAUROS    |NORMAL           |  75| 100|  95| 110|  40|  70|INTIMIDATE  |-------     |TM14 (rare)
+129|MAGIKARP  |WATER            |  20|  10|  55|  80|  15|  20|SWIFT SWIM  |-------     |
+130|GYARADOS  |WATER/FLYING     |  95| 125|  79|  81|  60| 100|INTIMIDATE  |-------     |ELIXIR (common), TM26 (rare)
+131|LAPRAS    |WATER/ICE        | 130|  85|  80|  60|  85|  95|WATER ABSORB|SHELL ARMOR |TM33 (100%)
+132|DITTO     |NORMAL           |  48|  48|  48|  48|  48|  48|LIMBER      |-------     |ULTRA BALL (common)
+133|EEVEE     |NORMAL           |  55|  55|  50|  55|  45|  65|RUN AWAY    |-------     |
+134|VAPOREON  |WATER            | 130|  65|  60|  65| 110|  95|WATER ABSORB|-------     |X ACCURACY (common), CHERI BERRY (rare)
+135|JOLTEON   |ELECTRIC         |  65|  65|  60| 130| 110|  95|VOLT ABSORB |-------     |
+136|FLAREON   |FIRE             |  65| 130|  60|  65|  95| 110|FLASH FIRE  |-------     |CARBOS (100%)
+137|PORYGON   |NORMAL           |  65|  60|  70|  40|  85|  75|TRACE       |-------     |
+138|OMANYTE   |ROCK/WATER       |  35|  40| 100|  35|  90|  55|SWIFT SWIM  |SHELL ARMOR |
+139|OMASTAR   |ROCK/WATER       |  70|  60| 125|  55| 115|  70|SWIFT SWIM  |SHELL ARMOR |
+140|KABUTO    |ROCK/WATER       |  30|  80|  90|  55|  55|  45|SWIFT SWIM  |BATTLE ARMOR|MAX REPEL (100%)
+141|KABUTOPS  |ROCK/WATER       |  60| 115| 105|  80|  65|  70|SWIFT SWIM  |BATTLE ARMOR|
+142|AERODACTYL|ROCK/FLYING      |  80| 105|  65| 130|  60|  75|ROCK HEAD   |PRESSURE    |
+143|SNORLAX   |NORMAL           | 160| 110|  65|  30|  65| 110|IMMUNITY    |THICK FAT   |TM28 (100%)
+144|ARTICUNO  |ICE/FLYING       |  90|  85| 100|  85|  95| 125|PRESSURE    |-------     |
+145|ZAPDOS    |ELECTRIC/FLYING  |  90|  90|  85| 100| 125|  90|PRESSURE    |-------     |
+146|MOLTRES   |FIRE/FLYING      |  90| 100|  90|  90| 125|  85|PRESSURE    |-------     |LEPPA BERRY (common)
+147|DRATINI   |DRAGON           |  41|  64|  45|  50|  50|  50|SHED SKIN   |-------     |
+148|DRAGONAIR |DRAGON           |  61|  84|  65|  70|  70|  70|SHED SKIN   |-------     |WHITE FLUTE (rare)
+149|DRAGONITE |DRAGON/FLYING    |  91| 134|  95|  80| 100| 100|INNER FOCUS |-------     |
+150|MEWTWO    |PSYCHIC          | 106| 110|  90| 130| 154|  90|PRESSURE    |-------     |BLUE SHARD (common), DIVE BALL (rare)
+151|MEW       |PSYCHIC          | 100| 100| 100| 100| 100| 100|SYNCHRONIZE |-------     |LAX INCENSE (100%)
+152|CHIKORITA |GRASS            |  45|  49|  65|  45|  49|  65|OVERGROW    |-------     |
+153|BAYLEEF   |GRASS            |  60|  62|  80|  60|  63|  80|OVERGROW    |-------     |MAX ETHER (100%)
+154|MEGANIUM  |GRASS            |  80|  82| 100|  80|  83| 100|OVERGROW    |-------     |
+155|CYNDAQUIL |FIRE             |  39|  52|  43|  65|  60|  50|BLAZE       |-------     |
+156|QUILAVA   |FIRE             |  58|  64|  58|  80|  80|  65|BLAZE       |-------     |NET BALL (rare)
+157|TYPHLOSION|FIRE             |  78|  84|  78| 100| 109|  85|BLAZE       |-------     |
+158|TOTODILE  |WATER            |  50|  65|  64|  43|  44|  48|TORRENT     |-------     |TM19 (common)
+159|CROCONAW  |WATER            |  65|  80|  80|  58|  59|  63|TORRENT     |-------     |
+160|FERALIGATR|WATER            |  85| 105| 100|  78|  79|  83|TORRENT     |-------     |
+161|SENTRET   |NORMAL           |  35|  46|  34|  20|  35|  45|RUN AWAY    |KEEN EYE    |
+162|FURRET    |NORMAL           |  85|  76|  64|  90|  45|  55|RUN AWAY    |KEEN EYE    |
+163|HOOTHOOT  |NORMAL/FLYING    |  60|  30|  30|  50|  36|  56|INSOMNIA    |KEEN EYE    |TM02 (common), SODA POP (rare)
+164|NOCTOWL   |NORMAL/FLYING    | 100|  50|  50|  70|  76|  96|INSOMNIA    |KEEN EYE    |PP UP (100%)
+165|LEDYBA    |BUG/FLYING       |  40|  20|  30|  55|  40|  80|SWARM       |EARLY BIRD  |LAVA COOKIE (common), WATER STONE (rare)
+166|LEDIAN    |BUG/FLYING       |  55|  35|  50|  85|  55| 110|SWARM       |EARLY BIRD  |
+167|SPINARAK  |BUG/POISON       |  40|  60|  40|  30|  40|  40|SWARM       |INSOMNIA    |
+168|ARIADOS   |BUG/POISON       |  70|  90|  70|  40|  60|  60|SWARM       |INSOMNIA    |PEARL (rare)
+169|CROBAT    |POISON/FLYING    |  85|  90|  80| 130|  70|  80|INNER FOCUS |-------     |HEAL POWDER (common), POTION (rare)
+170|CHINCHOU  |WATER/ELECTRIC   |  75|  38|  38|  67|  56|  56|VOLT ABSORB |ILLUMINATE  |TM30 (100%)
+171|LANTURN   |WATER/ELECTRIC   | 125|  58|  58|  67|  76|  76|VOLT ABSORB |ILLUMINATE  |
+172|PICHU     |ELECTRIC         |  20|  40|  15|  60|  35|  35|STATIC      |-------     |TM23 (rare)
+173|CLEFFA    |NORMAL           |  50|  25|  28|  15|  45|  55|CUTE CHARM  |-------     |TM44 (common)
+174|IGGLYBUFF |NORMAL           |  90|  30|  15|  15|  40|  20|CUTE CHARM  |-------     |
+175|TOGEPI    |NORMAL           |  35|  20|  65|  20|  40|  65|HUSTLE      |SERENE GRACE|BIG MUSHROOM (rare)
+176|TOGETIC   |NORMAL/FLYING    |  55|  40|  85|  40|  80| 105|HUSTLE      |SERENE GRACE|TM49 (common), ELIXIR (rare)
+177|NATU      |PSYCHIC/FLYING   |  40|  50|  45|  70|  70|  45|SYNCHRONIZE |EARLY BIRD  |RARE CANDY (common)
+178|XATU      |PSYCHIC/FLYING   |  65|  75|  70|  95|  95|  70|SYNCHRONIZE |EARLY BIRD  |TM25 (common), POTION (rare)
+179|MAREEP    |ELECTRIC         |  55|  40|  40|  35|  65|  45|STATIC      |-------     |DEEPSEATOOTH (common)
+180|FLAAFFY   |ELECTRIC         |  70|  55|  55|  45|  80|  60|STATIC      |-------     |TM13 (common), TM42 (rare)
+181|AMPHAROS  |ELECTRIC         |  90|  75|  75|  55| 115|  90|STATIC      |-------     |DRAGON FANG (100%)
+182|BELLOSSOM |GRASS            |  75|  80|  85|  50|  90| 100|CHLOROPHYLL |-------     |
+183|MARILL    |WATER            |  70|  20|  50|  40|  20|  50|THICK FAT   |HUGE POWER  |NET BALL (common)
+184|AZUMARILL |WATER            | 100|  50|  80|  50|  50|  80|THICK FAT   |HUGE POWER  |
+185|SUDOWOODO |ROCK             |  70| 100| 115|  30|  30|  65|STURDY      |ROCK HEAD   |SCOPE LENS (rare)
+186|POLITOED  |WATER            |  90|  75|  75|  70|  90| 100|WATER ABSORB|DAMP        |BIG MUSHROOM (rare)
+187|HOPPIP    |GRASS/FLYING     |  35|  35|  40|  50|  35|  55|CHLOROPHYLL |-------     |THUNDERSTONE (100%)
+188|SKIPLOOM  |GRASS/FLYING     |  55|  45|  50|  80|  45|  65|CHLOROPHYLL |-------     |
+189|JUMPLUFF  |GRASS/FLYING     |  75|  55|  70| 110|  55|  85|CHLOROPHYLL |-------     |QUICK CLAW (rare)
+190|AIPOM     |NORMAL           |  55|  70|  55|  85|  40|  55|RUN AWAY    |PICKUP      |X DEFEND (100%)
+191|SUNKERN   |GRASS            |  30|  30|  30|  30|  30|  30|CHLOROPHYLL |-------     |
+192|SUNFLORA  |GRASS            |  75|  75|  55|  30| 105|  85|CHLOROPHYLL |-------     |LAVA COOKIE (common)
+193|YANMA     |BUG/FLYING       |  65|  65|  45|  95|  75|  45|SPEED BOOST |COMPOUNDEYES|
+194|WOOPER    |WATER/GROUND     |  55|  45|  45|  15|  25|  25|DAMP        |WATER ABSORB|TM36 (common), MAX REVIVE (rare)
+195|QUAGSIRE  |WATER/GROUND     |  95|  85|  85|  35|  65|  65|DAMP        |WATER ABSORB|
+196|ESPEON    |PSYCHIC          |  65|  65|  60| 110| 130|  95|SYNCHRONIZE |-------     |
+197|UMBREON   |DARK             |  95|  65| 110|  65|  60| 130|SYNCHRONIZE |-------     |TM47 (common)
+198|MURKROW   |DARK/FLYING      |  60|  85|  42|  91|  85|  42|INSOMNIA    |-------     |
+199|SLOWKING  |WATER/PSYCHIC    |  95|  75|  80|  30| 100| 110|OBLIVIOUS   |OWN TEMPO   |
+200|MISDREAVUS|GHOST            |  60|  60|  60|  85|  85|  85|LEVITATE    |-------     |ICE HEAL (common)
+201|UNOWN     |PSYCHIC          |  48|  72|  48|  48|  72|  48|LEVITATE    |-------     |
+202|WOBBUFFET |PSYCHIC          | 190|  33|  58|  33|  33|  58|SHADOW TAG  |-------     |TM02 (rare)
+203|GIRAFARIG |NORMAL/PSYCHIC   |  70|  80|  65|  85|  90|  65|INNER FOCUS |EARLY BIRD  |
+204|PINECO    |BUG              |  50|  65|  90|  15|  35|  35|STURDY      |-------     |TM19 (common)
+205|FORRETRESS|BUG/STEEL        |  75|  90| 140|  40|  60|  60|STURDY      |-------     |
+206|DUNSPARCE |NORMAL           | 100|  70|  70|  45|  65|  65|SERENE GRACE|RUN AWAY    |
+207|GLIGAR    |GROUND/FLYING    |  65|  75| 105|  85|  35|  65|HYPER CUTTER|SAND VEIL   |
+208|STEELIX   |STEEL/GROUND     |  75|  85| 200|  30|  55|  65|ROCK HEAD   |STURDY      |
+209|SNUBBULL  |NORMAL           |  60|  80|  50|  30|  40|  40|INTIMIDATE  |RUN AWAY    |
+210|GRANBULL  |NORMAL           |  90| 120|  75|  45|  60|  60|INTIMIDATE  |INTIMIDATE  |TIMER BALL (common), SILK SCARF (rare)
+211|QWILFISH  |WATER/POISON     |  65|  95|  75|  85|  55|  55|POISON POINT|SWIFT SWIM  |SITRUS BERRY (100%)
+212|SCIZOR    |BUG/STEEL        |  70| 130| 100|  65|  55|  80|SWARM       |-------     |TM45 (common), TM50 (rare)
+213|SHUCKLE   |BUG/ROCK         |  20|  10| 230|   5|  10| 230|STURDY      |-------     |TM19 (100%)
+214|HERACROSS |BUG/FIGHTING     |  80| 125|  75|  85|  40|  95|SWARM       |GUTS        |
+215|SNEASEL   |DARK/ICE         |  55|  95|  55| 115|  35|  75|INNER FOCUS |KEEN EYE    |PEARL (common)
+216|TEDDIURSA |NORMAL           |  60|  80|  50|  40|  50|  50|PICKUP      |-------     |
+217|URSARING  |NORMAL           |  90| 130|  75|  55|  75|  75|GUTS        |-------     |
+218|SLUGMA    |FIRE             |  40|  40|  40|  20|  70|  40|MAGMA ARMOR |FLAME BODY  |SITRUS BERRY (rare)
+219|MAGCARGO  |FIRE/ROCK        |  50|  50| 120|  30|  80|  80|MAGMA ARMOR |FLAME BODY  |RAWST BERRY (common), SACRED ASH (rare)
+220|SWINUB    |ICE/GROUND       |  50|  50|  40|  50|  30|  30|OBLIVIOUS   |-------     |TINYMUSHROOM (rare)
+221|PILOSWINE |ICE/GROUND       | 100| 100|  80|  50|  60|  60|OBLIVIOUS   |-------     |STAR PIECE (common)
+222|CORSOLA   |WATER/ROCK       |  55|  55|  85|  35|  65|  85|HUSTLE      |NATURAL CURE|
+223|REMORAID  |WATER            |  35|  65|  35|  65|  65|  35|HUSTLE      |-------     |TM31 (rare)
+224|OCTILLERY |WATER            |  75| 105|  75|  45| 105|  75|SUCTION CUPS|-------     |
+225|DELIBIRD  |ICE/FLYING       |  45|  55|  45|  75|  65|  45|VITAL SPIRIT|HUSTLE      |
+226|MANTINE   |WATER/FLYING     |  65|  40|  70|  70|  80| 140|SWIFT SWIM  |WATER ABSORB|
+227|SKARMORY  |STEEL/FLYING     |  65|  80| 140|  70|  40|  70|KEEN EYE    |STURDY      |
+228|HOUNDOUR  |DARK/FIRE        |  45|  60|  30|  65|  80|  50|EARLY BIRD  |FLASH FIRE  |POISON BARB (common)
+229|HOUNDOOM  |DARK/FIRE        |  75|  90|  50|  95| 110|  80|EARLY BIRD  |FLASH FIRE  |HEAL POWDER (common)
+230|KINGDRA   |WATER/DRAGON     |  75|  95|  95|  85|  95|  95|SWIFT SWIM  |-------     |TM28 (common)
+231|PHANPY    |GROUND           |  90|  60|  60|  40|  40|  40|PICKUP      |-------     |ANTIDOTE (100%)
+232|DONPHAN   |GROUND           |  90| 120| 120|  50|  60|  60|STURDY      |-------     |YELLOW SHARD (100%)
+233|PORYGON2  |NORMAL           |  85|  80|  90|  60| 105|  95|TRACE       |-------     |BRIGHTPOWDER (common)
+234|STANTLER  |NORMAL           |  73|  95|  62|  85|  85|  65|INTIMIDATE  |-------     |
+235|SMEARGLE  |NORMAL           |  55|  20|  35|  75|  20|  45|OWN TEMPO   |-------     |TM13 (common), MAGNET (rare)
+236|TYROGUE   |FIGHTING         |  35|  35|  35|  35|  35|  35|GUTS        |-------     |POTION (common), TM31 (rare)
+237|HITMONTOP |FIGHTING         |  50|  95|  95|  70|  35| 110|INTIMIDATE  |-------     |
+238|SMOOCHUM  |ICE/PSYCHIC      |  45|  30|  15|  65|  85|  65|OBLIVIOUS   |-------     |UP-GRADE (100%)
+239|ELEKID    |ELECTRIC         |  45|  63|  37|  95|  65|  55|STATIC      |-------     |TM12 (rare)
+240|MAGBY     |FIRE             |  45|  75|  37|  83|  70|  55|FLAME BODY  |-------     |FULL RESTORE (100%)
+241|MILTANK   |NORMAL           |  95|  80| 105| 100|  40|  70|THICK FAT   |-------     |HP UP (100%)
+242|BLISSEY   |NORMAL           | 255|  10|  10|  55|  75| 135|NATURAL CURE|SERENE GRACE|
+243|RAIKOU    |ELECTRIC         |  90|  85|  75| 115| 115| 100|PRESSURE    |-------     |
+244|ENTEI     |FIRE             | 115| 115|  85| 100|  90|  75|PRESSURE    |-------     |
+245|SUICUNE   |WATER            | 100|  75| 115|  85|  90| 115|PRESSURE    |-------     |
+246|LARVITAR  |ROCK/GROUND      |  50|  64|  50|  41|  45|  50|GUTS        |-------     |
+247|PUPITAR   |ROCK/GROUND      |  70|  84|  70|  51|  65|  70|SHED SKIN   |-------     |
+248|TYRANITAR |ROCK/DARK        | 100| 134| 110|  61|  95| 100|SAND STREAM |-------     |RED SHARD (100%)
+249|LUGIA     |PSYCHIC/FLYING   | 106|  90| 130| 110|  90| 154|PRESSURE    |-------     |EVERSTONE (common)
+250|HO-OH     |FIRE/FLYING      | 106| 130|  90|  90| 110| 154|PRESSURE    |-------     |RAWST BERRY (100%)
+251|CELEBI    |PSYCHIC/GRASS    | 100| 100| 100| 100| 100| 100|NATURAL CURE|-------     |PROTEIN (100%)
+252|TREECKO   |GRASS            |  40|  45|  35|  70|  65|  55|OVERGROW    |-------     |
+253|GROVYLE   |GRASS            |  50|  65|  45|  95|  85|  65|OVERGROW    |-------     |
+254|SCEPTILE  |GRASS            |  70|  85|  65| 120| 105|  85|OVERGROW    |-------     |PEARL (rare)
+255|TORCHIC   |FIRE             |  45|  60|  40|  45|  70|  50|BLAZE       |-------     |CHESTO BERRY (common), BIG PEARL (rare)
+256|COMBUSKEN |FIRE/FIGHTING    |  60|  85|  60|  55|  85|  60|BLAZE       |-------     |
+257|BLAZIKEN  |FIRE/FIGHTING    |  80| 120|  70|  80| 110|  70|BLAZE       |-------     |
+258|MUDKIP    |WATER            |  50|  70|  50|  40|  50|  50|TORRENT     |-------     |TM36 (rare)
+259|MARSHTOMP |WATER/GROUND     |  70|  85|  70|  50|  60|  70|TORRENT     |-------     |
+260|SWAMPERT  |WATER/GROUND     | 100| 110|  90|  60|  85|  90|TORRENT     |-------     |
+261|POOCHYENA |DARK             |  35|  55|  35|  35|  30|  30|RUN AWAY    |-------     |
+262|MIGHTYENA |DARK             |  70|  90|  70|  70|  60|  60|INTIMIDATE  |-------     |
+263|ZIGZAGOON |NORMAL           |  38|  30|  41|  60|  30|  41|PICKUP      |-------     |LAX INCENSE (common)
+264|LINOONE   |NORMAL           |  78|  70|  61| 100|  50|  61|PICKUP      |-------     |TM31 (rare)
+265|WURMPLE   |BUG              |  45|  45|  35|  20|  20|  30|SHIELD DUST |-------     |ICE HEAL (common)
+266|SILCOON   |BUG              |  50|  35|  55|  15|  25|  25|SHED SKIN   |-------     |MAX REPEL (common), BLACKGLASSES (rare)
+267|BEAUTIFLY |BUG/FLYING       |  60|  70|  50|  65|  90|  50|SWARM       |-------     |
+268|CASCOON   |BUG              |  50|  35|  55|  15|  25|  25|SHED SKIN   |-------     |
+269|DUSTOX    |BUG/POISON       |  60|  50|  70|  65|  50|  90|SHIELD DUST |-------     |
+270|LOTAD     |WATER/GRASS      |  40|  30|  30|  30|  40|  50|SWIFT SWIM  |RAIN DISH   |
+271|LOMBRE    |WATER/GRASS      |  60|  50|  50|  50|  60|  70|SWIFT SWIM  |RAIN DISH   |
+272|LUDICOLO  |WATER/GRASS      |  80|  70|  70|  70|  90| 100|SWIFT SWIM  |RAIN DISH   |TM45 (100%)
+273|SEEDOT    |GRASS            |  40|  40|  50|  30|  30|  30|CHLOROPHYLL |EARLY BIRD  |
+274|NUZLEAF   |GRASS/DARK       |  70|  70|  40|  60|  60|  40|CHLOROPHYLL |EARLY BIRD  |HEART SCALE (common), LAVA COOKIE (rare)
+275|SHIFTRY   |GRASS/DARK       |  90| 100|  60|  80|  90|  60|CHLOROPHYLL |EARLY BIRD  |NEVERMELTICE (common), BRIGHTPOWDER (rare)
+276|TAILLOW   |NORMAL/FLYING    |  40|  55|  30|  85|  30|  30|GUTS        |-------     |TM16 (rare)
+277|SWELLOW   |NORMAL/FLYING    |  60|  85|  60| 125|  50|  50|GUTS        |-------     |
+278|WINGULL   |WATER/FLYING     |  40|  30|  30|  85|  55|  30|KEEN EYE    |-------     |TM21 (common)
+279|PELIPPER  |WATER/FLYING     |  60|  50| 100|  65|  85|  70|KEEN EYE    |-------     |
+280|RALTS     |PSYCHIC          |  28|  25|  25|  40|  45|  35|SYNCHRONIZE |TRACE       |TM21 (common)
+281|KIRLIA    |PSYCHIC          |  38|  35|  35|  50|  65|  55|SYNCHRONIZE |TRACE       |
+282|GARDEVOIR |PSYCHIC          |  68|  65|  65|  80| 125| 115|SYNCHRONIZE |TRACE       |
+283|SURSKIT   |BUG/WATER        |  40|  30|  32|  65|  50|  52|SWIFT SWIM  |-------     |TM14 (common), DRAGON FANG (rare)
+284|MASQUERAIN|BUG/FLYING       |  70|  60|  62|  60|  80|  82|INTIMIDATE  |-------     |
+285|SHROOMISH |GRASS            |  60|  40|  60|  35|  40|  60|EFFECT SPORE|-------     |X SPEED (common), SEA INCENSE (rare)
+286|BRELOOM   |GRASS/FIGHTING   |  60| 130|  80|  70|  60|  60|EFFECT SPORE|-------     |
+287|SLAKOTH   |NORMAL           |  60|  60|  60|  30|  35|  35|TRUANT      |-------     |TM47 (common)
+288|VIGOROTH  |NORMAL           |  80|  80|  80|  90|  55|  55|VITAL SPIRIT|-------     |
+289|SLAKING   |NORMAL           | 150| 160| 100| 100|  95|  65|TRUANT      |-------     |POKé BALL (rare)
+290|NINCADA   |BUG/GROUND       |  31|  45|  90|  40|  30|  30|COMPOUNDEYES|-------     |GREEN SHARD (common), MASTER BALL (rare)
+291|NINJASK   |BUG/FLYING       |  61|  90|  45| 160|  50|  50|SPEED BOOST |-------     |TINYMUSHROOM (common), TM48 (rare)
+292|SHEDINJA  |BUG/GHOST        |   1|  90|  45|  40|  30|  30|WONDER GUARD|-------     |
+293|WHISMUR   |NORMAL           |  64|  51|  23|  28|  51|  23|SOUNDPROOF  |-------     |
+294|LOUDRED   |NORMAL           |  84|  71|  43|  48|  71|  43|SOUNDPROOF  |-------     |
+295|EXPLOUD   |NORMAL           | 104|  91|  63|  68|  91|  63|SOUNDPROOF  |-------     |AMULET COIN (rare)
+296|MAKUHITA  |FIGHTING         |  72|  60|  30|  25|  20|  30|THICK FAT   |GUTS        |
+297|HARIYAMA  |FIGHTING         | 144| 120|  60|  50|  40|  60|THICK FAT   |GUTS        |ENERGYPOWDER (common)
+298|AZURILL   |NORMAL           |  50|  20|  40|  20|  20|  40|THICK FAT   |HUGE POWER  |
+299|NOSEPASS  |ROCK             |  30|  45| 135|  30|  45|  90|STURDY      |MAGNET PULL |DRAGON SCALE (common)
+300|SKITTY    |NORMAL           |  50|  45|  45|  50|  35|  35|CUTE CHARM  |-------     |
+301|DELCATTY  |NORMAL           |  70|  65|  65|  70|  55|  55|CUTE CHARM  |-------     |PERSIM BERRY (common)
+302|SABLEYE   |DARK/GHOST       |  50|  75|  75|  50|  65|  65|KEEN EYE    |-------     |
+303|MAWILE    |STEEL            |  50|  85|  85|  50|  55|  55|HYPER CUTTER|INTIMIDATE  |
+304|ARON      |STEEL/ROCK       |  50|  70| 100|  30|  40|  40|STURDY      |ROCK HEAD   |
+305|LAIRON    |STEEL/ROCK       |  60|  90| 140|  40|  50|  50|STURDY      |ROCK HEAD   |TM08 (common), TM47 (rare)
+306|AGGRON    |STEEL/ROCK       |  70| 110| 180|  50|  60|  60|STURDY      |ROCK HEAD   |
+307|MEDITITE  |FIGHTING/PSYCHIC |  30|  40|  55|  60|  40|  55|PURE POWER  |-------     |CHARCOAL (rare)
+308|MEDICHAM  |FIGHTING/PSYCHIC |  60|  60|  75|  80|  60|  75|PURE POWER  |-------     |GREAT BALL (rare)
+309|ELECTRIKE |ELECTRIC         |  40|  45|  40|  65|  65|  40|STATIC      |LIGHTNINGROD|
+310|MANECTRIC |ELECTRIC         |  70|  75|  60| 105| 105|  60|STATIC      |LIGHTNINGROD|SHELL BELL (100%)
+311|PLUSLE    |ELECTRIC         |  60|  50|  40|  95|  85|  75|PLUS        |-------     |
+312|MINUN     |ELECTRIC         |  60|  40|  50|  95|  75|  85|MINUS       |-------     |MENTAL HERB (common)
+313|VOLBEAT   |BUG              |  65|  73|  55|  85|  47|  75|ILLUMINATE  |SWARM       |TM11 (rare)
+314|ILLUMISE  |BUG              |  65|  47|  55|  85|  73|  75|OBLIVIOUS   |-------     |
+315|ROSELIA   |GRASS/POISON     |  50|  60|  45|  65| 100|  80|NATURAL CURE|POISON POINT|TM48 (rare)
+316|GULPIN    |POISON           |  70|  43|  53|  40|  43|  53|LIQUID OOZE |STICKY HOLD |
+317|SWALOT    |POISON           | 100|  73|  83|  55|  73|  83|LIQUID OOZE |STICKY HOLD |MASTER BALL (100%)
+318|CARVANHA  |WATER/DARK       |  45|  90|  20|  65|  65|  20|ROUGH SKIN  |-------     |SACRED ASH (rare)
+319|SHARPEDO  |WATER/DARK       |  70| 120|  40|  95|  95|  40|ROUGH SKIN  |-------     |
+320|WAILMER   |WATER            | 130|  70|  35|  60|  70|  35|WATER VEIL  |OBLIVIOUS   |DIRE HIT (common)
+321|WAILORD   |WATER            | 170|  90|  45|  60|  90|  45|WATER VEIL  |OBLIVIOUS   |
+322|NUMEL     |FIRE/GROUND      |  60|  60|  40|  35|  65|  45|OBLIVIOUS   |-------     |SCOPE LENS (100%)
+323|CAMERUPT  |FIRE/GROUND      |  70| 100|  70|  40| 105|  75|MAGMA ARMOR |-------     |TINYMUSHROOM (100%)
+324|TORKOAL   |FIRE             |  70|  85| 140|  20|  85|  70|WHITE SMOKE |-------     |
+325|SPOINK    |PSYCHIC          |  60|  25|  35|  60|  70|  80|THICK FAT   |OWN TEMPO   |
+326|GRUMPIG   |PSYCHIC          |  80|  45|  65|  80|  90| 110|THICK FAT   |OWN TEMPO   |
+327|SPINDA    |NORMAL           |  60|  60|  60|  60|  60|  60|OWN TEMPO   |-------     |
+328|TRAPINCH  |GROUND           |  45| 100|  45|  10|  45|  45|HYPER CUTTER|ARENA TRAP  |
+329|VIBRAVA   |GROUND/DRAGON    |  50|  70|  50|  70|  50|  50|LEVITATE    |LEVITATE    |TM40 (common), LUM BERRY (rare)
+330|FLYGON    |GROUND/DRAGON    |  80| 100|  80| 100|  80|  80|LEVITATE    |LEVITATE    |CALCIUM (common)
+331|CACNEA    |GRASS            |  50|  85|  40|  35|  85|  40|SAND VEIL   |-------     |ESCAPE ROPE (common), PROTEIN (rare)
+332|CACTURNE  |GRASS/DARK       |  70| 115|  60|  55| 115|  60|SAND VEIL   |-------     |SPELL TAG (common)
+333|SWABLU    |NORMAL/FLYING    |  45|  40|  60|  50|  40|  75|NATURAL CURE|-------     |
+334|ALTARIA   |DRAGON/FLYING    |  75|  70|  90|  80|  70| 105|NATURAL CURE|-------     |TM50 (common), AWAKENING (rare)
+335|ZANGOOSE  |NORMAL           |  73| 115|  60|  90|  60|  60|IMMUNITY    |-------     |RED SHARD (common)
+336|SEVIPER   |POISON           |  73| 100|  60|  65| 100|  60|SHED SKIN   |-------     |
+337|LUNATONE  |ROCK/PSYCHIC     |  70|  55|  65|  70|  95|  85|LEVITATE    |-------     |POISON BARB (rare)
+338|SOLROCK   |ROCK/PSYCHIC     |  70|  95|  85|  70|  55|  65|LEVITATE    |-------     |SPELL TAG (common)
+339|BARBOACH  |WATER/GROUND     |  50|  48|  43|  60|  46|  41|OBLIVIOUS   |-------     |SILK SCARF (common), CHERI BERRY (rare)
+340|WHISCASH  |WATER/GROUND     | 110|  78|  73|  60|  76|  71|OBLIVIOUS   |-------     |
+341|CORPHISH  |WATER            |  43|  80|  65|  35|  50|  35|HYPER CUTTER|SHELL ARMOR |TM31 (rare)
+342|CRAWDAUNT |WATER/DARK       |  63| 120|  85|  55|  90|  55|HYPER CUTTER|SHELL ARMOR |FULL RESTORE (common)
+343|BALTOY    |GROUND/PSYCHIC   |  40|  40|  55|  55|  40|  70|LEVITATE    |-------     |FOCUS BAND (rare)
+344|CLAYDOL   |GROUND/PSYCHIC   |  60|  70| 105|  75|  70| 120|LEVITATE    |-------     |DRAGON FANG (common), TM46 (rare)
+345|LILEEP    |ROCK/GRASS       |  66|  41|  77|  23|  61|  87|SUCTION CUPS|-------     |CHARCOAL (common)
+346|CRADILY   |ROCK/GRASS       |  86|  81|  97|  43|  81| 107|SUCTION CUPS|-------     |POKé BALL (common), TM13 (rare)
+347|ANORITH   |ROCK/BUG         |  45|  95|  50|  75|  40|  50|BATTLE ARMOR|-------     |SILVERPOWDER (common)
+348|ARMALDO   |ROCK/BUG         |  75| 125| 100|  45|  70|  80|BATTLE ARMOR|-------     |
+349|FEEBAS    |WATER            |  20|  15|  20|  80|  10|  55|SWIFT SWIM  |-------     |
+350|MILOTIC   |WATER            |  95|  60|  79|  81| 100| 125|MARVEL SCALE|-------     |
+351|CASTFORM  |NORMAL           |  70|  70|  70|  70|  70|  70|FORECAST    |-------     |TM36 (common), TM19 (rare)
+352|KECLEON   |NORMAL           |  60|  90|  70|  40|  60| 120|COLOR CHANGE|-------     |TM26 (rare)
+353|SHUPPET   |GHOST            |  44|  75|  35|  45|  63|  33|INSOMNIA    |-------     |MOON STONE (100%)
+354|BANETTE   |GHOST            |  64| 115|  65|  65|  83|  63|INSOMNIA    |-------     |PROTEIN (100%)
+355|DUSKULL   |GHOST            |  20|  40|  90|  25|  30|  90|LEVITATE    |-------     |POTION (common)
+356|DUSCLOPS  |GHOST            |  40|  70| 130|  25|  60| 130|PRESSURE    |-------     |POKé BALL (common), FRESH WATER (rare)
+357|TROPIUS   |GRASS/FLYING     |  99|  68|  83|  51|  72|  87|CHLOROPHYLL |-------     |RED FLUTE (common)
+358|CHIMECHO  |PSYCHIC          |  65|  50|  70|  65|  95|  80|LEVITATE    |-------     |LEMONADE (rare)
+359|ABSOL     |DARK             |  65| 130|  60|  75|  75|  60|PRESSURE    |-------     |TINYMUSHROOM (rare)
+360|WYNAUT    |PSYCHIC          |  95|  23|  48|  23|  23|  48|SHADOW TAG  |-------     |TWISTEDSPOON (common), TM07 (rare)
+361|SNORUNT   |ICE              |  50|  50|  50|  50|  50|  50|INNER FOCUS |-------     |
+362|GLALIE    |ICE              |  80|  80|  80|  80|  80|  80|INNER FOCUS |-------     |
+363|SPHEAL    |ICE/WATER        |  70|  40|  50|  25|  55|  50|THICK FAT   |-------     |WHITE FLUTE (common)
+364|SEALEO    |ICE/WATER        |  90|  60|  70|  45|  75|  70|THICK FAT   |-------     |
+365|WALREIN   |ICE/WATER        | 110|  80|  90|  65|  95|  90|THICK FAT   |-------     |HARD STONE (common)
+366|CLAMPERL  |WATER            |  35|  64|  85|  32|  74|  55|SHELL ARMOR |-------     |TM41 (common), HP UP (rare)
+367|HUNTAIL   |WATER            |  55| 104| 105|  52|  94|  75|SWIFT SWIM  |-------     |
+368|GOREBYSS  |WATER            |  55|  84| 105|  52| 114|  75|SWIFT SWIM  |-------     |TM23 (100%)
+369|RELICANTH |WATER/ROCK       | 100|  90| 130|  55|  45|  65|SWIFT SWIM  |ROCK HEAD   |
+370|LUVDISC   |WATER            |  43|  30|  55|  97|  40|  65|SWIFT SWIM  |-------     |
+371|BAGON     |DRAGON           |  45|  75|  60|  50|  40|  30|ROCK HEAD   |-------     |SHELL BELL (rare)
+372|SHELGON   |DRAGON           |  65|  95| 100|  50|  60|  50|ROCK HEAD   |-------     |TM46 (100%)
+373|SALAMENCE |DRAGON/FLYING    |  95| 135|  80| 100| 110|  80|INTIMIDATE  |-------     |ENERGYPOWDER (common), TM12 (rare)
+374|BELDUM    |STEEL/PSYCHIC    |  40|  55|  80|  30|  35|  60|CLEAR BODY  |-------     |EXP. SHARE (common)
+375|METANG    |STEEL/PSYCHIC    |  60|  75| 100|  50|  55|  80|CLEAR BODY  |-------     |TM01 (100%)
+376|METAGROSS |STEEL/PSYCHIC    |  80| 135| 130|  70|  95|  90|CLEAR BODY  |-------     |RAWST BERRY (rare)
+377|REGIROCK  |ROCK             |  80| 100| 200|  50|  50| 100|CLEAR BODY  |-------     |
+378|REGICE    |ICE              |  80|  50| 100|  50| 100| 200|CLEAR BODY  |-------     |
+379|REGISTEEL |STEEL            |  80|  75| 150|  50|  75| 150|CLEAR BODY  |-------     |
+380|LATIAS    |DRAGON/PSYCHIC   |  80|  80|  90| 110| 110| 130|LEVITATE    |-------     |
+381|LATIOS    |DRAGON/PSYCHIC   |  80|  90|  80| 110| 130| 110|LEVITATE    |-------     |
+382|KYOGRE    |WATER            | 100| 100|  90|  90| 150| 140|DRIZZLE     |-------     |SUN STONE (common), LEAF STONE (rare)
+383|GROUDON   |GROUND           | 100| 150| 140|  90| 100|  90|DROUGHT     |-------     |
+384|RAYQUAZA  |DRAGON/FLYING    | 105| 150|  90|  95| 150|  90|AIR LOCK    |-------     |GUARD SPEC. (common), AMULET COIN (rare)
+385|JIRACHI   |STEEL/PSYCHIC    | 100| 100| 100| 100| 100| 100|SERENE GRACE|-------     |GREAT BALL (100%)
+386|DEOXYS    |PSYCHIC          |  50| 150|  50| 150| 150|  50|PRESSURE    |-------     |
+
+--Removing Trade Evolutions--
+Made POLIWHIRL evolve into POLITOED at level 37
+Made KADABRA evolve into ALAKAZAM at level 37
+Made MACHOKE evolve into MACHAMP at level 37
+Made GRAVELER evolve into GOLEM at level 37
+Made SLOWPOKE evolve into SLOWKING using a WATER STONE
+Made HAUNTER evolve into GENGAR at level 37
+Made ONIX evolve into STEELIX at level 30
+Made SEADRA evolve into KINGDRA at level 40
+Made SCYTHER evolve into SCIZOR at level 30
+Made PORYGON evolve into PORYGON2 at level 30
+Made CLAMPERL evolve into HUNTAIL at level 30
+Made CLAMPERL evolve into GOREBYSS using a WATER STONE
+
+--Condensed Level Evolutions--
+RHYHORN now evolves into RHYDON at minimum level 40
+HORSEA now evolves into SEADRA at minimum level 30
+DRAGONAIR now evolves into DRAGONITE at minimum level 40
+PUPITAR now evolves into TYRANITAR at minimum level 40
+ARON now evolves into LAIRON at minimum level 30
+LAIRON now evolves into AGGRON at minimum level 40
+TRAPINCH now evolves into VIBRAVA at minimum level 30
+VIBRAVA now evolves into FLYGON at minimum level 40
+SNORUNT now evolves into GLALIE at minimum level 40
+SPHEAL now evolves into SEALEO at minimum level 30
+SEALEO now evolves into WALREIN at minimum level 40
+SHELGON now evolves into SALAMENCE at minimum level 40
+METANG now evolves into METAGROSS at minimum level 40
+
+--Custom Starters--
+Set starter 1 to DRATINI
+Set starter 2 to TORCHIC
+Set starter 3 to SEEDOT
+
+Move Data: Unchanged.
+
+Pokemon Movesets: Unchanged.
+
+--Trainers Pokemon--
+#1 (HIKER SAWYER)@310058 - BULBASAUR Lv21
+#2 (TEAM AQUA GRUNT)@310080 - METAPOD Lv32
+#3 (TEAM AQUA GRUNT)@3100A8 - SWINUB Lv31, SMOOCHUM Lv31
+#4 (TEAM AQUA GRUNT)@3100D0 - POOCHYENA Lv32
+#5 (TEAM AQUA GRUNT)@3100F8 - NUMEL Lv32
+#6 (TEAM AQUA GRUNT)@310120 - WHISMUR Lv36
+#7 (TEAM AQUA GRUNT)@310148 - CACNEA Lv36
+#8 (TEAM AQUA GRUNT)@310170 - SPINARAK Lv36
+#9 ([PK][MN] BREEDER GABRIELLE)@310198 - MARILL Lv26, WOOPER Lv26, MARILL Lv26, MAGIKARP Lv26, FEEBAS Lv26, BARBOACH Lv26
+#10 (TEAM AQUA GRUNT)@3101C0 - SHUPPET Lv9
+#11 (COOLTRAINER MARCEL)@3101E8 - CAMERUPT Lv29, CAMERUPT Lv29
+#12 (BIRD KEEPER ALBERTO)@310210 - NINJASK Lv30, SKARMORY Lv30
+#13 (COLLECTOR ED)@310238 - HERACROSS Lv30, MASQUERAIN Lv30
+#14 (TEAM AQUA GRUNT)@310260 - ELECTRIKE Lv36
+#15 (SWIMMER♂ DECLAN)@310288 - HERACROSS Lv34
+#16 (TEAM AQUA GRUNT)@3102B0 - LOTAD Lv11
+#17 (TEAM AQUA GRUNT)@3102D8 - LEDYBA Lv27, METAPOD Lv27
+#18 (TEAM AQUA GRUNT)@310300 - LOTAD Lv27, CARVANHA Lv27
+#19 (TEAM AQUA GRUNT)@310328 - SEEDOT Lv26, LOTAD Lv26, CACNEA Lv26
+#20 (TEAM AQUA GRUNT)@310350 - SPHEAL Lv15
+#21 (TEAM AQUA GRUNT)@310378 - WOOPER Lv14, SPHEAL Lv14
+#22 (TEAM MAGMA GRUNT)@3103A0 - EXEGGCUTE Lv32
+#23 (TEAM AQUA GRUNT)@3103C8 - LEDYBA Lv32
+#24 (TEAM AQUA GRUNT)@3103F0 - VULPIX Lv32
+#25 (TEAM AQUA GRUNT)@310418 - KAKUNA Lv30, GULPIN Lv30
+#26 (TEAM AQUA GRUNT)@310440 - LARVITAR Lv28
+#27 (TEAM AQUA GRUNT)@310468 - SHELLDER Lv32
+#28 (TEAM AQUA GRUNT)@310490 - LOTAD Lv32
+#29 (EXPERT FREDRICK)@3104B8 - ZIGZAGOON Lv30, NOCTOWL Lv30
+#30 (AQUA ADMIN MATT)@3104E0 - SHARPEDO Lv34, QUAGSIRE Lv34
+#31 (BLACK BELT ZANDER)@310508 - VENOMOTH Lv31
+#32 (AQUA ADMIN SHELLY)@310530 - NATU Lv28, LEDIAN Lv28
+#33 (AQUA ADMIN SHELLY)@310558 - DODRIO Lv37, SWELLOW Lv37
+#34 (AQUA LEADER ARCHIE)@310580 - PONYTA Lv41, NINETALES Lv41, RAPIDASH Lv43
+#35 (HEX MANIAC LEAH)@3105A8 - SKIPLOOM Lv31
+#36 (AROMA LADY DAISY)@3105D0 - SLOWPOKE Lv14, WOBBUFFET Lv14
+#37 (AROMA LADY ROSE)@3105F8 - PELIPPER Lv14, CORPHISH Lv14, CROCONAW Lv14
+#38 (COOLTRAINER FELIX)@310620 - VIGOROTH Lv43, EXPLOUD Lv43
+#39 (AROMA LADY VIOLET)@310648 - MEDICHAM Lv26, COMBUSKEN Lv26
+#40 (AROMA LADY ROSE)@310670 - JIGGLYPUFF Lv26, VIGOROTH Lv26
+#41 (AROMA LADY ROSE)@310698 - DODUO Lv28, MASQUERAIN Lv28, BEAUTIFLY Lv28
+#42 (AROMA LADY ROSE)@3106C0 - DRATINI Lv31, SHELGON Lv31, VIBRAVA Lv31
+#43 (AROMA LADY ROSE)@3106E8 - KANGASKHAN Lv34, LOUDRED Lv34, VIGOROTH Lv34
+#44 (RUIN MANIAC DUSTY)@310710 - CAMERUPT Lv23
+#45 (RUIN MANIAC CHIP)@310738 - BULBASAUR Lv27, EXEGGCUTE Lv27, CACTURNE Lv27
+#46 (RUIN MANIAC FOSTER)@310760 - NIDORAN♀ Lv25, VENOMOTH Lv25
+#47 (RUIN MANIAC DUSTY)@310788 - KABUTOPS Lv27
+#48 (RUIN MANIAC DUSTY)@3107B0 - MAROWAK Lv30
+#49 (RUIN MANIAC DUSTY)@3107D8 - DRAGONAIR Lv33
+#50 (RUIN MANIAC DUSTY)@310800 - SLOWBRO Lv36
+#51 (INTERVIEWER GABBY & TY)@310828 - LARVITAR Lv17, GEODUDE Lv17
+#52 (INTERVIEWER GABBY & TY)@310850 - HOUNDOUR Lv27, NUZLEAF Lv27
+#53 (INTERVIEWER GABBY & TY)@310878 - SWELLOW Lv30, TEDDIURSA Lv30
+#54 (INTERVIEWER GABBY & TY)@3108A0 - ZANGOOSE Lv33, DELCATTY Lv33
+#55 (INTERVIEWER GABBY & TY)@3108C8 - SUNFLORA Lv36, EXEGGCUTE Lv36
+#56 (INTERVIEWER GABBY & TY)@3108F0 - GOLEM Lv39, CRADILY Lv39
+#57 (TUBER LOLA)@310918 - AZURILL Lv12, AZURILL Lv12
+#58 (TUBER AUSTINA)@310940 - JIGGLYPUFF Lv26
+#59 (TUBER GWEN)@310968 - PIDGEY Lv26
+#60 (TUBER LOLA)@310990 - MARILL Lv26, WINGULL Lv26
+#61 (TUBER LOLA)@3109B8 - WINGULL Lv29, SURSKIT Lv29
+#62 (TUBER LOLA)@3109E0 - HOOTHOOT Lv32, WINGULL Lv32
+#63 (TUBER LOLA)@310A08 - SWELLOW Lv35, FURRET Lv35
+#64 (TUBER RICKY)@310A30 - WOOPER Lv13
+#65 (TUBER SIMON)@310A58 - WOOPER Lv12, NINCADA Lv12
+#66 (TUBER CHARLIE)@310A80 - RATTATA Lv26
+#67 (TUBER RICKY)@310AA8 - TANGELA Lv27
+#68 (TUBER RICKY)@310AD0 - ARIADOS Lv30
+#69 (TUBER RICKY)@310AF8 - SABLEYE Lv33
+#70 (TUBER RICKY)@310B20 - MASQUERAIN Lv36
+#71 (COOLTRAINER RANDALL)@310B48 - ROSELIA Lv26
+#72 (COOLTRAINER PARKER)@310B70 - GLOOM Lv26
+#73 (COOLTRAINER GEORGE)@310B98 - GULPIN Lv26
+#74 (COOLTRAINER BERKE)@310BC0 - HAUNTER Lv26
+#75 (COOLTRAINER BRAXTON)@310BE8 - DODRIO Lv28, SWABLU Lv28, LEDIAN Lv28, ALTARIA Lv28, NOCTOWL Lv28
+#76 (COOLTRAINER VINCENT)@310C10 - NIDORINO Lv44, ARBOK Lv44, VICTREEBEL Lv44
+#77 (COOLTRAINER LEROY)@310C38 - BEAUTIFLY Lv46, SCIZOR Lv46
+#78 (COOLTRAINER WILTON)@310C60 - GEODUDE Lv17, PUPITAR Lv17, LARVITAR Lv17
+#79 (COOLTRAINER EDGAR)@310C88 - QWILFISH Lv43, QWILFISH Lv43
+#80 (COOLTRAINER ALBERT)@310CB0 - MILTANK Lv43, CHANSEY Lv43
+#81 (COOLTRAINER SAMUEL)@310CD8 - TOGETIC Lv42, LICKITUNG Lv42, VIGOROTH Lv42
+#82 (COOLTRAINER VITO)@310D00 - SHELGON Lv42, VIBRAVA Lv42, SHELGON Lv42, FLYGON Lv42
+#83 (COOLTRAINER OWEN)@310D28 - CAMERUPT Lv42, CHARMELEON Lv42, CAMERUPT Lv42
+#84 (COOLTRAINER WILTON)@310D50 - GULPIN Lv26, HAUNTER Lv26, SPINARAK Lv26
+#85 (COOLTRAINER WILTON)@310D78 - SEVIPER Lv29, ROSELIA Lv29, ZUBAT Lv29
+#86 (COOLTRAINER WILTON)@310DA0 - PORYGON2 Lv32, TOGETIC Lv32, RATTATA Lv32
+#87 (COOLTRAINER WILTON)@310DC8 - OMASTAR Lv35, WARTORTLE Lv35, SHARPEDO Lv35
+#88 (COOLTRAINER WARREN)@310DF0 - BEAUTIFLY Lv33, HERACROSS Lv33
+#89 (COOLTRAINER MARY)@310E18 - NIDORINO Lv26
+#90 (COOLTRAINER ALEXIA)@310E40 - GOLBAT Lv26
+#91 (COOLTRAINER JODY)@310E68 - SEVIPER Lv26
+#92 (COOLTRAINER WENDY)@310E90 - LEDIAN Lv29, VOLBEAT Lv29, NINJASK Lv29
+#93 (COOLTRAINER KEIRA)@310EB8 - HITMONTOP Lv45, HITMONTOP Lv45
+#94 (COOLTRAINER BROOKE)@310EE0 - BAGON Lv17, BAGON Lv17, VIBRAVA Lv17
+#95 (COOLTRAINER JENNIFER)@310F08 - COMBUSKEN Lv30
+#96 (COOLTRAINER HOPE)@310F30 - METANG Lv45
+#97 (COOLTRAINER SHANNON)@310F58 - BLASTOISE Lv45
+#98 (COOLTRAINER MICHELLE)@310F80 - SNEASEL Lv42, SABLEYE Lv42, CRAWDAUNT Lv42
+#99 (COOLTRAINER CAROLINE)@310FA8 - NINETALES Lv43, PONYTA Lv43
+#100 (COOLTRAINER JULIE)@310FD0 - GOLEM Lv42, SHUCKLE Lv42, SOLROCK Lv42
+#101 (COOLTRAINER BROOKE)@310FF8 - HORSEA Lv26, SPHEAL Lv26, SEADRA Lv26
+#102 (COOLTRAINER BROOKE)@311020 - DUGTRIO Lv29, LARVITAR Lv29, MARSHTOMP Lv29
+#103 (COOLTRAINER BROOKE)@311048 - ROSELIA Lv32, BELLSPROUT Lv32, BEEDRILL Lv32
+#104 (COOLTRAINER BROOKE)@311070 - DUGTRIO Lv34, QUAGSIRE Lv34, MARSHTOMP Lv34
+#105 (HEX MANIAC PATRICIA)@311098 - FORRETRESS Lv41, LAIRON Lv41
+#106 (HEX MANIAC KINDRA)@3110C0 - SURSKIT Lv30, NINCADA Lv30
+#107 (HEX MANIAC TAMMY)@3110E8 - SHEDINJA Lv29, DUSKULL Lv29
+#108 (HEX MANIAC VALERIE)@311110 - AZUMARILL Lv32
+#109 (HEX MANIAC TASHA)@311138 - BAGON Lv32
+#110 (HEX MANIAC VALERIE)@311160 - FARFETCH’D Lv31, DODUO Lv31
+#111 (HEX MANIAC VALERIE)@311188 - GASTLY Lv35, HAUNTER Lv35
+#112 (HEX MANIAC VALERIE)@3111B0 - SHELLDER Lv40, CROCONAW Lv40
+#113 (HEX MANIAC VALERIE)@3111D8 - ARON Lv42, NOSEPASS Lv42, SHUCKLE Lv42
+#114 (LADY CINDY)@311200 - POOCHYENA Lv7
+#115 (LADY DAPHNE)@311228 - PHANPY Lv39, VIBRAVA Lv39
+#116 (TEAM MAGMA GRUNT)@311250 - MARSHTOMP Lv26, WAILMER Lv28, CARVANHA Lv30
+#117 (LADY CINDY)@311278 - PICHU Lv11
+#118 (LADY BRIANNA)@3112A0 - GOLEM Lv40
+#119 (LADY NAOMI)@3112C8 - ARBOK Lv45
+#120 (LADY CINDY)@3112F0 - MAWILE Lv27
+#121 (LADY CINDY)@311318 - LINOONE Lv30
+#122 (LADY CINDY)@311340 - SNEASEL Lv33
+#123 (LADY CINDY)@311368 - AZUMARILL Lv36
+#124 (BEAUTY MELISSA)@311390 - WHISMUR Lv21
+#125 (BEAUTY SHEILA)@3113B8 - MEOWTH Lv21
+#126 (BEAUTY SHIRLEY)@3113E0 - CHARMANDER Lv21
+#127 (BEAUTY JESSICA)@311408 - VICTREEBEL Lv29, LUDICOLO Lv29
+#128 (BEAUTY CONNIE)@311430 - NUMEL Lv40
+#129 (BEAUTY BRIDGET)@311458 - ONIX Lv40
+#130 (BEAUTY OLIVIA)@311480 - CUBONE Lv35, NUMEL Lv37, RHYHORN Lv39
+#131 (BEAUTY TIFFANY)@3114A8 - GEODUDE Lv39, DONPHAN Lv39
+#132 (BEAUTY JESSICA)@3114D0 - DUSCLOPS Lv35, BANETTE Lv35
+#133 (BEAUTY JESSICA)@3114F8 - BRELOOM Lv38, HITMONLEE Lv38
+#134 (BEAUTY JESSICA)@311520 - PARASECT Lv41, HERACROSS Lv41
+#135 (BEAUTY JESSICA)@311548 - GOLBAT Lv44, VILEPLUME Lv44
+#136 (RICH BOY WINSTON)@311570 - NINCADA Lv7
+#137 (EXPERT MOLLIE)@311598 - GOLBAT Lv33, LEDYBA Lv33
+#138 (RICH BOY GARRET)@3115C0 - CASTFORM Lv45
+#139 (RICH BOY WINSTON)@3115E8 - MAGCARGO Lv27
+#140 (RICH BOY WINSTON)@311610 - GLOOM Lv30
+#141 (RICH BOY WINSTON)@311638 - CROCONAW Lv33
+#142 (RICH BOY WINSTON)@311660 - CORSOLA Lv36
+#143 (POKéMANIAC STEVE)@311688 - PINECO Lv19
+#144 (BEAUTY THALIA)@3116B0 - DUSTOX Lv25, SURSKIT Lv25
+#145 (POKéMANIAC MARK)@3116D8 - LOUDRED Lv31
+#146 (TEAM MAGMA GRUNT)@311700 - HOUNDOUR Lv20
+#147 (POKéMANIAC STEVE)@311728 - ROSELIA Lv27
+#148 (POKéMANIAC STEVE)@311750 - TROPIUS Lv29, LOMBRE Lv29
+#149 (POKéMANIAC STEVE)@311778 - TOGETIC Lv32, SKIPLOOM Lv32
+#150 (POKéMANIAC STEVE)@3117A0 - GLALIE Lv35, CLOYSTER Lv35
+#151 (SWIMMER♂ LUIS)@3117C8 - NUZLEAF Lv26
+#152 (SWIMMER♂ DOMINIK)@3117F0 - EXEGGCUTE Lv26
+#153 (SWIMMER♂ DOUGLAS)@311818 - CUBONE Lv24, RHYHORN Lv24
+#154 (SWIMMER♂ DARRIN)@311840 - LOUDRED Lv24, DITTO Lv24, SPINDA Lv24
+#155 (SWIMMER♂ TONY)@311868 - GEODUDE Lv26
+#156 (SWIMMER♂ JEROME)@311890 - ARMALDO Lv26
+#157 (SWIMMER♂ MATTHEW)@3118B8 - CACNEA Lv26
+#158 (SWIMMER♂ DAVID)@3118E0 - MACHOP Lv25, MANKEY Lv25
+#159 (SWIMMER♂ SPENCER)@311908 - SWABLU Lv33, SPEAROW Lv33
+#160 (SWIMMER♂ ROLAND)@311930 - MEOWTH Lv34
+#161 (SWIMMER♂ NOLEN)@311958 - PIDGEOT Lv34
+#162 (SWIMMER♂ STAN)@311980 - SHEDINJA Lv34
+#163 (SWIMMER♂ BARRY)@3119A8 - AERODACTYL Lv34
+#164 (SWIMMER♂ DEAN)@3119D0 - SWABLU Lv31, PIDGEY Lv31, DODUO Lv31
+#165 (SWIMMER♂ RODNEY)@3119F8 - POLIWRATH Lv34
+#166 (SWIMMER♂ RICHARD)@311A20 - QUILAVA Lv34
+#167 (SWIMMER♂ HERMAN)@311A48 - SKITTY Lv33, MILTANK Lv33
+#168 (SWIMMER♂ SANTIAGO)@311A70 - CROBAT Lv33, IVYSAUR Lv33
+#169 (SWIMMER♂ GILBERT)@311A98 - WHISCASH Lv34
+#170 (SWIMMER♂ FRANKLIN)@311AC0 - MISDREAVUS Lv34
+#171 (SWIMMER♂ KEVIN)@311AE8 - HOUNDOUR Lv34
+#172 (SWIMMER♂ JACK)@311B10 - GARDEVOIR Lv34
+#173 (SWIMMER♂ DUDLEY)@311B38 - VOLTORB Lv33, ELECTRIKE Lv33, RAICHU Lv33
+#174 (SWIMMER♂ CHAD)@311B60 - KOFFING Lv33, ROSELIA Lv33
+#175 (SWIMMER♂ TONY)@311B88 - TANGELA Lv30
+#176 (SWIMMER♂ TONY)@311BB0 - AMPHAROS Lv33
+#177 (SWIMMER♂ TONY)@311BD8 - RHYHORN Lv34, RHYDON Lv36
+#178 (SWIMMER♂ TONY)@311C00 - TAUROS Lv37, WIGGLYTUFF Lv39
+#179 (BLACK BELT TAKAO)@311C28 - SHROOMISH Lv13
+#180 (BLACK BELT HITOSHI)@311C50 - VENONAT Lv32, YANMA Lv32
+#181 (BLACK BELT KIYO)@311C78 - TENTACRUEL Lv34
+#182 (BLACK BELT KOICHI)@311CA0 - BELLSPROUT Lv24, GLOOM Lv28
+#183 (BLACK BELT NOB)@311CC8 - MEOWTH Lv19
+#184 (BLACK BELT NOB)@311CF0 - SOLROCK Lv27
+#185 (BLACK BELT NOB)@311D18 - LARVITAR Lv29, GRAVELER Lv29
+#186 (BLACK BELT NOB)@311D40 - TREECKO Lv31, ROSELIA Lv31, ROSELIA Lv31
+#187 (BLACK BELT NOB)@311D68 - SNUBBULL Lv33, DUNSPARCE Lv33, VIGOROTH Lv33, STANTLER Lv33
+#188 (BLACK BELT YUJI)@311D90 - LARVITAR Lv26, MAGCARGO Lv26
+#189 (BLACK BELT DAISUKE)@311DB8 - BELDUM Lv19
+#190 (BLACK BELT ATSUSHI)@311DE0 - ALTARIA Lv32
+#191 (GUITARIST KIRK)@311E08 - ARON Lv17, MAGNEMITE Lv17
+#192 (TEAM AQUA GRUNT)@311E30 - GEODUDE Lv31, LARVITAR Lv31
+#193 (TEAM AQUA GRUNT)@311E58 - BALTOY Lv32
+#194 (GUITARIST SHAWN)@311E80 - MAGNEMITE Lv17, BELDUM Lv17
+#195 (GUITARIST FERNANDO)@311EA8 - GASTLY Lv30, TENTACOOL Lv30
+#196 (GUITARIST DALTON)@311ED0 - CHINCHOU Lv15, PICHU Lv15
+#197 (GUITARIST DALTON)@311EF8 - SWABLU Lv25, SPEAROW Lv25, FARFETCH’D Lv25
+#198 (GUITARIST DALTON)@311F20 - SLOWPOKE Lv28, STARYU Lv28, STARYU Lv28
+#199 (GUITARIST DALTON)@311F48 - XATU Lv31, UNOWN Lv31, CHIMECHO Lv31
+#200 (GUITARIST DALTON)@311F70 - GENGAR Lv34, VENOMOTH Lv34, WEEZING Lv34
+#201 (KINDLER COLE)@311F98 - ARON Lv23
+#202 (KINDLER JEFF)@311FC0 - LARVITAR Lv22, GEODUDE Lv22
+#203 (KINDLER AXLE)@311FE8 - LARVITAR Lv23
+#204 (KINDLER JACE)@312010 - GEODUDE Lv23
+#205 (KINDLER KEEGAN)@312038 - LARVITAR Lv23
+#206 (KINDLER BERNIE)@312060 - RATTATA Lv18, DITTO Lv18
+#207 (KINDLER BERNIE)@312088 - JIGGLYPUFF Lv26, RATTATA Lv26
+#208 (KINDLER BERNIE)@3120B0 - MARILL Lv29, AZUMARILL Lv29
+#209 (KINDLER BERNIE)@3120D8 - SURSKIT Lv32, WARTORTLE Lv32
+#210 (KINDLER BERNIE)@312100 - AZUMARILL Lv35, MARSHTOMP Lv35
+#211 (CAMPER DREW)@312128 - SPOINK Lv23
+#212 (CAMPER BEAU)@312150 - CARVANHA Lv21, CORPHISH Lv21, SLOWPOKE Lv21
+#213 (CAMPER LARRY)@312178 - MACHOP Lv18
+#214 (CAMPER SHANE)@3121A0 - DODUO Lv18, FARFETCH’D Lv18
+#215 (CAMPER JUSTIN)@3121C8 - MAGCARGO Lv24
+#216 (CAMPER ETHAN)@3121F0 - WOOPER Lv20, SURSKIT Lv20
+#217 (PICNICKER AUTUMN)@312218 - CARVANHA Lv21
+#218 (CAMPER TRAVIS)@312240 - PARAS Lv18
+#219 (CAMPER ETHAN)@312268 - CLEFFA Lv26, SMEARGLE Lv26
+#220 (CAMPER ETHAN)@312290 - RATICATE Lv29, PORYGON Lv29
+#221 (CAMPER ETHAN)@3122B8 - TAILLOW Lv31, CASTFORM Lv31, DUNSPARCE Lv31
+#222 (CAMPER ETHAN)@3122E0 - RATICATE Lv34, GRANBULL Lv34, DUNSPARCE Lv34
+#223 (BUG MANIAC BRENT)@312308 - TRAPINCH Lv26
+#224 (BUG MANIAC DONALD)@312330 - MAGIKARP Lv24, FEEBAS Lv24, AZUMARILL Lv24
+#225 (BUG MANIAC TAYLOR)@312358 - SWINUB Lv27, SWINUB Lv27, SEALEO Lv27
+#226 (BUG MANIAC JEFFREY)@312380 - MEOWTH Lv27, SLAKOTH Lv27, SLAKOTH Lv27
+#227 (BUG MANIAC DEREK)@3123A8 - YANMA Lv16, BEAUTIFLY Lv16
+#228 (BUG MANIAC JEFFREY)@3123D0 - TRAPINCH Lv31, BARBOACH Lv31, NINCADA Lv31
+#229 (BUG MANIAC JEFFREY)@3123F8 - BARBOACH Lv34, SURSKIT Lv34, SEALEO Lv34
+#230 (BUG MANIAC JEFFREY)@312420 - HORSEA Lv36, MAGIKARP Lv36, MARILL Lv36, SEALEO Lv36
+#231 (BUG MANIAC JEFFREY)@312448 - SMEARGLE Lv38, FARFETCH’D Lv38, SKITTY Lv38, DUNSPARCE Lv38, FARFETCH’D Lv38
+#232 (PSYCHIC EDWARD)@312470 - VENONAT Lv15
+#233 (PSYCHIC PRESTON)@312498 - HOOTHOOT Lv36
+#234 (PSYCHIC VIRGIL)@3124C0 - HOPPIP Lv36
+#235 (PSYCHIC BLAKE)@3124E8 - DODRIO Lv36
+#236 (PSYCHIC WILLIAM)@312510 - LOTAD Lv26, SEEDOT Lv26, SHROOMISH Lv26
+#237 (PSYCHIC JOSHUA)@312538 - VIBRAVA Lv41, DRAGONAIR Lv41
+#238 (PSYCHIC CAMERON)@312560 - GRUMPIG Lv31
+#239 (PSYCHIC CAMERON)@312588 - LAIRON Lv33, SKARMORY Lv33
+#240 (PSYCHIC CAMERON)@3125B0 - MURKROW Lv38, MANTINE Lv38
+#241 (PSYCHIC CAMERON)@3125D8 - QWILFISH Lv41, SWALOT Lv41
+#242 (PSYCHIC CAMERON)@312600 - MAROWAK Lv45, NIDOQUEEN Lv45
+#243 (PSYCHIC JACLYN)@312628 - SNUBBULL Lv16
+#244 (PSYCHIC HANNAH)@312650 - SPEAROW Lv36
+#245 (PSYCHIC SAMANTHA)@312678 - JUMPLUFF Lv36
+#246 (PSYCHIC MAURA)@3126A0 - TOGETIC Lv36
+#247 (PSYCHIC KAYLA)@3126C8 - LINOONE Lv26, PIDGEOTTO Lv26, FURRET Lv26
+#248 (PSYCHIC ALEXIS)@3126F0 - SHROOMISH Lv41, BRELOOM Lv41
+#249 (PSYCHIC JACKI)@312718 - ELEKID Lv30, LANTURN Lv30
+#250 (PSYCHIC JACKI)@312740 - BUTTERFREE Lv34, PARASECT Lv34
+#251 (PSYCHIC JACKI)@312768 - ONIX Lv37, MAROWAK Lv37
+#252 (PSYCHIC JACKI)@312790 - MIGHTYENA Lv40, MURKROW Lv40
+#253 (PSYCHIC JACKI)@3127B8 - MAGCARGO Lv43, MAGMAR Lv43
+#254 (GENTLEMAN WALTER)@3127E0 - VIGOROTH Lv29
+#255 (GENTLEMAN MICAH)@312808 - SWALOT Lv44, SWALOT Lv44
+#256 (GENTLEMAN THOMAS)@312830 - MAGMAR Lv45
+#257 (GENTLEMAN WALTER)@312858 - MAGMAR Lv34
+#258 (GENTLEMAN WALTER)@312880 - NOCTOWL Lv36, DODRIO Lv36
+#259 (GENTLEMAN WALTER)@3128A8 - GOLBAT Lv39, VENOMOTH Lv39
+#260 (GENTLEMAN WALTER)@3128D0 - WAILMER Lv41, MANTINE Lv41, KINGLER Lv41
+#261 (ELITE FOUR SIDNEY)@3128F8 - MARSHTOMP Lv46, CAMERUPT Lv48, FLYGON Lv46, STEELIX Lv48, CLAYDOL Lv49
+#262 (ELITE FOUR PHOEBE)@312920 - VENOMOTH Lv48, HERACROSS Lv49, ILLUMISE Lv50, SCIZOR Lv49, NINJASK Lv51
+#263 (ELITE FOUR GLACIA)@312948 - SEADRA Lv50, WHISCASH Lv50, SEALEO Lv52, RELICANTH Lv52, LAPRAS Lv53
+#264 (ELITE FOUR DRAKE)@312970 - MEDICHAM Lv52, HARIYAMA Lv54, HERACROSS Lv53, POLIWRATH Lv53, BLAZIKEN Lv55
+#265 (LEADER ROXANNE)@312998 - REMORAID Lv12, SEEL Lv12, WAILMER Lv15
+#266 (LEADER BRAWLY)@3129C0 - CACNEA Lv16, SHROOMISH Lv16, HOPPIP Lv19
+#267 (LEADER WATTSON)@3129E8 - BELDUM Lv20, BELDUM Lv20, LAIRON Lv22, LAIRON Lv24
+#268 (LEADER FLANNERY)@312A10 - GEODUDE Lv24, LARVITAR Lv24, OMASTAR Lv26, KABUTOPS Lv29
+#269 (LEADER NORMAN)@312A38 - DUSTOX Lv27, ARBOK Lv27, DUSTOX Lv29, VENUSAUR Lv31
+#270 (LEADER WINONA)@312A60 - SNUBBULL Lv29, EXPLOUD Lv29, RATICATE Lv30, CASTFORM Lv31, GRANBULL Lv33
+#271 (LEADER TATE&LIZA)@312A88 - ALTARIA Lv41, DODRIO Lv41, PIDGEOT Lv42, MANTINE Lv42
+#272 (LEADER JUAN)@312AB0 - LARVITAR Lv41, PILOSWINE Lv41, GRAVELER Lv43, NIDOKING Lv43, NIDOKING Lv46
+#273 (SCHOOL KID JERRY)@312AD8 - HOPPIP Lv9
+#274 (SCHOOL KID TED)@312B00 - SENTRET Lv17
+#275 (SCHOOL KID PAUL)@312B28 - CHINCHOU Lv15, MUDKIP Lv15, WINGULL Lv15
+#276 (SCHOOL KID JERRY)@312B50 - SLUGMA Lv26, SLUGMA Lv26
+#277 (SCHOOL KID JERRY)@312B78 - SPEAROW Lv29, HOOTHOOT Lv29
+#278 (SCHOOL KID JERRY)@312BA0 - LEDYBA Lv32, VENOMOTH Lv32
+#279 (SCHOOL KID JERRY)@312BC8 - SHEDINJA Lv34, DUSCLOPS Lv34, HAUNTER Lv34
+#280 (SCHOOL KID KAREN)@312BF0 - CHARMANDER Lv9
+#281 (SCHOOL KID GEORGIA)@312C18 - GEODUDE Lv16, MAGCARGO Lv16
+#282 (SCHOOL KID KAREN)@312C40 - MAGNEMITE Lv26, BELDUM Lv26
+#283 (SCHOOL KID KAREN)@312C68 - NINCADA Lv29, PHANPY Lv29
+#284 (SCHOOL KID KAREN)@312C90 - AMPHAROS Lv32, ELEKID Lv32
+#285 (SCHOOL KID KAREN)@312CB8 - SOLROCK Lv35, GIRAFARIG Lv35
+#286 (SR. AND JR. KATE & JOY)@312CE0 - GRIMER Lv30, TENTACRUEL Lv32
+#287 (SR. AND JR. ANNA & MEG)@312D08 - HOOTHOOT Lv15, SENTRET Lv17
+#288 (SR. AND JR. ANNA & MEG)@312D30 - PIDGEY Lv28, SENTRET Lv30
+#289 (SR. AND JR. ANNA & MEG)@312D58 - PICHU Lv31, PICHU Lv33
+#290 (SR. AND JR. ANNA & MEG)@312D80 - SEALEO Lv34, SWINUB Lv36
+#291 (SR. AND JR. ANNA & MEG)@312DA8 - QWILFISH Lv36, DEWGONG Lv38
+#292 (WINSTRATE VICTOR)@312DD0 - DIGLETT Lv16, SWINUB Lv16
+#293 (POKéFAN MIGUEL)@312DF8 - LEDYBA Lv15
+#294 (POKéFAN COLTON)@312E20 - LARVITAR Lv22, LARVITAR Lv36, LARVITAR Lv40, LARVITAR Lv12, GEODUDE Lv30, ONIX Lv42
+#295 (POKéFAN MIGUEL)@312E48 - WINGULL Lv29
+#296 (POKéFAN MIGUEL)@312E70 - WINGULL Lv32
+#297 (POKéFAN MIGUEL)@312E98 - ROSELIA Lv35
+#298 (POKéFAN MIGUEL)@312EC0 - WOBBUFFET Lv38
+#299 (WINSTRATE VICTORIA)@312EE8 - VOLBEAT Lv17
+#300 (POKéFAN VANESSA)@312F10 - TEDDIURSA Lv30
+#301 (POKéFAN BETHANY)@312F38 - WOOPER Lv35, DIGLETT Lv37, GLIGAR Lv39
+#302 (POKéFAN ISABEL)@312F60 - QWILFISH Lv14, NIDORINA Lv14
+#303 (POKéFAN ISABEL)@312F88 - SEADRA Lv26, QWILFISH Lv26
+#304 (POKéFAN ISABEL)@312FB0 - PELIPPER Lv29, PELIPPER Lv29
+#305 (POKéFAN ISABEL)@312FD8 - PUPITAR Lv32, SOLROCK Lv32
+#306 (POKéFAN ISABEL)@313000 - SUNFLORA Lv35, GROVYLE Lv35
+#307 (EXPERT TIMOTHY)@313028 - JUMPLUFF Lv27
+#308 (EXPERT TIMOTHY)@313050 - DODRIO Lv33
+#309 (EXPERT TIMOTHY)@313078 - PINSIR Lv36
+#310 (EXPERT TIMOTHY)@3130A0 - KINGLER Lv39
+#311 (EXPERT TIMOTHY)@3130C8 - STEELIX Lv42
+#312 (WINSTRATE VICKY)@3130F0 - BELDUM Lv18
+#313 (EXPERT SHELBY)@313118 - SKITTY Lv21, SMEARGLE Lv21
+#314 (EXPERT SHELBY)@313140 - SPEAROW Lv30, ZUBAT Lv30
+#315 (EXPERT SHELBY)@313168 - QUAGSIRE Lv33, GOREBYSS Lv33
+#316 (EXPERT SHELBY)@313190 - SEADRA Lv36, QUAGSIRE Lv36
+#317 (EXPERT SHELBY)@3131B8 - BUTTERFREE Lv39, GLIGAR Lv39
+#318 (YOUNGSTER CALVIN)@3131E0 - HOPPIP Lv5
+#319 (YOUNGSTER BILLY)@313208 - DUSKULL Lv5, SHUPPET Lv7
+#320 (YOUNGSTER JOSH)@313230 - WINGULL Lv10
+#321 (YOUNGSTER TOMMY)@313258 - CORPHISH Lv8, BARBOACH Lv8
+#322 (YOUNGSTER JOEY)@313280 - LUVDISC Lv9
+#323 (YOUNGSTER BEN)@3132A8 - BELDUM Lv17, ARON Lv17
+#324 (COOLTRAINER QUINCY)@3132D0 - SHUCKLE Lv43, VENOMOTH Lv43
+#325 (COOLTRAINER KATELYNN)@3132F8 - CLOYSTER Lv43, MILOTIC Lv43
+#326 (YOUNGSTER JAYLEN)@313320 - VULPIX Lv19
+#327 (YOUNGSTER DILLON)@313348 - OMANYTE Lv19
+#328 (YOUNGSTER CALVIN)@313370 - ZANGOOSE Lv27
+#329 (YOUNGSTER CALVIN)@313398 - GLOOM Lv28, BEEDRILL Lv30
+#330 (YOUNGSTER CALVIN)@3133C0 - PELIPPER Lv31, SWELLOW Lv29, GOLBAT Lv33
+#331 (YOUNGSTER CALVIN)@3133E8 - LUNATONE Lv34, LUNATONE Lv32, ONIX Lv36
+#332 (YOUNGSTER EDDIE)@313410 - SHUPPET Lv14, DUSKULL Lv16
+#333 (YOUNGSTER ALLEN)@313438 - BELDUM Lv4, BELDUM Lv3
+#334 (YOUNGSTER TIMMY)@313460 - RHYHORN Lv15, GEODUDE Lv13
+#335 (CHAMPION WALLACE)@313488 - BANETTE Lv57, GENGAR Lv55, MISDREAVUS Lv56, MISDREAVUS Lv56, GENGAR Lv56, GENGAR Lv58
+#336 (FISHERMAN ANDREW)@3134B0 - KAKUNA Lv5, PINECO Lv10, WURMPLE Lv15
+#337 (FISHERMAN IVAN)@3134D8 - WOOPER Lv5, WOOPER Lv6, WOOPER Lv7
+#338 (FISHERMAN CLAUDE)@313500 - MAGIKARP Lv16, CARVANHA Lv17, WINGULL Lv18
+#339 (FISHERMAN ELLIOT)@313528 - TYROGUE Lv10, MACHOP Lv7, TYROGUE Lv10
+#340 (FISHERMAN NED)@313550 - DODUO Lv11
+#341 (FISHERMAN DALE)@313578 - ANORITH Lv11, LUNATONE Lv14, LILEEP Lv11, GRAVELER Lv14
+#342 (FISHERMAN NOLAN)@3135A0 - CARVANHA Lv19
+#343 (FISHERMAN BARNY)@3135C8 - SLOWPOKE Lv25, SLOWPOKE Lv25
+#344 (FISHERMAN WADE)@3135F0 - MANKEY Lv16
+#345 (FISHERMAN CARTER)@313618 - BEAUTIFLY Lv25, MANTINE Lv25
+#346 (FISHERMAN ELLIOT)@313640 - KABUTO Lv24, SHUCKLE Lv27, ARMALDO Lv27
+#347 (FISHERMAN ELLIOT)@313668 - KINGDRA Lv29, DRATINI Lv26, VIBRAVA Lv26, FLYGON Lv29
+#348 (FISHERMAN ELLIOT)@313690 - GENGAR Lv31, SHUPPET Lv30, DUSCLOPS Lv30, GENGAR Lv31
+#349 (FISHERMAN ELLIOT)@3136B8 - SCYTHER Lv33, SCYTHER Lv33, ARMALDO Lv33, PINSIR Lv35
+#350 (FISHERMAN RONALD)@3136E0 - BELDUM Lv19, AGGRON Lv21, STEELIX Lv23, STEELIX Lv26, SCIZOR Lv30, AGGRON Lv35
+#351 (TRIATHLETE JACOB)@313708 - DRATINI Lv6, BAGON Lv6, VIBRAVA Lv14
+#352 (TRIATHLETE ANTHONY)@313730 - HOUNDOUR Lv14, NUMEL Lv14
+#353 (TRIATHLETE BENJAMIN)@313758 - CHINCHOU Lv16
+#354 (TRIATHLETE BENJAMIN)@313780 - CARVANHA Lv30
+#355 (TRIATHLETE BENJAMIN)@3137A8 - PIDGEOTTO Lv33
+#356 (TRIATHLETE BENJAMIN)@3137D0 - NINJASK Lv36
+#357 (TRIATHLETE BENJAMIN)@3137F8 - SLOWBRO Lv39
+#358 (TRIATHLETE ABIGAIL)@313820 - DROWZEE Lv16
+#359 (TRIATHLETE JASMINE)@313848 - SMOOCHUM Lv14, SNORUNT Lv14, SNORUNT Lv6
+#360 (TRIATHLETE ABIGAIL)@313870 - PIDGEOTTO Lv28
+#361 (TRIATHLETE ABIGAIL)@313898 - CHINCHOU Lv31
+#362 (TRIATHLETE ABIGAIL)@3138C0 - GRANBULL Lv34
+#363 (TRIATHLETE ABIGAIL)@3138E8 - KECLEON Lv37
+#364 (TRIATHLETE DYLAN)@313910 - TENTACOOL Lv17
+#365 (TRIATHLETE DYLAN)@313938 - VENONAT Lv28
+#366 (TRIATHLETE DYLAN)@313960 - SNUBBULL Lv31
+#367 (TRIATHLETE DYLAN)@313988 - NOCTOWL Lv34
+#368 (TRIATHLETE DYLAN)@3139B0 - KINGLER Lv37
+#369 (TRIATHLETE MARIA)@3139D8 - ABRA Lv17
+#370 (TRIATHLETE MARIA)@313A00 - MAREEP Lv28
+#371 (TRIATHLETE MARIA)@313A28 - BELLSPROUT Lv31
+#372 (TRIATHLETE MARIA)@313A50 - OCTILLERY Lv34
+#373 (TRIATHLETE MARIA)@313A78 - BRELOOM Lv37
+#374 (TRIATHLETE CAMDEN)@313AA0 - DELIBIRD Lv33, FARFETCH’D Lv33
+#375 (YOUNGSTER DEMETRIUS)@313AC8 - WINGULL Lv25, SURSKIT Lv25
+#376 (TRIATHLETE ISAIAH)@313AF0 - FARFETCH’D Lv35
+#377 (TRIATHLETE PABLO)@313B18 - KABUTO Lv33, PSYDUCK Lv33
+#378 (TRIATHLETE CHASE)@313B40 - TOGEPI Lv26, EEVEE Lv34
+#379 (TRIATHLETE ISAIAH)@313B68 - CACNEA Lv39
+#380 (TRIATHLETE ISAIAH)@313B90 - VENONAT Lv42
+#381 (TRIATHLETE ISAIAH)@313BB8 - VENUSAUR Lv45
+#382 (TRIATHLETE ISAIAH)@313BE0 - SLOWBRO Lv48
+#383 (TRIATHLETE ISOBEL)@313C08 - NIDORINO Lv34
+#384 (TRIATHLETE DONNY)@313C30 - BARBOACH Lv26, LUVDISC Lv34
+#385 (TRIATHLETE TALIA)@313C58 - LOMBRE Lv34
+#386 (TRIATHLETE KATELYN)@313C80 - LOMBRE Lv35
+#387 (TRIATHLETE ALLISON)@313CA8 - TAILLOW Lv27, AIPOM Lv33
+#388 (TRIATHLETE KATELYN)@313CD0 - DELIBIRD Lv39
+#389 (TRIATHLETE KATELYN)@313CF8 - PHANPY Lv42
+#390 (TRIATHLETE KATELYN)@313D20 - GOLEM Lv45
+#391 (TRIATHLETE KATELYN)@313D48 - HERACROSS Lv48
+#392 (DRAGON TAMER NICOLAS)@313D70 - CLOYSTER Lv37, CLOYSTER Lv37
+#393 (DRAGON TAMER NICOLAS)@313D98 - SANDSLASH Lv41, STEELIX Lv41
+#394 (DRAGON TAMER NICOLAS)@313DC0 - FLYGON Lv44, FLYGON Lv44
+#395 (DRAGON TAMER NICOLAS)@313DE8 - CHINCHOU Lv46, MANECTRIC Lv46, MANECTRIC Lv46
+#396 (DRAGON TAMER NICOLAS)@313E10 - LUDICOLO Lv49, SCEPTILE Lv49, GROVYLE Lv49
+#397 (DRAGON TAMER AARON)@313E38 - LARVITAR Lv34
+#398 (BIRD KEEPER PERRY)@313E60 - SHROOMISH Lv26
+#399 (BIRD KEEPER HUGH)@313E88 - SMOOCHUM Lv25, DEWGONG Lv25
+#400 (BIRD KEEPER PHIL)@313EB0 - WAILMER Lv26
+#401 (BIRD KEEPER JARED)@313ED8 - SLAKOTH Lv27, KECLEON Lv27, DODRIO Lv27
+#402 (BIRD KEEPER HUMBERTO)@313F00 - LINOONE Lv30
+#403 (BIRD KEEPER PRESLEY)@313F28 - HUNTAIL Lv33, LANTURN Lv33
+#404 (BIRD KEEPER EDWARDO)@313F50 - CLEFAIRY Lv29, CHANSEY Lv29
+#405 (BIRD KEEPER COLIN)@313F78 - BELDUM Lv28, BELDUM Lv28
+#406 (BIRD KEEPER ROBERT)@313FA0 - MACHOP Lv29
+#407 (BIRD KEEPER BENNY)@313FC8 - KADABRA Lv36, METANG Lv36, HYPNO Lv36
+#408 (BIRD KEEPER CHESTER)@313FF0 - TRAPINCH Lv25, PUPITAR Lv25
+#409 (BIRD KEEPER ROBERT)@314018 - SWABLU Lv32, CLEFAIRY Lv32
+#410 (BIRD KEEPER ROBERT)@314040 - NUZLEAF Lv35, SHARPEDO Lv35
+#411 (BIRD KEEPER ROBERT)@314068 - BELDUM Lv38, MAGNETON Lv38
+#412 (BIRD KEEPER ROBERT)@314090 - NOCTOWL Lv41, MANTINE Lv41
+#413 (BIRD KEEPER ALEX)@3140B8 - PSYDUCK Lv33, SEADRA Lv33
+#414 (BIRD KEEPER BECK)@3140E0 - CAMERUPT Lv34
+#415 (NINJA BOY YASU)@314108 - HERACROSS Lv26
+#416 (NINJA BOY TAKASHI)@314130 - SCYTHER Lv25, YANMA Lv25
+#417 (COOLTRAINER DIANNE)@314158 - LANTURN Lv43, SHARPEDO Lv43
+#418 (TUBER JANI)@314180 - SWINUB Lv26
+#419 (NINJA BOY LAO)@3141A8 - TENTACOOL Lv17, GRIMER Lv17, NIDORINA Lv17
+#420 (NINJA BOY LUNG)@3141D0 - MACHOP Lv18, HARIYAMA Lv18
+#421 (NINJA BOY LAO)@3141F8 - GASTLY Lv24, GASTLY Lv24, TENTACOOL Lv24, KOFFING Lv26
+#422 (NINJA BOY LAO)@314220 - CHARMANDER Lv27, HOUNDOUR Lv27, CHARMANDER Lv27, MAGBY Lv29
+#423 (NINJA BOY LAO)@314248 - UNOWN Lv30, EXEGGCUTE Lv30, NATU Lv30, SLOWPOKE Lv32
+#424 (NINJA BOY LAO)@314270 - ANORITH Lv33, DUSTOX Lv33, ARIADOS Lv33, SCYTHER Lv35
+#425 (BATTLE GIRL JOCELYN)@314298 - BELLSPROUT Lv13
+#426 (BATTLE GIRL LAURA)@3142C0 - SHROOMISH Lv13
+#427 (BATTLE GIRL CYNDY)@3142E8 - DRATINI Lv18, BAGON Lv18
+#428 (BATTLE GIRL CORA)@314310 - CYNDAQUIL Lv27
+#429 (BATTLE GIRL PAULA)@314338 - TAUROS Lv27
+#430 (BATTLE GIRL CYNDY)@314360 - BELDUM Lv26, BELDUM Lv26
+#431 (BATTLE GIRL CYNDY)@314388 - BELLSPROUT Lv29, LOTAD Lv29
+#432 (BATTLE GIRL CYNDY)@3143B0 - BUTTERFREE Lv32, FORRETRESS Lv32
+#433 (BATTLE GIRL CYNDY)@3143D8 - SWELLOW Lv35, KECLEON Lv35
+#434 (PARASOL LADY MADELINE)@314400 - MAGNEMITE Lv19
+#435 (PARASOL LADY CLARISSA)@314428 - CROCONAW Lv28, SEALEO Lv28
+#436 (PARASOL LADY ANGELICA)@314450 - HITMONCHAN Lv30
+#437 (PARASOL LADY MADELINE)@314478 - ODDISH Lv29
+#438 (PARASOL LADY MADELINE)@3144A0 - SHEDINJA Lv32
+#439 (PARASOL LADY MADELINE)@3144C8 - GLOOM Lv34, BELLSPROUT Lv34
+#440 (PARASOL LADY MADELINE)@3144F0 - COMBUSKEN Lv37, POLIWRATH Lv37
+#441 (SWIMMER♀ BEVERLY)@314518 - RATTATA Lv25, SWELLOW Lv25
+#442 (SWIMMER♀ IMANI)@314540 - GEODUDE Lv26
+#443 (SWIMMER♀ KYLA)@314568 - BAYLEEF Lv26
+#444 (SWIMMER♀ DENISE)@314590 - SPHEAL Lv25, SPHEAL Lv25
+#445 (SWIMMER♀ BETH)@3145B8 - SQUIRTLE Lv26
+#446 (SWIMMER♀ TARA)@3145E0 - BARBOACH Lv25, DIGLETT Lv25
+#447 (SWIMMER♀ MISSY)@314608 - TENTACOOL Lv26
+#448 (SWIMMER♀ ALICE)@314630 - ARON Lv24, GEODUDE Lv24, RHYHORN Lv24
+#449 (SWIMMER♀ JENNY)@314658 - ROSELIA Lv34
+#450 (SWIMMER♀ GRACE)@314680 - LEDYBA Lv34
+#451 (SWIMMER♀ TANYA)@3146A8 - SHEDINJA Lv34
+#452 (SWIMMER♀ SHARON)@3146D0 - KABUTOPS Lv34
+#453 (SWIMMER♀ NIKKI)@3146F8 - HOPPIP Lv33, PARAS Lv33
+#454 (SWIMMER♀ BRENDA)@314720 - PIKACHU Lv34
+#455 (SWIMMER♀ KATIE)@314748 - BARBOACH Lv33, BALTOY Lv33
+#456 (SWIMMER♀ SUSIE)@314770 - DRATINI Lv34
+#457 (SWIMMER♀ KARA)@314798 - SWELLOW Lv34
+#458 (SWIMMER♀ DANA)@3147C0 - SANDSLASH Lv34
+#459 (SWIMMER♀ SIENNA)@3147E8 - DODUO Lv33, PIDGEOTTO Lv33
+#460 (SWIMMER♀ DEBRA)@314810 - PERSIAN Lv34
+#461 (SWIMMER♀ LINDA)@314838 - MANKEY Lv33, HITMONLEE Lv33
+#462 (SWIMMER♀ KAYLEE)@314860 - GOLEM Lv34, PILOSWINE Lv34
+#463 (SWIMMER♀ LAUREL)@314888 - LARVITAR Lv33, LARVITAR Lv33
+#464 (SWIMMER♀ CARLEE)@3148B0 - SKARMORY Lv35
+#465 (SWIMMER♀ JENNY)@3148D8 - METANG Lv38
+#466 (SWIMMER♀ JENNY)@314900 - BEEDRILL Lv41
+#467 (SWIMMER♀ JENNY)@314928 - ELEKID Lv43, MINUN Lv43
+#468 (SWIMMER♀ JENNY)@314950 - VIBRAVA Lv45, SHELGON Lv45, FLYGON Lv45
+#469 (PICNICKER HEIDI)@314978 - NIDORAN♀ Lv22, EKANS Lv22
+#470 (PICNICKER BECKY)@3149A0 - TAILLOW Lv22, PIDGEY Lv22
+#471 (PICNICKER CAROL)@3149C8 - TOGEPI Lv17, DODUO Lv17
+#472 (PICNICKER NANCY)@3149F0 - SLUGMA Lv18, TORCHIC Lv18
+#473 (PICNICKER MARTHA)@314A18 - SWINUB Lv23, LARVITAR Lv23
+#474 (PICNICKER DIANA)@314A40 - BARBOACH Lv19, KRABBY Lv19, SLOWPOKE Lv19
+#475 (PSYCHIC CEDRIC)@314A68 - CHIMECHO Lv32
+#476 (PICNICKER IRENE)@314A90 - CHARMANDER Lv17, SLUGMA Lv17
+#477 (PICNICKER DIANA)@314AB8 - SWABLU Lv25, BEAUTIFLY Lv25, DELIBIRD Lv25
+#478 (PICNICKER DIANA)@314AE0 - MUK Lv28, NIDORINA Lv28, EKANS Lv28
+#479 (PICNICKER DIANA)@314B08 - XATU Lv31, MASQUERAIN Lv31, DELIBIRD Lv31
+#480 (PICNICKER DIANA)@314B30 - QWILFISH Lv40, LANTURN Lv40, STARMIE Lv40
+#481 (TWINS AMY & LIV)@314B58 - GLOOM Lv15, HAUNTER Lv15
+#482 (TWINS AMY & LIV)@314B80 - DUNSPARCE Lv27, NOCTOWL Lv27
+#483 (TWINS GINA & MIA)@314BA8 - SENTRET Lv6, ZIGZAGOON Lv6
+#484 (TWINS MIU & YUKI)@314BD0 - GLOOM Lv26, PARASECT Lv26
+#485 (TWINS AMY & LIV)@314BF8 - WARTORTLE Lv9, WAILMER Lv9
+#486 (TWINS GINA & MIA)@314C20 - HORSEA Lv10, SHELLDER Lv10
+#487 (TWINS AMY & LIV)@314C48 - SABLEYE Lv30, SABLEYE Lv30
+#488 (TWINS AMY & LIV)@314C70 - MURKROW Lv33, SABLEYE Lv33
+#489 (TWINS AMY & LIV)@314C98 - NIDORINO Lv36, GLOOM Lv36
+#490 (SAILOR HUEY)@314CC0 - HOPPIP Lv12, DELIBIRD Lv12
+#491 (SAILOR EDMOND)@314CE8 - DIGLETT Lv13
+#492 (SAILOR ERNEST)@314D10 - DIGLETT Lv33, ONIX Lv33
+#493 (SAILOR DWAYNE)@314D38 - ELECTRIKE Lv11, ELECTRIKE Lv11, FLAAFFY Lv11
+#494 (SAILOR PHILLIP)@314D60 - GYARADOS Lv44, TOGETIC Lv44
+#495 (SAILOR LEONARD)@314D88 - BAGON Lv43, ALTARIA Lv43, DRAGONAIR Lv43
+#496 (SAILOR DUNCAN)@314DB0 - CYNDAQUIL Lv25, CHARMELEON Lv25
+#497 (SAILOR ERNEST)@314DD8 - LARVITAR Lv36, ANORITH Lv36, SOLROCK Lv36
+#498 (SAILOR ERNEST)@314E00 - SWELLOW Lv39, LOUDRED Lv39, FEAROW Lv39
+#499 (SAILOR ERNEST)@314E28 - ARBOK Lv42, NIDORINO Lv42, NIDORINA Lv42
+#500 (SAILOR ERNEST)@314E50 - WAILMER Lv45, CORSOLA Lv45, SWAMPERT Lv45
+#501 (HIKER ELI)@314E78 - GEODUDE Lv23
+#502 (POKéFAN ANNIKA)@314EA0 - WOOPER Lv39, WOOPER Lv39
+#503 (COOLTRAINER JAZMYN)@314EC8 - SANDSLASH Lv27
+#504 (NINJA BOY JONAS)@314EF0 - SEEL Lv31
+#505 (PARASOL LADY KAYLEY)@314F18 - QUAGSIRE Lv31
+#506 (EXPERT AURON)@314F40 - SHUCKLE Lv33, AERODACTYL Lv33
+#507 (SAILOR KELVIN)@314F68 - BAYLEEF Lv33, CHIKORITA Lv33
+#508 (COOLTRAINER MARLEY)@314F90 - NIDOKING Lv34
+#509 (BATTLE GIRL REYNA)@314FB8 - NUMEL Lv33, SANDSLASH Lv33
+#510 (SAILOR HUDSON)@314FE0 - PARASECT Lv34
+#511 (EXPERT CONOR)@315008 - GASTLY Lv33, SWALOT Lv33
+#512 (COLLECTOR EDWIN)@315030 - MANKEY Lv14, MANKEY Lv14
+#513 (COLLECTOR HECTOR)@315058 - CACTURNE Lv18, SHIFTRY Lv18
+#514 (MAGMA ADMIN TABITHA)@315080 - LUNATONE Lv36, PUPITAR Lv38, SOLROCK Lv40
+#515 (COLLECTOR EDWIN)@3150A8 - TENTACOOL Lv26, OMANYTE Lv26
+#516 (COLLECTOR EDWIN)@3150D0 - SKIPLOOM Lv29, DODUO Lv29
+#517 (COLLECTOR EDWIN)@3150F8 - PSYDUCK Lv32, CORPHISH Lv32
+#518 (COLLECTOR EDWIN)@315120 - VIGOROTH Lv35, ZANGOOSE Lv35
+#519 ([PK][MN] TRAINER WALLY)@315148 - CROBAT Lv44, FARFETCH’D Lv43, GLIGAR Lv44, ALTARIA Lv41, XATU Lv45
+#520 ([PK][MN] TRAINER BRENDAN)@315170 - DRATINI Lv5
+#521 ([PK][MN] TRAINER BRENDAN)@315198 - SURSKIT Lv18, HORSEA Lv18, DRAGONAIR Lv20
+#522 ([PK][MN] TRAINER BRENDAN)@3151C0 - SURSKIT Lv29, LANTURN Lv29, DRAGONAIR Lv31
+#523 ([PK][MN] TRAINER BRENDAN)@3151E8 - TORCHIC Lv5
+#524 ([PK][MN] TRAINER BRENDAN)@315210 - ZUBAT Lv18, NIDORINA Lv18, COMBUSKEN Lv20
+#525 ([PK][MN] TRAINER BRENDAN)@315238 - TANGELA Lv29, CHIKORITA Lv29, COMBUSKEN Lv31
+#526 ([PK][MN] TRAINER BRENDAN)@315260 - SEEDOT Lv5
+#527 ([PK][MN] TRAINER BRENDAN)@315288 - FLAAFFY Lv18, MAREEP Lv18, NUZLEAF Lv20
+#528 ([PK][MN] TRAINER BRENDAN)@3152B0 - NIDORINO Lv29, SPINARAK Lv29, NUZLEAF Lv31
+#529 ([PK][MN] TRAINER MAY)@3152D8 - DRATINI Lv5
+#530 ([PK][MN] TRAINER MAY)@315300 - SURSKIT Lv18, NINCADA Lv18, DRAGONAIR Lv20
+#531 ([PK][MN] TRAINER MAY)@315328 - MAKUHITA Lv29, MANKEY Lv29, DRAGONAIR Lv31
+#532 ([PK][MN] TRAINER MAY)@315350 - TORCHIC Lv5
+#533 ([PK][MN] TRAINER MAY)@315378 - SPINARAK Lv18, YANMA Lv18, COMBUSKEN Lv20
+#534 ([PK][MN] TRAINER MAY)@3153A0 - BRELOOM Lv29, NUZLEAF Lv29, COMBUSKEN Lv31
+#535 ([PK][MN] TRAINER MAY)@3153C8 - SEEDOT Lv5
+#536 ([PK][MN] TRAINER MAY)@3153F0 - SABLEYE Lv18, POOCHYENA Lv18, NUZLEAF Lv20
+#537 ([PK][MN] TRAINER MAY)@315418 - EEVEE Lv29, WHISMUR Lv29, NUZLEAF Lv31
+#538 ([PK][MN] BREEDER ISAAC)@315440 - MARILL Lv11, WINGULL Lv11, CHINCHOU Lv11, LOTAD Lv11, SPHEAL Lv11, MARILL Lv11
+#539 (BUG CATCHER DAVIS)@315468 - JYNX Lv27
+#540 (COOLTRAINER MITCHELL)@315490 - VICTREEBEL Lv43, SHIFTRY Lv43
+#541 ([PK][MN] BREEDER ISAAC)@3154B8 - SEEL Lv22, POLIWHIRL Lv22, KABUTO Lv22, WARTORTLE Lv22, MARSHTOMP Lv22, LOTAD Lv22
+#542 ([PK][MN] BREEDER ISAAC)@3154E0 - CACNEA Lv25, BAYLEEF Lv25, LILEEP Lv25, ROSELIA Lv25, PARASECT Lv25, TROPIUS Lv25
+#543 ([PK][MN] BREEDER ISAAC)@315508 - NUZLEAF Lv28, MIGHTYENA Lv28, NUZLEAF Lv28, SHARPEDO Lv28, ABSOL Lv28, SHARPEDO Lv28
+#544 ([PK][MN] BREEDER ISAAC)@315530 - MAWILE Lv31, LAIRON Lv31, FORRETRESS Lv31, MAWILE Lv31, METANG Lv31, LAIRON Lv31
+#545 ([PK][MN] BREEDER LYDIA)@315558 - KIRLIA Lv11, NATU Lv11, MEDITITE Lv11, SOLROCK Lv11, MEDITITE Lv11, SPOINK Lv11
+#546 (COOLTRAINER HALLE)@315580 - CORSOLA Lv43, GOREBYSS Lv43
+#547 (RUIN MANIAC GARRISON)@3155A8 - DUNSPARCE Lv26
+#548 ([PK][MN] BREEDER LYDIA)@3155D0 - HOPPIP Lv22, DODUO Lv22, HOPPIP Lv22, LEDIAN Lv22, ZUBAT Lv22, SKIPLOOM Lv22
+#549 ([PK][MN] BREEDER LYDIA)@3155F8 - BRELOOM Lv25, LUDICOLO Lv25, LOTAD Lv25, PARASECT Lv25, ROSELIA Lv25, TREECKO Lv25
+#550 ([PK][MN] BREEDER LYDIA)@315620 - SHARPEDO Lv28, LUDICOLO Lv28, MARILL Lv28, MARSHTOMP Lv28, POLIWHIRL Lv28, BARBOACH Lv28
+#551 ([PK][MN] BREEDER LYDIA)@315648 - SEAKING Lv31, PELIPPER Lv31, CORSOLA Lv31, CROCONAW Lv31, POLIWHIRL Lv31, SHARPEDO Lv31
+#552 ([PK][MN] RANGER JACKSON)@315670 - LUDICOLO Lv27
+#553 ([PK][MN] RANGER LORENZO)@315698 - RALTS Lv28, SPOINK Lv28, SPOINK Lv28
+#554 ([PK][MN] RANGER SEBASTIAN)@3156C0 - NIDOKING Lv39
+#555 ([PK][MN] RANGER JACKSON)@3156E8 - PELIPPER Lv31
+#556 ([PK][MN] RANGER JACKSON)@315710 - CRAWDAUNT Lv34
+#557 ([PK][MN] RANGER JACKSON)@315738 - AMPHAROS Lv37
+#558 ([PK][MN] RANGER JACKSON)@315760 - WOBBUFFET Lv39, LUNATONE Lv39
+#559 ([PK][MN] RANGER CATHERINE)@315788 - SNEASEL Lv26, SEALEO Lv26
+#560 ([PK][MN] RANGER JENNA)@3157B0 - LOTAD Lv28, GOLDEEN Lv28, LUVDISC Lv28
+#561 ([PK][MN] RANGER SOPHIA)@3157D8 - MANKEY Lv38, MACHOKE Lv38
+#562 ([PK][MN] RANGER CATHERINE)@315800 - DUGTRIO Lv30, DUGTRIO Lv30
+#563 ([PK][MN] RANGER CATHERINE)@315828 - MAROWAK Lv33, MAROWAK Lv33
+#564 ([PK][MN] RANGER CATHERINE)@315850 - LAIRON Lv36, LAIRON Lv36
+#565 ([PK][MN] RANGER CATHERINE)@315878 - DEWGONG Lv39, CORSOLA Lv39
+#566 (TRIATHLETE JULIO)@3158A0 - NUZLEAF Lv21
+#567 (TEAM AQUA GRUNT)@3158C8 - TROPIUS Lv35, CRADILY Lv35
+#568 (TEAM MAGMA GRUNT)@3158F0 - YANMA Lv31, SURSKIT Lv31
+#569 (TEAM AQUA GRUNT)@315918 - MARSHTOMP Lv30, MARILL Lv30
+#570 (TEAM MAGMA GRUNT)@315940 - FEEBAS Lv22, LUVDISC Lv22
+#571 (HIKER MARC)@315968 - SPHEAL Lv8, KRABBY Lv8
+#572 (SAILOR BRENDEN)@315990 - BELLSPROUT Lv13
+#573 (BATTLE GIRL LILITH)@3159B8 - SHROOMISH Lv13
+#574 (BLACK BELT CRISTIAN)@3159E0 - SEEDOT Lv13
+#575 (HEX MANIAC SYLVIA)@315A08 - HOOTHOOT Lv36
+#576 (SWIMMER♂ LEONARDO)@315A30 - SLOWPOKE Lv34
+#577 (COOLTRAINER ATHENA)@315A58 - VENOMOTH Lv32, ROSELIA Lv32
+#578 (SWIMMER♂ HARRISON)@315A80 - ESPEON Lv35
+#579 (TEAM MAGMA GRUNT)@315AA8 - HOPPIP Lv20
+#580 (SWIMMER♂ CLARENCE)@315AD0 - METANG Lv34
+#581 (PSYCHIC TERRY)@315AF8 - ELECTRODE Lv37
+#582 (GENTLEMAN NATE)@315B20 - DODUO Lv36
+#583 (HEX MANIAC KATHLEEN)@315B48 - PELIPPER Lv36
+#584 (GENTLEMAN CLIFFORD)@315B70 - ALTARIA Lv36
+#585 (PSYCHIC NICHOLAS)@315B98 - TOGETIC Lv36
+#586 (TEAM MAGMA GRUNT)@315BC0 - WYNAUT Lv31, RALTS Lv31
+#587 (TEAM MAGMA GRUNT)@315BE8 - BULBASAUR Lv32
+#588 (TEAM MAGMA GRUNT)@315C10 - SURSKIT Lv32
+#589 (TEAM MAGMA GRUNT)@315C38 - MAGCARGO Lv32
+#590 (TEAM MAGMA GRUNT)@315C60 - SANDSHREW Lv32
+#591 (PSYCHIC MACEY)@315C88 - FARFETCH’D Lv36
+#592 ([PK][MN] TRAINER BRENDAN)@315CB0 - MAGIKARP Lv13, TORCHIC Lv15
+#593 ([PK][MN] TRAINER BRENDAN)@315CD8 - SHROOMISH Lv13, DRATINI Lv15
+#594 (EXPERT PAXTON)@315D00 - MINUN Lv33, RAICHU Lv33
+#595 (TRIATHLETE ISABELLA)@315D28 - TOTODILE Lv34
+#596 (TEAM AQUA GRUNT)@315D50 - SURSKIT Lv27, WOOPER Lv27
+#597 (MAGMA ADMIN TABITHA)@315D78 - ARON Lv18, GEODUDE Lv20, GEODUDE Lv22, LARVITAR Lv22
+#598 (COOLTRAINER JONATHAN)@315DA0 - LAIRON Lv33, LILEEP Lv33
+#599 ([PK][MN] TRAINER BRENDAN)@315DC8 - PIDGEY Lv13, SEEDOT Lv15
+#600 ([PK][MN] TRAINER MAY)@315DF0 - SHROOMISH Lv13, DRATINI Lv15
+#601 (MAGMA LEADER MAXIE)@315E18 - CHARMELEON Lv37, HOUNDOOM Lv38, CAMERUPT Lv39
+#602 (MAGMA LEADER MAXIE)@315E40 - CHARMELEON Lv24, SLUGMA Lv24, HOUNDOOM Lv25
+#603 (LASS TIANA)@315E68 - HOPPIP Lv4, BULBASAUR Lv4
+#604 (LASS HALEY)@315E90 - IGGLYBUFF Lv6, SWABLU Lv6
+#605 (LASS JANICE)@315EB8 - SWINUB Lv9
+#606 (WINSTRATE VIVI)@315EE0 - POOCHYENA Lv15, CARVANHA Lv15, NUZLEAF Lv15
+#607 (LASS HALEY)@315F08 - KOFFING Lv26, EKANS Lv26
+#608 (LASS HALEY)@315F30 - GROWLITHE Lv29, MAGMAR Lv29
+#609 (LASS HALEY)@315F58 - ARON Lv32, LAIRON Lv32
+#610 (LASS HALEY)@315F80 - AZUMARILL Lv34, LOMBRE Lv34, KINGLER Lv34
+#611 (LASS SALLY)@315FA8 - KRABBY Lv16
+#612 (LASS ROBIN)@315FD0 - PARAS Lv14, TREECKO Lv14, SEEDOT Lv14
+#613 (LASS ANDREA)@315FF8 - VIBRAVA Lv40
+#614 (LASS CRISSY)@316020 - BARBOACH Lv39, ONIX Lv39
+#615 (BUG CATCHER RICK)@316048 - GEODUDE Lv4, LARVITAR Lv4
+#616 (BUG CATCHER LYLE)@316070 - WEEDLE Lv3, KAKUNA Lv3, WEEDLE Lv3, KAKUNA Lv3
+#617 (BUG CATCHER JOSE)@316098 - BELDUM Lv8, BELDUM Lv8
+#618 (BUG CATCHER DOUG)@3160C0 - LEDYBA Lv28, FORRETRESS Lv28
+#619 (BUG CATCHER GREG)@3160E8 - ROSELIA Lv25, DUSTOX Lv25
+#620 (BUG CATCHER KENT)@316110 - MAROWAK Lv25
+#621 (BUG CATCHER JAMES)@316138 - TAILLOW Lv6, WINGULL Lv6
+#622 (BUG CATCHER JAMES)@316160 - VILEPLUME Lv27
+#623 (BUG CATCHER JAMES)@316188 - MAWILE Lv29, FORRETRESS Lv29
+#624 (BUG CATCHER JAMES)@3161B0 - HOPPIP Lv31, LILEEP Lv31, JUMPLUFF Lv31
+#625 (BUG CATCHER JAMES)@3161D8 - SPINARAK Lv33, GOLBAT Lv33, HAUNTER Lv33, GOLBAT Lv33
+#626 (HIKER BRICE)@316200 - GEODUDE Lv17, LARVITAR Lv17
+#627 (HIKER TRENT)@316228 - GEODUDE Lv16, GEODUDE Lv17, ARON Lv16
+#628 (HIKER LENNY)@316250 - WINGULL Lv18, SWABLU Lv18
+#629 (HIKER LUCAS)@316278 - DODUO Lv18, NATU Lv18
+#630 (HIKER ALAN)@3162A0 - MUDKIP Lv22, POLIWHIRL Lv22, POLIWHIRL Lv22
+#631 (HIKER CLARK)@3162C8 - NUMEL Lv8
+#632 (HIKER ERIC)@3162F0 - SEEL Lv20, KRABBY Lv20
+#633 (HIKER LUCAS)@316318 - GLOOM Lv9
+#634 (HIKER MIKE)@316340 - PELIPPER Lv10, PIDGEY Lv10
+#635 (HIKER MIKE)@316368 - BULBASAUR Lv16, SHROOMISH Lv16, BULBASAUR Lv16
+#636 (HIKER TRENT)@316390 - MAGNEMITE Lv24, ARON Lv24, ARON Lv24, LAIRON Lv24
+#637 (HIKER TRENT)@3163B8 - CORPHISH Lv27, MUDKIP Lv27, AZUMARILL Lv27, CROCONAW Lv27
+#638 (HIKER TRENT)@3163E0 - VULPIX Lv30, CHARMELEON Lv30, PONYTA Lv30, QUILAVA Lv30
+#639 (HIKER TRENT)@316408 - SEALEO Lv33, SNEASEL Lv33, SNEASEL Lv33, DEWGONG Lv33
+#640 (YOUNG COUPLE DEZ & LUKE)@316430 - KADABRA Lv31, STARMIE Lv31
+#641 (YOUNG COUPLE LEA & JED)@316458 - TORCHIC Lv45, CYNDAQUIL Lv45
+#642 (YOUNG COUPLE KIRA & DAN)@316480 - METANG Lv25, LAIRON Lv25
+#643 (YOUNG COUPLE KIRA & DAN)@3164A8 - BEEDRILL Lv30, MASQUERAIN Lv30
+#644 (YOUNG COUPLE KIRA & DAN)@3164D0 - ROSELIA Lv33, GLOOM Lv33
+#645 (YOUNG COUPLE KIRA & DAN)@3164F8 - TOGETIC Lv36, RATICATE Lv36
+#646 (YOUNG COUPLE KIRA & DAN)@316520 - GROVYLE Lv39, SUNFLORA Lv39
+#647 (BEAUTY JOHANNA)@316548 - PINECO Lv13
+#648 (COOLTRAINER GERALD)@316570 - MAGCARGO Lv23
+#649 (BATTLE GIRL VIVIAN)@316598 - BELDUM Lv17, BELDUM Lv17
+#650 (BATTLE GIRL DANIELLE)@3165C0 - GEODUDE Lv23
+#651 (NINJA BOY HIDEO)@3165E8 - KABUTO Lv25, LILEEP Lv25
+#652 (NINJA BOY KEIGO)@316610 - FLAAFFY Lv28, MANECTRIC Lv28
+#653 (NINJA BOY RILEY)@316638 - NINCADA Lv28, VIBRAVA Lv28
+#654 (CAMPER FLINT)@316660 - DUNSPARCE Lv29, ZANGOOSE Lv29
+#655 (PICNICKER ASHLEY)@316688 - CLEFAIRY Lv27, EEVEE Lv27, CLEFAIRY Lv27
+#656 ([PK][MN] TRAINER WALLY)@3166B0 - WEEDLE Lv16
+#657 ([PK][MN] TRAINER WALLY)@3166D8 - CLOYSTER Lv47, SNEASEL Lv46, SNEASEL Lv47, GLALIE Lv44, CLOYSTER Lv48
+#658 ([PK][MN] TRAINER WALLY)@316700 - VENUSAUR Lv50, IVYSAUR Lv49, IVYSAUR Lv50, TROPIUS Lv47, CRADILY Lv51
+#659 ([PK][MN] TRAINER WALLY)@316728 - PORYGON2 Lv53, FARFETCH’D Lv52, TOGETIC Lv53, DODRIO Lv50, CLEFABLE Lv54
+#660 ([PK][MN] TRAINER WALLY)@316750 - RHYDON Lv56, ANORITH Lv55, MAGCARGO Lv56, SOLROCK Lv53, KABUTOPS Lv57
+#661 ([PK][MN] TRAINER BRENDAN)@316778 - QUAGSIRE Lv31, SWINUB Lv32, DUGTRIO Lv32, DRAGONAIR Lv34
+#662 ([PK][MN] TRAINER BRENDAN)@3167A0 - SEADRA Lv31, SEALEO Lv32, VAPOREON Lv32, COMBUSKEN Lv34
+#663 ([PK][MN] TRAINER BRENDAN)@3167C8 - LANTURN Lv31, ELECTABUZZ Lv32, MAREEP Lv32, NUZLEAF Lv34
+#664 ([PK][MN] TRAINER MAY)@3167F0 - SWELLOW Lv31, WHISMUR Lv32, DUNSPARCE Lv32, DRAGONAIR Lv34
+#665 ([PK][MN] TRAINER MAY)@316818 - DODRIO Lv31, CHANSEY Lv32, GRANBULL Lv32, COMBUSKEN Lv34
+#666 ([PK][MN] TRAINER MAY)@316840 - NIDOQUEEN Lv31, NIDOKING Lv32, NIDORAN♂ Lv32, NUZLEAF Lv34
+#667 (FISHERMAN JONAH)@316868 - BUTTERFREE Lv30, VENONAT Lv31, HERACROSS Lv32
+#668 (FISHERMAN HENRY)@316890 - VULPIX Lv31, HOUNDOOM Lv34
+#669 (FISHERMAN ROGER)@3168B8 - PICHU Lv15, PICHU Lv25, JOLTEON Lv35
+#670 (COOLTRAINER ALEXA)@3168E0 - PONYTA Lv34, CHARMELEON Lv34
+#671 (COOLTRAINER RUBEN)@316908 - VAPOREON Lv34, SEALEO Lv34
+#672 (BLACK BELT KOJI)@316930 - QWILFISH Lv34
+#673 (FISHERMAN WAYNE)@316958 - BULBASAUR Lv31, ODDISH Lv31, ARBOK Lv36
+#674 (BIRD KEEPER AIDAN)@316980 - WARTORTLE Lv32, DEWGONG Lv32
+#675 (SWIMMER♂ REED)@3169A8 - SURSKIT Lv33, PELIPPER Lv33
+#676 (SWIMMER♀ TISHA)@3169D0 - FARFETCH’D Lv34
+#677 (TWINS TORI & TIA)@3169F8 - TEDDIURSA Lv19, EEVEE Lv19
+#678 (SR. AND JR. KIM & IRIS)@316A20 - TEDDIURSA Lv32, DITTO Lv35
+#679 (SR. AND JR. TYRA & IVY)@316A48 - DUSTOX Lv18, DUSTOX Lv20
+#680 (YOUNG COUPLE MEL & PAUL)@316A70 - PUPITAR Lv27, ONIX Lv27
+#681 (OLD COUPLE JOHN & JAY)@316A98 - PILOSWINE Lv39, GOLEM Lv39
+#682 (OLD COUPLE JOHN & JAY)@316AC0 - MAGCARGO Lv43, RAPIDASH Lv43
+#683 (OLD COUPLE JOHN & JAY)@316AE8 - BEEDRILL Lv46, SCYTHER Lv46
+#684 (OLD COUPLE JOHN & JAY)@316B10 - BUTTERFREE Lv49, NINJASK Lv49
+#685 (OLD COUPLE JOHN & JAY)@316B38 - WAILMER Lv52, SEADRA Lv52
+#686 (SIS AND BRO RELI & IAN)@316B60 - QUAGSIRE Lv35, BARBOACH Lv33
+#687 (SIS AND BRO LILA & ROY)@316B88 - LARVITAR Lv34, BALTOY Lv33
+#688 (SIS AND BRO LILA & ROY)@316BB0 - DROWZEE Lv42, NATU Lv40
+#689 (SIS AND BRO LILA & ROY)@316BD8 - LUNATONE Lv45, SLOWPOKE Lv43
+#690 (SIS AND BRO LILA & ROY)@316C00 - SEVIPER Lv48, MUK Lv46
+#691 (SIS AND BRO LILA & ROY)@316C28 - QUAGSIRE Lv51, OMASTAR Lv49
+#692 (SIS AND BRO LISA & RAY)@316C50 - MEDITITE Lv27, MACHOP Lv25
+#693 (FISHERMAN CHRIS)@316C78 - CLEFFA Lv29, FARFETCH’D Lv20, SENTRET Lv26, DODUO Lv23
+#694 (RICH BOY DAWSON)@316CA0 - LOTAD Lv8, MAGIKARP Lv8
+#695 (LADY SARAH)@316CC8 - LARVITAR Lv8, LARVITAR Lv8
+#696 (FISHERMAN DARIAN)@316CF0 - SUNKERN Lv9
+#697 (TUBER HAILEY)@316D18 - PIDGEY Lv13
+#698 (TUBER CHANDLER)@316D40 - VENONAT Lv12, VENONAT Lv12
+#699 (POKéFAN KALEB)@316D68 - LAIRON Lv14, LAIRON Lv14
+#700 (GUITARIST JOSEPH)@316D90 - SLOWPOKE Lv14, REMORAID Lv14
+#701 (TRIATHLETE ALYSSA)@316DB8 - MANKEY Lv15
+#702 (GUITARIST MARCOS)@316DE0 - GROWLITHE Lv15
+#703 (BLACK BELT RHETT)@316E08 - MAKUHITA Lv15
+#704 (CAMPER TYRON)@316E30 - MEDITITE Lv19
+#705 (AROMA LADY CELINA)@316E58 - GLOOM Lv18
+#706 (PICNICKER BIANCA)@316E80 - DODUO Lv18
+#707 (KINDLER HAYDEN)@316EA8 - VULPIX Lv18
+#708 (PICNICKER SOPHIE)@316ED0 - WYNAUT Lv17, NATU Lv19
+#709 (BIRD KEEPER COBY)@316EF8 - PILOSWINE Lv17, GLIGAR Lv19
+#710 (CAMPER LAWRENCE)@316F20 - MEDITITE Lv18, MACHOP Lv18
+#711 (POKéMANIAC WYATT)@316F48 - PIDGEOTTO Lv18, FARFETCH’D Lv18
+#712 (PICNICKER ANGELINA)@316F70 - DODUO Lv18, PIDGEY Lv18
+#713 (FISHERMAN KAI)@316F98 - SMOOCHUM Lv19
+#714 (PICNICKER CHARLOTTE)@316FC0 - CLEFAIRY Lv19
+#715 (YOUNGSTER DEANDRE)@316FE8 - CLEFFA Lv14, FARFETCH’D Lv14, SLAKOTH Lv14
+#716 (TEAM MAGMA GRUNT)@317010 - MARILL Lv29
+#717 (TEAM MAGMA GRUNT)@317038 - WHISMUR Lv29
+#718 (TEAM MAGMA GRUNT)@317060 - LARVITAR Lv29
+#719 (TEAM MAGMA GRUNT)@317088 - NIDORAN♂ Lv28, ZUBAT Lv28
+#720 (TEAM MAGMA GRUNT)@3170B0 - PINECO Lv28, PARAS Lv28
+#721 (TEAM MAGMA GRUNT)@3170D8 - JYNX Lv29
+#722 (TEAM MAGMA GRUNT)@317100 - SLUGMA Lv29
+#723 (TEAM MAGMA GRUNT)@317128 - ZUBAT Lv29
+#724 (TEAM MAGMA GRUNT)@317150 - GEODUDE Lv29
+#725 (TEAM MAGMA GRUNT)@317178 - MURKROW Lv29
+#726 (TEAM MAGMA GRUNT)@3171A0 - BELDUM Lv29
+#727 (TEAM MAGMA GRUNT)@3171C8 - PINECO Lv29
+#728 (TEAM MAGMA GRUNT)@3171F0 - SEEDOT Lv29
+#729 (TEAM MAGMA GRUNT)@317218 - PUPITAR Lv29
+#730 (TEAM MAGMA GRUNT)@317240 - GULPIN Lv29
+#731 (TEAM MAGMA GRUNT)@317268 - SNUBBULL Lv29
+#732 (MAGMA ADMIN TABITHA)@317290 - GEODUDE Lv26, MAGCARGO Lv28, GEODUDE Lv30, SOLROCK Lv33
+#733 (COOLTRAINER DARCY)@3172B8 - IVYSAUR Lv33, CRADILY Lv33
+#734 (MAGMA LEADER MAXIE)@3172E0 - PONYTA Lv42, TYPHLOSION Lv43, MAGMAR Lv44
+#735 (SWIMMER♂ PETE)@317308 - PIDGEOTTO Lv15
+#736 (SWIMMER♀ ISABELLE)@317330 - PARAS Lv15
+#737 (RUIN MANIAC ANDRES)@317358 - GASTLY Lv25, GRIMER Lv25
+#738 (BIRD KEEPER JOSUE)@317380 - SPHEAL Lv25, SWINUB Lv25
+#739 (TRIATHLETE CAMRON)@3173A8 - PIDGEOTTO Lv26
+#740 (SAILOR CORY)@3173D0 - WINGULL Lv24, SPHEAL Lv24, OMANYTE Lv24
+#741 (COOLTRAINER CAROLINA)@3173F8 - HITMONCHAN Lv24, MEDICHAM Lv24, HITMONTOP Lv24
+#742 (BIRD KEEPER ELIJAH)@317420 - HUNTAIL Lv25, WAILORD Lv25
+#743 (PICNICKER CELIA)@317448 - SURSKIT Lv22, CORPHISH Lv22
+#744 (RUIN MANIAC BRYAN)@317470 - SPOINK Lv22, MEDICHAM Lv22
+#745 (CAMPER BRANDEN)@317498 - SHEDINJA Lv22, BEAUTIFLY Lv22
+#746 (KINDLER BRYANT)@3174C0 - BULBASAUR Lv18, HOPPIP Lv18
+#747 (AROMA LADY SHAYLA)@3174E8 - WINGULL Lv18, CORSOLA Lv18
+#748 (TRIATHLETE KYRA)@317510 - SWABLU Lv26, CASTFORM Lv26
+#749 (NINJA BOY JAIDEN)@317538 - VENOMOTH Lv26, VENONAT Lv26
+#750 (PSYCHIC ALIX)@317560 - SUDOWOODO Lv26, LARVITAR Lv26
+#751 (BATTLE GIRL HELENE)@317588 - TAILLOW Lv26, PIDGEY Lv26
+#752 (PSYCHIC MARLENE)@3175B0 - DITTO Lv18, SWABLU Lv18
+#753 (HIKER DEVAN)@3175D8 - SLOWPOKE Lv8, SQUIRTLE Lv8
+#754 (YOUNGSTER JOHNSON)@317600 - SMOOCHUM Lv8, RALTS Lv8
+#755 (TRIATHLETE MELINA)@317628 - BAGON Lv17
+#756 (PSYCHIC BRANDI)@317650 - POOCHYENA Lv17
+#757 (BATTLE GIRL AISHA)@317678 - PARAS Lv17
+#758 (EXPERT MAKAYLA)@3176A0 - MINUN Lv33, MINUN Lv33
+#759 (GUITARIST FABIAN)@3176C8 - GOLEM Lv26
+#760 (KINDLER DAYTON)@3176F0 - LARVITAR Lv25, LARVITAR Lv25
+#761 (PARASOL LADY RACHEL)@317718 - GEODUDE Lv26
+#762 (COOLTRAINER LEONEL)@317740 - BELLOSSOM Lv30
+#763 (BATTLE GIRL CALLIE)@317768 - NUMEL Lv28, SWINUB Lv28
+#764 (BUG MANIAC CALE)@317790 - FARFETCH’D Lv29, FARFETCH’D Lv29
+#765 ([PK][MN] BREEDER MYLES)@3177B8 - SWINUB Lv25, DIGLETT Lv25, DONPHAN Lv25, NINCADA Lv25, LARVITAR Lv25, CUBONE Lv25
+#766 ([PK][MN] BREEDER PAT)@3177E0 - GEODUDE Lv25, GEODUDE Lv25, LARVITAR Lv25, GEODUDE Lv25, ARON Lv25, LARVITAR Lv25
+#767 (COOLTRAINER CRISTIN)@317808 - NUZLEAF Lv29, ABSOL Lv29
+#768 ([PK][MN] TRAINER MAY)@317830 - ZUBAT Lv13, TORCHIC Lv15
+#769 ([PK][MN] TRAINER MAY)@317858 - TANGELA Lv13, SEEDOT Lv15
+#770 (LEADER ROXANNE)@317880 - LUDICOLO Lv32, STARYU Lv35, POLIWHIRL Lv35, CLAMPERL Lv37
+#771 (LEADER ROXANNE)@3178A8 - LUVDISC Lv37, SLOWBRO Lv37, VAPOREON Lv40, KABUTO Lv40, CORSOLA Lv42
+#772 (LEADER ROXANNE)@3178D0 - TENTACRUEL Lv42, CLOYSTER Lv42, SLOWBRO Lv45, OMANYTE Lv45, POLIWHIRL Lv47
+#773 (LEADER ROXANNE)@3178F8 - BLASTOISE Lv47, GOREBYSS Lv47, MANTINE Lv47, FERALIGATR Lv50, KABUTOPS Lv50, CROCONAW Lv52
+#774 (LEADER BRAWLY)@317920 - EXEGGUTOR Lv33, PARAS Lv33, CACTURNE Lv35, TROPIUS Lv37
+#775 (LEADER BRAWLY)@317948 - EXEGGUTOR Lv38, BAYLEEF Lv38, VILEPLUME Lv40, VILEPLUME Lv42
+#776 (LEADER BRAWLY)@317970 - TROPIUS Lv40, MEGANIUM Lv43, ROSELIA Lv43, BRELOOM Lv45, LUDICOLO Lv47
+#777 (LEADER BRAWLY)@317998 - BRELOOM Lv46, CRADILY Lv46, TROPIUS Lv48, JUMPLUFF Lv48, TANGELA Lv50, VICTREEBEL Lv52
+#778 (LEADER WATTSON)@3179C0 - BELDUM Lv36, FORRETRESS Lv36, METANG Lv38, SKARMORY Lv40
+#779 (LEADER WATTSON)@3179E8 - BELDUM Lv39, MAWILE Lv41, SCIZOR Lv41, SKARMORY Lv43, SKARMORY Lv45
+#780 (LEADER WATTSON)@317A10 - STEELIX Lv44, MAGNETON Lv46, FORRETRESS Lv46, METANG Lv48, LAIRON Lv50
+#781 (LEADER WATTSON)@317A38 - AGGRON Lv50, STEELIX Lv51, AGGRON Lv51, MAGNETON Lv53, LAIRON Lv53, SKARMORY Lv55
+#782 (LEADER FLANNERY)@317A60 - MAGCARGO Lv38, PUPITAR Lv36, CRADILY Lv38, RELICANTH Lv40
+#783 (LEADER FLANNERY)@317A88 - CORSOLA Lv41, SUDOWOODO Lv43, NOSEPASS Lv41, RELICANTH Lv43, CRADILY Lv45
+#784 (LEADER FLANNERY)@317AB0 - ARON Lv46, NOSEPASS Lv46, LAIRON Lv48, AERODACTYL Lv46, LAIRON Lv48, LUNATONE Lv50
+#785 (LEADER FLANNERY)@317AD8 - AGGRON Lv51, PUPITAR Lv53, AERODACTYL Lv51, KABUTOPS Lv51, LAIRON Lv53, CRADILY Lv55
+#786 (LEADER NORMAN)@317B00 - VICTREEBEL Lv42, TENTACRUEL Lv42, BEEDRILL Lv43, TENTACRUEL Lv45
+#787 (LEADER NORMAN)@317B28 - TENTACRUEL Lv47, QWILFISH Lv47, VICTREEBEL Lv45, KOFFING Lv48, TENTACRUEL Lv50
+#788 (LEADER NORMAN)@317B50 - TENTACRUEL Lv52, GENGAR Lv52, MUK Lv50, TENTACOOL Lv53, TENTACRUEL Lv55
+#789 (LEADER NORMAN)@317B78 - CROBAT Lv57, WEEZING Lv57, SEVIPER Lv55, SWALOT Lv57, BEEDRILL Lv58, VENUSAUR Lv60
+#790 (LEADER WINONA)@317BA0 - DITTO Lv40, GRANBULL Lv38, NOCTOWL Lv41, SWELLOW Lv43, GRANBULL Lv45
+#791 (LEADER WINONA)@317BC8 - RATTATA Lv43, DODRIO Lv43, DODRIO Lv45, RATICATE Lv46, CHANSEY Lv48, EXPLOUD Lv50
+#792 (LEADER WINONA)@317BF0 - CASTFORM Lv48, PERSIAN Lv49, DODRIO Lv50, STANTLER Lv51, WIGGLYTUFF Lv53, MILTANK Lv55
+#793 (LEADER WINONA)@317C18 - PERSIAN Lv53, DODRIO Lv54, RATICATE Lv55, PORYGON2 Lv55, MILTANK Lv58, MILTANK Lv60
+#794 (LEADER TATE&LIZA)@317C40 - SKIPLOOM Lv48, NINJASK Lv49, SWELLOW Lv49, TOGETIC Lv50, FEAROW Lv50
+#795 (LEADER TATE&LIZA)@317C68 - SKIPLOOM Lv53, DODUO Lv53, XATU Lv54, SWELLOW Lv54, JUMPLUFF Lv55, MANTINE Lv55
+#796 (LEADER TATE&LIZA)@317C90 - SCYTHER Lv58, AERODACTYL Lv59, DODUO Lv58, SCYTHER Lv59, GOLBAT Lv60, NOCTOWL Lv60
+#797 (LEADER TATE&LIZA)@317CB8 - SKARMORY Lv63, NINJASK Lv64, PIDGEOT Lv63, XATU Lv64, NINJASK Lv65, XATU Lv65
+#798 (LEADER JUAN)@317CE0 - BALTOY Lv46, QUAGSIRE Lv46, RHYDON Lv48, MAROWAK Lv48, CLAYDOL Lv51
+#799 (LEADER JUAN)@317D08 - DUGTRIO Lv50, GOLEM Lv51, DONPHAN Lv53, NIDOQUEEN Lv53, FLYGON Lv56
+#800 (LEADER JUAN)@317D30 - SWAMPERT Lv56, DONPHAN Lv58, DUGTRIO Lv56, NIDOKING Lv58, NIDOKING Lv58, CLAYDOL Lv61
+#801 (LEADER JUAN)@317D58 - FLYGON Lv61, NIDOKING Lv63, FLYGON Lv61, CLAYDOL Lv63, PILOSWINE Lv63, STEELIX Lv66
+#802 (BUG MANIAC ANGELO)@317D80 - METANG Lv17, METANG Lv17
+#803 (BIRD KEEPER DARIUS)@317DA8 - KECLEON Lv30
+#804 ([PK][MN] TRAINER STEVEN)@317DD0 - LAIRON Lv77, SKARMORY Lv75, SCIZOR Lv76, STEELIX Lv76, FORRETRESS Lv76, METAGROSS Lv78
+#805 (SALON MAIDEN ANABEL)@317DF8 - PARAS Lv5
+#806 (DOME ACE TUCKER)@317E20 - LARVITAR Lv5
+#807 (PALACE MAVEN SPENSER)@317E48 - DUSKULL Lv5
+#808 (ARENA TYCOON GRETA)@317E70 - SMOOCHUM Lv5
+#809 (FACTORY HEAD NOLAND)@317E98 - BULBASAUR Lv5
+#810 (PIKE QUEEN LUCY)@317EC0 - VENONAT Lv5
+#811 (PYRAMID KING BRANDON)@317EE8 - SQUIRTLE Lv5
+#812 (RUIN MANIAC ANDRES)@317F10 - SHEDINJA Lv31, PARAS Lv31
+#813 (RUIN MANIAC ANDRES)@317F38 - FLAAFFY Lv33, MAREEP Lv33, PIKACHU Lv33
+#814 (RUIN MANIAC ANDRES)@317F60 - MEDICHAM Lv35, KIRLIA Lv35, NATU Lv35
+#815 (RUIN MANIAC ANDRES)@317F88 - WEEPINBELL Lv37, CACTURNE Lv37, CRADILY Lv37
+#816 (SAILOR CORY)@317FB0 - HORSEA Lv30, TOTODILE Lv30, KRABBY Lv30
+#817 (SAILOR CORY)@317FD8 - LINOONE Lv32, DODUO Lv32, TEDDIURSA Lv32
+#818 (SAILOR CORY)@318000 - SEALEO Lv34, PSYDUCK Lv34, HUNTAIL Lv34
+#819 (SAILOR CORY)@318028 - CROCONAW Lv36, WAILMER Lv36, KINGDRA Lv36
+#820 (TRIATHLETE PABLO)@318050 - NIDORINO Lv37, KOFFING Lv37
+#821 (TRIATHLETE PABLO)@318078 - BELDUM Lv39, MAGNEMITE Lv39, ARON Lv39
+#822 (TRIATHLETE PABLO)@3180A0 - MAGNETON Lv41, FLAAFFY Lv41, MAGNEMITE Lv41
+#823 (TRIATHLETE PABLO)@3180C8 - ARBOK Lv43, VICTREEBEL Lv43, NIDOQUEEN Lv43
+#824 (BLACK BELT KOJI)@3180F0 - FLAAFFY Lv37, MINUN Lv37
+#825 (BLACK BELT KOJI)@318118 - BELDUM Lv39, LAIRON Lv39, METANG Lv39
+#826 (BLACK BELT KOJI)@318140 - VENOMOTH Lv41, BEEDRILL Lv41, BEAUTIFLY Lv41
+#827 (BLACK BELT KOJI)@318168 - PERSIAN Lv43, DODRIO Lv43, PIDGEOT Lv43
+#828 (COOLTRAINER CRISTIN)@318190 - BEAUTIFLY Lv35, PIDGEOT Lv35
+#829 (COOLTRAINER CRISTIN)@3181B8 - SPOINK Lv37, DROWZEE Lv37, HYPNO Lv37
+#830 (COOLTRAINER CRISTIN)@3181E0 - TENTACOOL Lv39, SEEL Lv39, WHISCASH Lv39
+#831 (COOLTRAINER CRISTIN)@318208 - YANMA Lv41, VENOMOTH Lv41, SHUCKLE Lv41
+#832 (GUITARIST FERNANDO)@318230 - CUBONE Lv35, BARBOACH Lv35, GRAVELER Lv35
+#833 (GUITARIST FERNANDO)@318258 - BELLSPROUT Lv37, EXEGGUTOR Lv37, SKIPLOOM Lv37
+#834 (GUITARIST FERNANDO)@318280 - HITMONCHAN Lv39, MACHAMP Lv39, MACHOKE Lv39
+#835 (GUITARIST FERNANDO)@3182A8 - PILOSWINE Lv41, SNEASEL Lv41, GLALIE Lv41
+#836 (HIKER SAWYER)@3182D0 - SHEDINJA Lv26, DUSKULL Lv26
+#837 (HIKER SAWYER)@3182F8 - LARVITAR Lv28, ARON Lv28, ONIX Lv28
+#838 (HIKER SAWYER)@318320 - MANKEY Lv30, MACHOP Lv30, MACHOKE Lv30
+#839 (HIKER SAWYER)@318348 - CASTFORM Lv33, LINOONE Lv33, TAUROS Lv33
+#840 ([PK][MN] BREEDER GABRIELLE)@318370 - SWINUB Lv31, JYNX Lv31, SWINUB Lv31, SWINUB Lv31, SWINUB Lv31, SWINUB Lv31
+#841 ([PK][MN] BREEDER GABRIELLE)@318398 - PIDGEY Lv33, SWELLOW Lv33, DODRIO Lv33, LOUDRED Lv33, LOUDRED Lv33, PIDGEY Lv33
+#842 ([PK][MN] BREEDER GABRIELLE)@3183C0 - GROWLITHE Lv35, CHARMELEON Lv35, MAGCARGO Lv35, HOUNDOUR Lv35, HOUNDOUR Lv35, CAMERUPT Lv35
+#843 ([PK][MN] BREEDER GABRIELLE)@3183E8 - RHYHORN Lv37, ONIX Lv37, MAROWAK Lv37, CLAYDOL Lv37, GOLEM Lv37, GRAVELER Lv37
+#844 (BEAUTY THALIA)@318410 - SNEASEL Lv34, CARVANHA Lv34
+#845 (BEAUTY THALIA)@318438 - SKIPLOOM Lv36, TOGETIC Lv36, DODRIO Lv36
+#846 (BEAUTY THALIA)@318460 - NATU Lv38, GLIGAR Lv38, GOLBAT Lv38
+#847 (BEAUTY THALIA)@318488 - PIKACHU Lv40, MANECTRIC Lv40, JOLTEON Lv40
+#848 (PSYCHIC MARIELA)@3184B0 - BEEDRILL Lv41
+#849 (PSYCHIC ALVARO)@3184D8 - LUNATONE Lv41, MEDICHAM Lv41
+#850 (GENTLEMAN EVERETT)@318500 - WARTORTLE Lv41
+#851 ([PK][MN] TRAINER RED)@318528 - TENTACOOL Lv5
+#852 ([PK][MN] TRAINER LEAF)@318550 - MAGNEMITE Lv5
+#853 ([PK][MN] TRAINER BRENDAN)@318578 - GYARADOS Lv5
+#854 ([PK][MN] TRAINER MAY)@3185A0 - METAGROSS Lv5
+
+Static Pokemon: Unchanged.
+
+--Wild Pokemon--
+Set #1 - ROUTE 101 Grass/Cave (rate=20) - IGGLYBUFF Lv2, MAKUHITA Lv2, IGGLYBUFF Lv2, IGGLYBUFF Lv3, MAKUHITA Lv3, MAKUHITA Lv3, IGGLYBUFF Lv3, MAKUHITA Lv3, LOTAD Lv2, LOTAD Lv2, LOTAD Lv3, LOTAD Lv3
+Set #2 - ROUTE 102 Grass/Cave (rate=20) - WHISMUR Lv3, SUNKERN Lv3, WHISMUR Lv4, SUNKERN Lv4, IGGLYBUFF Lv3, IGGLYBUFF Lv4, SLUGMA Lv3, SLUGMA Lv3, SLUGMA Lv4, WOOPER Lv4, SLUGMA Lv4, LOTAD Lv3
+Set #3 - ROUTE 102 Surfing (rate=4) - MAKUHITA Lvs 20-30, MAKUHITA Lvs 10-20, MAKUHITA Lvs 30-35, MAKUHITA Lvs 5-10, CLEFAIRY Lvs 20-30
+Set #4 - ROUTE 102 Fishing (rate=30) - KAKUNA Lvs 5-10, DODUO Lvs 5-10, KAKUNA Lvs 10-30, DODUO Lvs 10-30, ARON Lvs 10-30, ARON Lvs 25-30, ARON Lvs 30-35, ARON Lvs 20-25, ARON Lvs 35-40, ARON Lvs 40-45
+Set #5 - ROUTE 103 Grass/Cave (rate=20) - MAKUHITA Lv2, MAKUHITA Lv3, MAKUHITA Lv3, MAKUHITA Lv4, NIDORAN♀ Lv2, SEEDOT Lv3, SEEDOT Lv3, SEEDOT Lv4, NIDORAN♀ Lv3, NIDORAN♀ Lv3, NIDORAN♀ Lv2, NIDORAN♀ Lv4
+Set #6 - ROUTE 103 Surfing (rate=4) - SLOWPOKE Lvs 5-35, MEDITITE Lvs 10-30, MEDITITE Lvs 15-25, LUNATONE Lvs 25-30, LUNATONE Lvs 25-30
+Set #7 - ROUTE 103 Fishing (rate=30) - LOTAD Lvs 5-10, LOMBRE Lvs 5-10, LOTAD Lvs 10-30, LOMBRE Lvs 10-30, HAUNTER Lvs 10-30, PRIMEAPE Lvs 30-35, HAUNTER Lvs 30-35, HAUNTER Lvs 25-30, HAUNTER Lvs 35-40, HAUNTER Lvs 40-45
+Set #8 - ROUTE 104 Grass/Cave (rate=20) - ZIGZAGOON Lv4, CATERPIE Lv4, ZIGZAGOON Lv5, SWINUB Lv5, SWINUB Lv4, ZIGZAGOON Lv5, DIGLETT Lv4, DIGLETT Lv5, EKANS Lv4, EKANS Lv4, EKANS Lv3, EKANS Lv5
+Set #9 - ROUTE 104 Surfing (rate=4) - BARBOACH Lvs 10-30, BARBOACH Lvs 15-25, BARBOACH Lvs 15-25, MAROWAK Lvs 25-30, MAROWAK Lvs 25-30
+Set #10 - ROUTE 104 Fishing (rate=30) - MAGIKARP Lvs 5-10, MAGIKARP Lvs 5-10, MAGIKARP Lvs 10-30, MAGIKARP Lvs 10-30, MAGIKARP Lvs 10-30, MAGIKARP Lvs 25-30, MAGIKARP Lvs 30-35, MAGIKARP Lvs 20-25, MAGIKARP Lvs 35-40, MAGIKARP Lvs 40-45
+Set #11 - ROUTE 105 Surfing (rate=4) - SEEL Lvs 5-35, SWINUB Lvs 10-30, SWINUB Lvs 15-25, QUILAVA Lvs 25-30, QUILAVA Lvs 25-30
+Set #12 - ROUTE 105 Fishing (rate=30) - RALTS Lvs 5-10, MAGBY Lvs 5-10, RALTS Lvs 10-30, MAGBY Lvs 10-30, DELCATTY Lvs 10-30, DELCATTY Lvs 25-30, DELCATTY Lvs 30-35, DELCATTY Lvs 20-25, DELCATTY Lvs 35-40, DELCATTY Lvs 40-45
+Set #13 - ROUTE 110 Grass/Cave (rate=20) - METAPOD Lv12, MAREEP Lv12, VULPIX Lv12, MAREEP Lv13, SEALEO Lv13, GROWLITHE Lv13, SEALEO Lv13, VULPIX Lv13, MEOWTH Lv12, MEOWTH Lv12, NIDORINO Lv12, NIDORINO Lv13
+Set #14 - ROUTE 110 Surfing (rate=4) - NUZLEAF Lvs 5-35, PINECO Lvs 10-30, PINECO Lvs 15-25, TROPIUS Lvs 25-30, TROPIUS Lvs 25-30
+Set #15 - ROUTE 110 Fishing (rate=30) - WURMPLE Lvs 5-10, LOUDRED Lvs 5-10, WURMPLE Lvs 10-30, LOUDRED Lvs 10-30, IVYSAUR Lvs 10-30, IVYSAUR Lvs 25-30, IVYSAUR Lvs 30-35, IVYSAUR Lvs 20-25, IVYSAUR Lvs 35-40, IVYSAUR Lvs 40-45
+Set #16 - ROUTE 111 Grass/Cave (rate=10) - ODDISH Lv20, SMOOCHUM Lv20, ODDISH Lv21, SMOOCHUM Lv21, WINGULL Lv19, WINGULL Lv21, ODDISH Lv19, SMOOCHUM Lv19, WINGULL Lv20, CORPHISH Lv20, CORPHISH Lv22, CORPHISH Lv22
+Set #17 - ROUTE 111 Surfing (rate=4) - TOGEPI Lvs 20-30, TOGEPI Lvs 10-20, TOGEPI Lvs 30-35, TOGEPI Lvs 5-10, SHUPPET Lvs 20-30
+Set #18 - ROUTE 111 Rock Smash (rate=20) - NATU Lvs 10-15, NATU Lvs 5-10, NATU Lvs 15-20, NATU Lvs 15-20, NATU Lvs 15-20
+Set #19 - ROUTE 111 Fishing (rate=30) - WOOPER Lvs 5-10, DODUO Lvs 5-10, WOOPER Lvs 10-30, DODUO Lvs 10-30, PINECO Lvs 10-30, PINECO Lvs 25-30, PINECO Lvs 30-35, PINECO Lvs 20-25, PINECO Lvs 35-40, PINECO Lvs 40-45
+Set #20 - ROUTE 112 Grass/Cave (rate=20) - SWABLU Lv15, SWABLU Lv15, ZIGZAGOON Lv15, SWABLU Lv14, SWABLU Lv14, ZIGZAGOON Lv14, SWABLU Lv16, ZIGZAGOON Lv16, SWABLU Lv16, SWABLU Lv16, SWABLU Lv16, SWABLU Lv16
+Set #21 - ROUTE 113 Grass/Cave (rate=20) - DELCATTY Lv15, DELCATTY Lv15, DIGLETT Lv15, DELCATTY Lv14, DELCATTY Lv14, DIGLETT Lv14, DELCATTY Lv16, DIGLETT Lv16, DELCATTY Lv16, RHYDON Lv16, DELCATTY Lv16, RHYDON Lv16
+Set #22 - ROUTE 114 Grass/Cave (rate=20) - MAGNEMITE Lv16, CASCOON Lv16, MAGNEMITE Lv17, MAGNEMITE Lv15, CASCOON Lv15, HOUNDOUR Lv16, HOUNDOUR Lv16, HOUNDOUR Lv18, MAGMAR Lv17, MAGMAR Lv15, MAGMAR Lv17, AIPOM Lv15
+Set #23 - ROUTE 114 Surfing (rate=4) - HOPPIP Lvs 20-30, HOPPIP Lvs 10-20, HOPPIP Lvs 30-35, HOPPIP Lvs 5-10, PHANPY Lvs 20-30
+Set #24 - ROUTE 114 Rock Smash (rate=20) - MUDKIP Lvs 10-15, MUDKIP Lvs 5-10, MUDKIP Lvs 15-20, MUDKIP Lvs 15-20, MUDKIP Lvs 15-20
+Set #25 - ROUTE 114 Fishing (rate=30) - SEEDOT Lvs 5-10, GEODUDE Lvs 5-10, SEEDOT Lvs 10-30, GEODUDE Lvs 10-30, MACHOP Lvs 10-30, MACHOP Lvs 25-30, MACHOP Lvs 30-35, MACHOP Lvs 20-25, MACHOP Lvs 35-40, MACHOP Lvs 40-45
+Set #26 - ROUTE 116 Grass/Cave (rate=20) - MAKUHITA Lv6, ZIGZAGOON Lv6, SLUGMA Lv6, PHANPY Lv7, SLUGMA Lv7, KIRLIA Lv6, KIRLIA Lv7, KIRLIA Lv8, MAKUHITA Lv7, MAKUHITA Lv8, ZUBAT Lv7, ZUBAT Lv8
+Set #27 - ROUTE 117 Grass/Cave (rate=20) - SEEDOT Lv13, SQUIRTLE Lv13, SEEDOT Lv14, SQUIRTLE Lv14, NIDORAN♀ Lv13, SQUIRTLE Lv13, MINUN Lv13, MINUN Lv13, MINUN Lv14, MINUN Lv14, DUSTOX Lv13, POOCHYENA Lv13
+Set #28 - ROUTE 117 Surfing (rate=4) - RATTATA Lvs 20-30, RATTATA Lvs 10-20, RATTATA Lvs 30-35, RATTATA Lvs 5-10, CHIKORITA Lvs 20-30
+Set #29 - ROUTE 117 Fishing (rate=30) - PICHU Lvs 5-10, LARVITAR Lvs 5-10, PICHU Lvs 10-30, LARVITAR Lvs 10-30, EKANS Lvs 10-30, EKANS Lvs 25-30, EKANS Lvs 30-35, EKANS Lvs 20-25, EKANS Lvs 35-40, EKANS Lvs 40-45
+Set #30 - ROUTE 118 Grass/Cave (rate=20) - POOCHYENA Lv24, DODUO Lv24, POOCHYENA Lv26, DODUO Lv26, MURKROW Lv26, HITMONCHAN Lv26, SPHEAL Lv25, SPHEAL Lv25, SPHEAL Lv26, SPHEAL Lv26, SPHEAL Lv27, MANECTRIC Lv25
+Set #31 - ROUTE 118 Surfing (rate=4) - LUVDISC Lvs 5-35, PIDGEY Lvs 10-30, PIDGEY Lvs 15-25, PONYTA Lvs 25-30, PONYTA Lvs 25-30
+Set #32 - ROUTE 118 Fishing (rate=30) - RALTS Lvs 5-10, LUVDISC Lvs 5-10, RALTS Lvs 10-30, LUVDISC Lvs 10-30, MEOWTH Lvs 10-30, MAGNETON Lvs 30-35, MEOWTH Lvs 30-35, MEOWTH Lvs 20-25, MEOWTH Lvs 35-40, MEOWTH Lvs 40-45
+Set #33 - ROUTE 124 Surfing (rate=4) - CARVANHA Lvs 5-35, WYNAUT Lvs 10-30, WYNAUT Lvs 15-25, CAMERUPT Lvs 25-30, CAMERUPT Lvs 25-30
+Set #34 - ROUTE 124 Fishing (rate=30) - SUNKERN Lvs 5-10, MACHOP Lvs 5-10, SUNKERN Lvs 10-30, MACHOP Lvs 10-30, DELCATTY Lvs 10-30, NINJASK Lvs 30-35, DELCATTY Lvs 30-35, DELCATTY Lvs 25-30, DELCATTY Lvs 35-40, DELCATTY Lvs 40-45
+Set #35 - PETALBURG WOODS Grass/Cave (rate=20) - SEEDOT Lv5, TYROGUE Lv5, TAILLOW Lv5, SEEDOT Lv6, AZURILL Lv5, LOTAD Lv5, TYROGUE Lv6, TAILLOW Lv6, DITTO Lv5, CARVANHA Lv5, DITTO Lv6, CARVANHA Lv6
+Set #36 - RUSTURF TUNNEL Grass/Cave (rate=10) - SWINUB Lv6, SWINUB Lv7, SWINUB Lv6, SWINUB Lv6, SWINUB Lv7, SWINUB Lv7, SWINUB Lv5, SWINUB Lv8, SWINUB Lv5, SWINUB Lv8, SWINUB Lv5, SWINUB Lv8
+Set #37 - GRANITE CAVE Grass/Cave (rate=10) - HOOTHOOT Lv7, SEEDOT Lv8, SEEDOT Lv7, HOOTHOOT Lv8, SEEDOT Lv9, MACHOP Lv8, SEEDOT Lv10, SEEDOT Lv6, CHARMANDER Lv7, CHARMANDER Lv8, CHARMANDER Lv6, CHARMANDER Lv9
+Set #38 - GRANITE CAVE Grass/Cave (rate=10) - SMEARGLE Lv9, ELEKID Lv10, ELEKID Lv9, ELEKID Lv11, SMEARGLE Lv10, EXEGGCUTE Lv9, PIDGEY Lv10, PIDGEY Lv11, AZUMARILL Lv10, AZUMARILL Lv10, AZUMARILL Lv9, AZUMARILL Lv11
+Set #39 - MT. PYRE Grass/Cave (rate=10) - PSYDUCK Lv27, PSYDUCK Lv28, PSYDUCK Lv26, PSYDUCK Lv25, PSYDUCK Lv29, PSYDUCK Lv24, PSYDUCK Lv23, PSYDUCK Lv22, PSYDUCK Lv29, PSYDUCK Lv24, PSYDUCK Lv29, PSYDUCK Lv24
+Set #40 - VICTORY ROAD Grass/Cave (rate=10) - EXPLOUD Lv40, FEAROW Lv40, KECLEON Lv40, ANORITH Lv40, MAKUHITA Lv36, SEEDOT Lv36, EXPLOUD Lv38, FEAROW Lv38, ODDISH Lv36, SWINUB Lv36, ODDISH Lv36, SWINUB Lv36
+Set #41 - SAFARI ZONE Grass/Cave (rate=25) - HORSEA Lv25, HORSEA Lv27, MEDICHAM Lv25, MEDICHAM Lv27, DROWZEE Lv25, PINECO Lv25, ARIADOS Lv25, SEADRA Lv27, HOUNDOUR Lv25, SEADRA Lv27, HOUNDOUR Lv27, SEADRA Lv29
+Set #42 - UNDERWATER Surfing (rate=4) - NIDORINO Lvs 20-30, BULBASAUR Lvs 20-30, NIDORINO Lvs 30-35, MILTANK Lvs 30-35, MILTANK Lvs 30-35
+Set #43 - ABANDONED SHIP Surfing (rate=4) - SWABLU Lvs 5-35, SWABLU Lvs 5-35, SWABLU Lvs 5-35, SWABLU Lvs 5-35, SWAMPERT Lvs 30-35
+Set #44 - ABANDONED SHIP Fishing (rate=20) - LOTAD Lvs 5-10, ABRA Lvs 5-10, LOTAD Lvs 10-30, ABRA Lvs 10-30, ABRA Lvs 10-30, ABRA Lvs 25-30, ABRA Lvs 30-35, MUK Lvs 30-35, MUK Lvs 25-30, MUK Lvs 20-25
+Set #45 - GRANITE CAVE Grass/Cave (rate=10) - MARILL Lv10, CHIKORITA Lv11, CHIKORITA Lv10, MARILL Lv11, CHIKORITA Lv12, GASTLY Lv10, PONYTA Lv10, PONYTA Lv11, PONYTA Lv12, PONYTA Lv10, PONYTA Lv12, PONYTA Lv10
+Set #46 - GRANITE CAVE Rock Smash (rate=20) - TORCHIC Lvs 10-15, SABLEYE Lvs 10-20, TORCHIC Lvs 5-10, TORCHIC Lvs 15-20, TORCHIC Lvs 15-20
+Set #47 - FIERY PATH Grass/Cave (rate=10) - MANKEY Lv15, SQUIRTLE Lv15, MANKEY Lv16, VENONAT Lv15, STEELIX Lv15, PIDGEY Lv15, SQUIRTLE Lv16, VENONAT Lv16, STEELIX Lv14, STEELIX Lv16, CHIKORITA Lv14, CHIKORITA Lv14
+Set #48 - METEOR FALLS Grass/Cave (rate=10) - POLITOED Lv33, POLITOED Lv35, SHROOMISH Lv30, COMBUSKEN Lv35, SHROOMISH Lv35, COMBUSKEN Lv37, SHROOMISH Lv25, COMBUSKEN Lv39, POLITOED Lv38, POLITOED Lv40, POLITOED Lv38, POLITOED Lv40
+Set #49 - METEOR FALLS Surfing (rate=4) - DUSCLOPS Lvs 30-35, DUSCLOPS Lvs 30-35, OCTILLERY Lvs 25-35, OCTILLERY Lvs 15-25, OCTILLERY Lvs 5-15
+Set #50 - METEOR FALLS Fishing (rate=30) - SILCOON Lvs 5-10, NUMEL Lvs 5-10, SILCOON Lvs 10-30, NUMEL Lvs 10-30, EKANS Lvs 10-30, EKANS Lvs 25-30, EKANS Lvs 30-35, SLOWKING Lvs 30-35, SLOWKING Lvs 35-40, SLOWKING Lvs 40-45
+Set #51 - JAGGED PASS Grass/Cave (rate=20) - SWABLU Lv21, SWABLU Lv21, NUMEL Lv21, SWABLU Lv20, GRIMER Lv20, NUMEL Lv20, GRIMER Lv21, NUMEL Lv22, SWABLU Lv22, GRIMER Lv22, SWABLU Lv22, GRIMER Lv22
+Set #52 - ROUTE 106 Surfing (rate=4) - CARVANHA Lvs 5-35, PINECO Lvs 10-30, PINECO Lvs 15-25, HAUNTER Lvs 25-30, HAUNTER Lvs 25-30
+Set #53 - ROUTE 106 Fishing (rate=30) - CATERPIE Lvs 5-10, MAGNEMITE Lvs 5-10, CATERPIE Lvs 10-30, MAGNEMITE Lvs 10-30, BEEDRILL Lvs 10-30, BEEDRILL Lvs 25-30, BEEDRILL Lvs 30-35, BEEDRILL Lvs 20-25, BEEDRILL Lvs 35-40, BEEDRILL Lvs 40-45
+Set #54 - ROUTE 107 Surfing (rate=4) - DODUO Lvs 5-35, HOOTHOOT Lvs 10-30, HOOTHOOT Lvs 15-25, MASQUERAIN Lvs 25-30, MASQUERAIN Lvs 25-30
+Set #55 - ROUTE 107 Fishing (rate=30) - MAGIKARP Lvs 5-10, STARYU Lvs 5-10, MAGIKARP Lvs 10-30, STARYU Lvs 10-30, ELEKID Lvs 10-30, ELEKID Lvs 25-30, ELEKID Lvs 30-35, ELEKID Lvs 20-25, ELEKID Lvs 35-40, ELEKID Lvs 40-45
+Set #56 - ROUTE 108 Surfing (rate=4) - AIPOM Lvs 5-35, SPINARAK Lvs 10-30, SPINARAK Lvs 15-25, MASQUERAIN Lvs 25-30, MASQUERAIN Lvs 25-30
+Set #57 - ROUTE 108 Fishing (rate=30) - CASCOON Lvs 5-10, GRIMER Lvs 5-10, CASCOON Lvs 10-30, GRIMER Lvs 10-30, SABLEYE Lvs 10-30, SABLEYE Lvs 25-30, SABLEYE Lvs 30-35, SABLEYE Lvs 20-25, SABLEYE Lvs 35-40, SABLEYE Lvs 40-45
+Set #58 - ROUTE 109 Surfing (rate=4) - MAGNEMITE Lvs 5-35, SPEAROW Lvs 10-30, SPEAROW Lvs 15-25, MAGNETON Lvs 25-30, MAGNETON Lvs 25-30
+Set #59 - ROUTE 109 Fishing (rate=30) - RALTS Lvs 5-10, LUVDISC Lvs 5-10, RALTS Lvs 10-30, LUVDISC Lvs 10-30, MISDREAVUS Lvs 10-30, MISDREAVUS Lvs 25-30, MISDREAVUS Lvs 30-35, MISDREAVUS Lvs 20-25, MISDREAVUS Lvs 35-40, MISDREAVUS Lvs 40-45
+Set #60 - ROUTE 115 Grass/Cave (rate=20) - PIKACHU Lv23, KIRLIA Lv23, PIKACHU Lv25, KIRLIA Lv24, KIRLIA Lv25, GLOOM Lv25, PIDGEY Lv24, PIDGEY Lv25, SHROOMISH Lv24, SHROOMISH Lv24, SHROOMISH Lv26, SHROOMISH Lv25
+Set #61 - ROUTE 115 Surfing (rate=4) - CARVANHA Lvs 5-35, DITTO Lvs 10-30, DITTO Lvs 15-25, KADABRA Lvs 25-30, KADABRA Lvs 25-30
+Set #62 - ROUTE 115 Fishing (rate=30) - CATERPIE Lvs 5-10, OMANYTE Lvs 5-10, CATERPIE Lvs 10-30, OMANYTE Lvs 10-30, ONIX Lvs 10-30, ONIX Lvs 25-30, ONIX Lvs 30-35, ONIX Lvs 20-25, ONIX Lvs 35-40, ONIX Lvs 40-45
+Set #63 - NEW MAUVILLE Grass/Cave (rate=10) - LILEEP Lv24, MAGNEMITE Lv24, LILEEP Lv25, MAGNEMITE Lv25, LILEEP Lv23, MAGNEMITE Lv23, LILEEP Lv26, MAGNEMITE Lv26, LILEEP Lv22, MAGNEMITE Lv22, WAILORD Lv26, ZANGOOSE Lv26
+Set #64 - ROUTE 119 Grass/Cave (rate=15) - ZUBAT Lv25, DUSTOX Lv25, ZUBAT Lv27, LOMBRE Lv25, DUSTOX Lv27, LOMBRE Lv26, LOMBRE Lv27, LOMBRE Lv24, FURRET Lv25, FURRET Lv26, FURRET Lv27, METANG Lv25
+Set #65 - ROUTE 119 Surfing (rate=4) - SEEL Lvs 5-35, MAREEP Lvs 10-30, MAREEP Lvs 15-25, JYNX Lvs 25-30, JYNX Lvs 25-30
+Set #66 - ROUTE 119 Fishing (rate=30) - SILCOON Lvs 5-10, NUMEL Lvs 5-10, SILCOON Lvs 10-30, NUMEL Lvs 10-30, CHIKORITA Lvs 10-30, CHIKORITA Lvs 25-30, CHIKORITA Lvs 30-35, CHIKORITA Lvs 20-25, CHIKORITA Lvs 35-40, CHIKORITA Lvs 40-45
+Set #67 - ROUTE 120 Grass/Cave (rate=20) - WHISMUR Lv25, KADABRA Lv25, KADABRA Lv27, LARVITAR Lv25, SMEARGLE Lv25, LARVITAR Lv26, LARVITAR Lv27, SMEARGLE Lv27, NINJASK Lv25, NINJASK Lv27, DUSCLOPS Lv25, LOTAD Lv25
+Set #68 - ROUTE 120 Surfing (rate=4) - WYNAUT Lvs 20-30, WYNAUT Lvs 10-20, WYNAUT Lvs 30-35, WYNAUT Lvs 5-10, MUDKIP Lvs 20-30
+Set #69 - ROUTE 120 Fishing (rate=30) - KAKUNA Lvs 5-10, GEODUDE Lvs 5-10, KAKUNA Lvs 10-30, GEODUDE Lvs 10-30, NIDORAN♂ Lvs 10-30, NIDORAN♂ Lvs 25-30, NIDORAN♂ Lvs 30-35, NIDORAN♂ Lvs 20-25, NIDORAN♂ Lvs 35-40, NIDORAN♂ Lvs 40-45
+Set #70 - ROUTE 121 Grass/Cave (rate=20) - PICHU Lv26, SHROOMISH Lv26, GIRAFARIG Lv26, SHROOMISH Lv28, GIRAFARIG Lv28, SHELLDER Lv26, SHELLDER Lv28, RATICATE Lv28, PIDGEY Lv26, PIDGEY Lv27, PIDGEY Lv28, SWELLOW Lv25
+Set #71 - ROUTE 121 Surfing (rate=4) - TEDDIURSA Lvs 5-35, LEDYBA Lvs 10-30, LEDYBA Lvs 15-25, JYNX Lvs 25-30, JYNX Lvs 25-30
+Set #72 - ROUTE 121 Fishing (rate=30) - LOTAD Lvs 5-10, NUMEL Lvs 5-10, LOTAD Lvs 10-30, NUMEL Lvs 10-30, LEDIAN Lvs 10-30, LEDIAN Lvs 25-30, LEDIAN Lvs 30-35, LEDIAN Lvs 20-25, LEDIAN Lvs 35-40, LEDIAN Lvs 40-45
+Set #73 - ROUTE 122 Surfing (rate=4) - GRIMER Lvs 5-35, NINCADA Lvs 10-30, NINCADA Lvs 15-25, PONYTA Lvs 25-30, PONYTA Lvs 25-30
+Set #74 - ROUTE 122 Fishing (rate=30) - WEEDLE Lvs 5-10, NIDORINO Lvs 5-10, WEEDLE Lvs 10-30, NIDORINO Lvs 10-30, KECLEON Lvs 10-30, TROPIUS Lvs 30-35, KECLEON Lvs 30-35, KECLEON Lvs 25-30, KECLEON Lvs 35-40, KECLEON Lvs 40-45
+Set #75 - ROUTE 123 Grass/Cave (rate=20) - ZIGZAGOON Lv26, SHELLDER Lv26, BEAUTIFLY Lv26, SHELLDER Lv28, BEAUTIFLY Lv28, SEEL Lv26, SEEL Lv28, CROCONAW Lv28, SHEDINJA Lv26, SHEDINJA Lv27, SHEDINJA Lv28, IVYSAUR Lv25
+Set #76 - ROUTE 123 Surfing (rate=4) - CHIKORITA Lvs 5-35, NIDORAN♀ Lvs 10-30, NIDORAN♀ Lvs 15-25, PILOSWINE Lvs 25-30, PILOSWINE Lvs 25-30
+Set #77 - ROUTE 123 Fishing (rate=30) - PICHU Lvs 5-10, LOMBRE Lvs 5-10, PICHU Lvs 10-30, LOMBRE Lvs 10-30, MACHOKE Lvs 10-30, MACHOKE Lvs 25-30, MACHOKE Lvs 30-35, MACHOKE Lvs 20-25, MACHOKE Lvs 35-40, MACHOKE Lvs 40-45
+Set #78 - MT. PYRE Grass/Cave (rate=10) - WINGULL Lv27, WINGULL Lv28, WINGULL Lv26, WINGULL Lv25, WINGULL Lv29, WINGULL Lv24, WINGULL Lv23, WINGULL Lv22, WINGULL Lv29, WINGULL Lv24, WINGULL Lv29, WINGULL Lv24
+Set #79 - MT. PYRE Grass/Cave (rate=10) - BULBASAUR Lv27, BULBASAUR Lv28, BULBASAUR Lv26, BULBASAUR Lv25, BULBASAUR Lv29, BULBASAUR Lv24, BULBASAUR Lv23, BULBASAUR Lv22, BULBASAUR Lv29, BULBASAUR Lv24, BULBASAUR Lv29, BULBASAUR Lv24
+Set #80 - MT. PYRE Grass/Cave (rate=10) - SHEDINJA Lv27, SHEDINJA Lv28, SHEDINJA Lv26, SHEDINJA Lv25, SHEDINJA Lv29, SHEDINJA Lv24, SHEDINJA Lv23, SHEDINJA Lv22, PIKACHU Lv27, PIKACHU Lv27, PIKACHU Lv25, PIKACHU Lv29
+Set #81 - MT. PYRE Grass/Cave (rate=10) - ABRA Lv27, ABRA Lv28, ABRA Lv26, ABRA Lv25, ABRA Lv29, ABRA Lv24, ABRA Lv23, ABRA Lv22, TOTODILE Lv27, TOTODILE Lv27, TOTODILE Lv25, TOTODILE Lv29
+Set #82 - MT. PYRE Grass/Cave (rate=10) - BELLSPROUT Lv27, BELLSPROUT Lv28, BELLSPROUT Lv26, BELLSPROUT Lv25, BELLSPROUT Lv29, BELLSPROUT Lv24, BELLSPROUT Lv23, BELLSPROUT Lv22, SHROOMISH Lv27, SHROOMISH Lv27, SHROOMISH Lv25, SHROOMISH Lv29
+Set #83 - MT. PYRE Grass/Cave (rate=10) - SLOWPOKE Lv27, SLOWPOKE Lv27, SLOWPOKE Lv28, SLOWPOKE Lv29, GOLDEEN Lv29, GOLDEEN Lv27, GOLDEEN Lv29, GOLDEEN Lv25, DITTO Lv27, DITTO Lv27, DITTO Lv26, DITTO Lv28
+Set #84 - MT. PYRE Grass/Cave (rate=10) - GULPIN Lv28, GULPIN Lv29, GULPIN Lv27, GULPIN Lv26, GULPIN Lv30, GULPIN Lv25, GULPIN Lv24, GOLDEEN Lv28, GOLDEEN Lv26, GOLDEEN Lv30, CHIMECHO Lv28, CHIMECHO Lv28
+Set #85 - GRANITE CAVE Grass/Cave (rate=10) - DIGLETT Lv7, MARILL Lv8, MARILL Lv7, DIGLETT Lv8, MARILL Lv9, VOLTORB Lv8, MARILL Lv10, MARILL Lv6, ELEKID Lv7, ELEKID Lv8, ELEKID Lv7, ELEKID Lv8
+Set #86 - ROUTE 125 Surfing (rate=4) - SPINDA Lvs 5-35, NINCADA Lvs 10-30, NINCADA Lvs 15-25, MAROWAK Lvs 25-30, MAROWAK Lvs 25-30
+Set #87 - ROUTE 125 Fishing (rate=30) - WEEDLE Lvs 5-10, SLOWPOKE Lvs 5-10, WEEDLE Lvs 10-30, SLOWPOKE Lvs 10-30, MAROWAK Lvs 10-30, SHIFTRY Lvs 30-35, MAROWAK Lvs 30-35, MAROWAK Lvs 25-30, MAROWAK Lvs 35-40, MAROWAK Lvs 40-45
+Set #88 - ROUTE 126 Surfing (rate=4) - MACHOP Lvs 5-35, NIDORAN♀ Lvs 10-30, NIDORAN♀ Lvs 15-25, MIGHTYENA Lvs 25-30, MIGHTYENA Lvs 25-30
+Set #89 - ROUTE 126 Fishing (rate=30) - METAPOD Lvs 5-10, ELEKID Lvs 5-10, METAPOD Lvs 10-30, ELEKID Lvs 10-30, MAGBY Lvs 10-30, POLIWRATH Lvs 30-35, MAGBY Lvs 30-35, MAGBY Lvs 25-30, MAGBY Lvs 35-40, MAGBY Lvs 40-45
+Set #90 - ROUTE 127 Surfing (rate=4) - NUMEL Lvs 5-35, MAREEP Lvs 10-30, MAREEP Lvs 15-25, WEEPINBELL Lvs 25-30, WEEPINBELL Lvs 25-30
+Set #91 - ROUTE 127 Fishing (rate=30) - AZURILL Lvs 5-10, DROWZEE Lvs 5-10, AZURILL Lvs 10-30, DROWZEE Lvs 10-30, LAIRON Lvs 10-30, KECLEON Lvs 30-35, LAIRON Lvs 30-35, LAIRON Lvs 25-30, LAIRON Lvs 35-40, LAIRON Lvs 40-45
+Set #92 - ROUTE 128 Surfing (rate=4) - EXEGGCUTE Lvs 5-35, NINCADA Lvs 10-30, NINCADA Lvs 15-25, PARASECT Lvs 25-30, PARASECT Lvs 25-30
+Set #93 - ROUTE 128 Fishing (rate=30) - WURMPLE Lvs 5-10, MAGNEMITE Lvs 5-10, WURMPLE Lvs 10-30, MACHOP Lvs 10-30, WAILMER Lvs 10-30, MACHOP Lvs 30-35, WAILMER Lvs 30-35, PARASECT Lvs 30-35, WAILMER Lvs 35-40, WAILMER Lvs 40-45
+Set #94 - ROUTE 129 Surfing (rate=4) - RHYHORN Lvs 5-35, TAILLOW Lvs 10-30, TAILLOW Lvs 15-25, PERSIAN Lvs 25-30, GYARADOS Lvs 25-30
+Set #95 - ROUTE 129 Fishing (rate=30) - TYROGUE Lvs 5-10, TORCHIC Lvs 5-10, TYROGUE Lvs 10-30, TORCHIC Lvs 10-30, CHARMELEON Lvs 10-30, WAILORD Lvs 30-35, CHARMELEON Lvs 30-35, CHARMELEON Lvs 25-30, CHARMELEON Lvs 35-40, CHARMELEON Lvs 40-45
+Set #96 - ROUTE 130 Grass/Cave (rate=20) - PARAS Lv30, PARAS Lv35, PARAS Lv25, PARAS Lv40, PARAS Lv20, PARAS Lv45, PARAS Lv15, PARAS Lv50, PARAS Lv10, PARAS Lv5, PARAS Lv10, PARAS Lv5
+Set #97 - ROUTE 130 Surfing (rate=4) - DELIBIRD Lvs 5-35, EKANS Lvs 10-30, EKANS Lvs 15-25, MACHOKE Lvs 25-30, MACHOKE Lvs 25-30
+Set #98 - ROUTE 130 Fishing (rate=30) - CATERPIE Lvs 5-10, FLAAFFY Lvs 5-10, CATERPIE Lvs 10-30, FLAAFFY Lvs 10-30, GRAVELER Lvs 10-30, MUK Lvs 30-35, GRAVELER Lvs 30-35, GRAVELER Lvs 25-30, GRAVELER Lvs 35-40, GRAVELER Lvs 40-45
+Set #99 - ROUTE 131 Surfing (rate=4) - DELIBIRD Lvs 5-35, SLUGMA Lvs 10-30, SLUGMA Lvs 15-25, QUAGSIRE Lvs 25-30, QUAGSIRE Lvs 25-30
+Set #100 - ROUTE 131 Fishing (rate=30) - METAPOD Lvs 5-10, CARVANHA Lvs 5-10, METAPOD Lvs 10-30, CARVANHA Lvs 10-30, KADABRA Lvs 10-30, JYNX Lvs 30-35, KADABRA Lvs 30-35, KADABRA Lvs 25-30, KADABRA Lvs 35-40, KADABRA Lvs 40-45
+Set #101 - ROUTE 132 Surfing (rate=4) - KABUTO Lvs 5-35, PINECO Lvs 10-30, PINECO Lvs 15-25, SUNFLORA Lvs 25-30, SUNFLORA Lvs 25-30
+Set #102 - ROUTE 132 Fishing (rate=30) - CLEFFA Lvs 5-10, MAGNEMITE Lvs 5-10, CLEFFA Lvs 10-30, MAGNEMITE Lvs 10-30, MAROWAK Lvs 10-30, AMPHAROS Lvs 30-35, MAROWAK Lvs 30-35, GASTLY Lvs 25-30, MAROWAK Lvs 35-40, MAROWAK Lvs 40-45
+Set #103 - ROUTE 133 Surfing (rate=4) - EEVEE Lvs 5-35, SPINARAK Lvs 10-30, SPINARAK Lvs 15-25, SANDSLASH Lvs 25-30, SANDSLASH Lvs 25-30
+Set #104 - ROUTE 133 Fishing (rate=30) - WURMPLE Lvs 5-10, PSYDUCK Lvs 5-10, WURMPLE Lvs 10-30, PSYDUCK Lvs 10-30, COMBUSKEN Lvs 10-30, MILTANK Lvs 30-35, COMBUSKEN Lvs 30-35, DITTO Lvs 25-30, COMBUSKEN Lvs 35-40, COMBUSKEN Lvs 40-45
+Set #105 - ROUTE 134 Surfing (rate=4) - NIDORINA Lvs 5-35, PARAS Lvs 10-30, PARAS Lvs 15-25, WIGGLYTUFF Lvs 25-30, WIGGLYTUFF Lvs 25-30
+Set #106 - ROUTE 134 Fishing (rate=30) - AZURILL Lvs 5-10, CORPHISH Lvs 5-10, AZURILL Lvs 10-30, CORPHISH Lvs 10-30, QWILFISH Lvs 10-30, SCYTHER Lvs 30-35, QWILFISH Lvs 30-35, SWABLU Lvs 25-30, QWILFISH Lvs 35-40, QWILFISH Lvs 40-45
+Set #107 - ABANDONED SHIP Surfing (rate=4) - LILEEP Lvs 5-35, LILEEP Lvs 5-35, LILEEP Lvs 5-35, LILEEP Lvs 5-35, OCTILLERY Lvs 30-35
+Set #108 - ABANDONED SHIP Fishing (rate=20) - CLEFFA Lvs 5-10, LILEEP Lvs 5-10, CLEFFA Lvs 10-30, LILEEP Lvs 10-30, LILEEP Lvs 10-30, LILEEP Lvs 25-30, LILEEP Lvs 30-35, OMASTAR Lvs 30-35, OMASTAR Lvs 25-30, OMASTAR Lvs 20-25
+Set #109 - SEAFLOOR CAVERN Grass/Cave (rate=4) - PIDGEY Lv30, PIDGEY Lv31, PIDGEY Lv32, PIDGEY Lv33, PIDGEY Lv28, PIDGEY Lv29, PIDGEY Lv34, PIDGEY Lv35, FURRET Lv34, FURRET Lv35, FURRET Lv33, FURRET Lv36
+Set #110 - SEAFLOOR CAVERN Grass/Cave (rate=4) - NINCADA Lv30, NINCADA Lv31, NINCADA Lv32, NINCADA Lv33, NINCADA Lv28, NINCADA Lv29, NINCADA Lv34, NINCADA Lv35, KECLEON Lv34, KECLEON Lv35, KECLEON Lv33, KECLEON Lv36
+Set #111 - SEAFLOOR CAVERN Grass/Cave (rate=4) - SPINARAK Lv30, SPINARAK Lv31, SPINARAK Lv32, SPINARAK Lv33, SPINARAK Lv28, SPINARAK Lv29, SPINARAK Lv34, SPINARAK Lv35, LINOONE Lv34, LINOONE Lv35, LINOONE Lv33, LINOONE Lv36
+Set #112 - SEAFLOOR CAVERN Grass/Cave (rate=4) - PIDGEY Lv30, PIDGEY Lv31, PIDGEY Lv32, PIDGEY Lv33, PIDGEY Lv28, PIDGEY Lv29, PIDGEY Lv34, PIDGEY Lv35, LANTURN Lv34, LANTURN Lv35, LANTURN Lv33, LANTURN Lv36
+Set #113 - SEAFLOOR CAVERN Grass/Cave (rate=4) - WHISMUR Lv30, WHISMUR Lv31, WHISMUR Lv32, WHISMUR Lv33, WHISMUR Lv28, WHISMUR Lv29, WHISMUR Lv34, WHISMUR Lv35, MUK Lv34, MUK Lv35, MUK Lv33, MUK Lv36
+Set #114 - SEAFLOOR CAVERN Grass/Cave (rate=4) - WHISMUR Lv30, WHISMUR Lv31, WHISMUR Lv32, WHISMUR Lv33, WHISMUR Lv28, WHISMUR Lv29, WHISMUR Lv34, WHISMUR Lv35, MAGCARGO Lv34, MAGCARGO Lv35, MAGCARGO Lv33, MAGCARGO Lv36
+Set #115 - SEAFLOOR CAVERN Surfing (rate=4) - VIBRAVA Lvs 5-35, SURSKIT Lvs 5-35, SURSKIT Lvs 30-35, SEALEO Lvs 30-35, SEALEO Lvs 30-35
+Set #116 - SEAFLOOR CAVERN Fishing (rate=10) - POOCHYENA Lvs 5-10, DROWZEE Lvs 5-10, POOCHYENA Lvs 10-30, DROWZEE Lvs 10-30, PARASECT Lvs 10-30, PARASECT Lvs 25-30, PARASECT Lvs 30-35, PARASECT Lvs 20-25, PARASECT Lvs 35-40, PARASECT Lvs 40-45
+Set #117 - SEAFLOOR CAVERN Grass/Cave (rate=4) - WYNAUT Lv30, WYNAUT Lv31, WYNAUT Lv32, WYNAUT Lv33, WYNAUT Lv28, WYNAUT Lv29, WYNAUT Lv34, WYNAUT Lv35, FURRET Lv34, FURRET Lv35, FURRET Lv33, FURRET Lv36
+Set #118 - SEAFLOOR CAVERN Surfing (rate=4) - EEVEE Lvs 5-35, SPINARAK Lvs 5-35, SPINARAK Lvs 30-35, RAPIDASH Lvs 30-35, RAPIDASH Lvs 30-35
+Set #119 - SEAFLOOR CAVERN Fishing (rate=10) - WOOPER Lvs 5-10, STARYU Lvs 5-10, WOOPER Lvs 10-30, STARYU Lvs 10-30, GLIGAR Lvs 10-30, GLIGAR Lvs 25-30, GLIGAR Lvs 30-35, GLIGAR Lvs 20-25, GLIGAR Lvs 35-40, GLIGAR Lvs 40-45
+Set #120 - SEAFLOOR CAVERN Grass/Cave (rate=4) - SURSKIT Lv30, SURSKIT Lv31, SURSKIT Lv32, SURSKIT Lv33, SURSKIT Lv28, SURSKIT Lv29, SURSKIT Lv34, SURSKIT Lv35, HARIYAMA Lv34, HARIYAMA Lv35, HARIYAMA Lv33, HARIYAMA Lv36
+Set #121 - SEAFLOOR CAVERN Surfing (rate=4) - VIBRAVA Lvs 5-35, WHISMUR Lvs 5-35, WHISMUR Lvs 30-35, MAGCARGO Lvs 30-35, MAGCARGO Lvs 30-35
+Set #122 - SEAFLOOR CAVERN Fishing (rate=10) - SEEDOT Lvs 5-10, GOLDEEN Lvs 5-10, SEEDOT Lvs 10-30, GOLDEEN Lvs 10-30, MAGCARGO Lvs 10-30, MAGCARGO Lvs 25-30, MAGCARGO Lvs 30-35, MAGCARGO Lvs 20-25, MAGCARGO Lvs 35-40, MAGCARGO Lvs 40-45
+Set #123 - CAVE OF ORIGIN Grass/Cave (rate=4) - WHISMUR Lv30, WHISMUR Lv31, WHISMUR Lv32, WHISMUR Lv33, WHISMUR Lv28, WHISMUR Lv29, WHISMUR Lv34, WHISMUR Lv35, TAUROS Lv34, TAUROS Lv35, TAUROS Lv33, TAUROS Lv36
+Set #124 - CAVE OF ORIGIN Grass/Cave (rate=4) - HOPPIP Lv30, HOPPIP Lv31, HOPPIP Lv32, RATICATE Lv30, RATICATE Lv32, RATICATE Lv34, HOPPIP Lv33, HOPPIP Lv34, HERACROSS Lv34, HERACROSS Lv35, HERACROSS Lv33, HERACROSS Lv36
+Set #125 - CAVE OF ORIGIN Grass/Cave (rate=4) - PIDGEY Lv30, PIDGEY Lv31, PIDGEY Lv32, PARASECT Lv30, PARASECT Lv32, PARASECT Lv34, PIDGEY Lv33, PIDGEY Lv34, CASTFORM Lv34, CASTFORM Lv35, CASTFORM Lv33, CASTFORM Lv36
+Set #126 - CAVE OF ORIGIN Grass/Cave (rate=4) - SPINARAK Lv30, SPINARAK Lv31, SPINARAK Lv32, HAUNTER Lv30, HAUNTER Lv32, HAUNTER Lv34, SPINARAK Lv33, SPINARAK Lv34, GLIGAR Lv34, GLIGAR Lv35, GLIGAR Lv33, GLIGAR Lv36
+Set #127 - CAVE OF ORIGIN Grass/Cave (rate=4) - RATTATA Lv30, RATTATA Lv31, RATTATA Lv32, PUPITAR Lv30, PUPITAR Lv32, PUPITAR Lv34, RATTATA Lv33, RATTATA Lv34, SLOWKING Lv34, SLOWKING Lv35, SLOWKING Lv33, SLOWKING Lv36
+Set #128 - NEW MAUVILLE Grass/Cave (rate=10) - TOTODILE Lv24, BELLSPROUT Lv24, TOTODILE Lv25, BELLSPROUT Lv25, TOTODILE Lv23, BELLSPROUT Lv23, TOTODILE Lv26, BELLSPROUT Lv26, TOTODILE Lv22, BELLSPROUT Lv22, TOTODILE Lv22, BELLSPROUT Lv22
+Set #129 - SAFARI ZONE Grass/Cave (rate=25) - CLEFAIRY Lv25, CLEFAIRY Lv27, STANTLER Lv25, STANTLER Lv27, PIKACHU Lv25, TRAPINCH Lv27, GLOOM Lv25, NOSEPASS Lv27, EXEGGCUTE Lv25, NOSEPASS Lv27, EXEGGCUTE Lv27, NOSEPASS Lv29
+Set #130 - SAFARI ZONE Surfing (rate=9) - GOLDEEN Lvs 20-30, GOLDEEN Lvs 20-30, GOLDEEN Lvs 30-35, GOLDEEN Lvs 30-35, GOLDEEN Lvs 30-35
+Set #131 - SAFARI ZONE Fishing (rate=35) - WEEDLE Lvs 5-10, SHELLDER Lvs 5-10, WEEDLE Lvs 10-30, SHELLDER Lvs 10-25, SHELLDER Lvs 10-30, SHELLDER Lvs 25-30, SHELLDER Lvs 30-35, RAICHU Lvs 30-35, RAICHU Lvs 35-40, RAICHU Lvs 25-30
+Set #132 - SAFARI ZONE Grass/Cave (rate=25) - CHINCHOU Lv27, ELECTRIKE Lv27, CHINCHOU Lv29, ELECTRIKE Lv29, DITTO Lv27, CHARMELEON Lv29, CHARMELEON Lv31, DITTO Lv29, PORYGON2 Lv29, BANETTE Lv27, PORYGON2 Lv31, BANETTE Lv29
+Set #133 - SAFARI ZONE Rock Smash (rate=25) - CHARMANDER Lvs 10-15, CHARMANDER Lvs 5-10, CHARMANDER Lvs 15-20, CHARMANDER Lvs 20-25, CHARMANDER Lvs 25-30
+Set #134 - SAFARI ZONE Grass/Cave (rate=25) - PSYDUCK Lv27, RHYHORN Lv27, PSYDUCK Lv29, RHYHORN Lv29, CUBONE Lv27, SUDOWOODO Lv29, SUDOWOODO Lv31, CUBONE Lv29, FEAROW Lv29, PORYGON2 Lv27, FEAROW Lv31, PORYGON2 Lv29
+Set #135 - SAFARI ZONE Surfing (rate=9) - SPOINK Lvs 20-30, SPOINK Lvs 20-30, SPOINK Lvs 30-35, GARDEVOIR Lvs 30-35, GARDEVOIR Lvs 25-40
+Set #136 - SAFARI ZONE Fishing (rate=35) - WURMPLE Lvs 5-10, BARBOACH Lvs 5-10, WURMPLE Lvs 10-30, BARBOACH Lvs 10-25, BARBOACH Lvs 10-30, BARBOACH Lvs 25-30, BARBOACH Lvs 30-35, PARASECT Lvs 30-35, PARASECT Lvs 35-40, PARASECT Lvs 25-30
+Set #137 - VICTORY ROAD Grass/Cave (rate=10) - KINGLER Lv40, CHANSEY Lv40, MURKROW Lv40, MURKROW Lv40, KINGLER Lv38, CHANSEY Lv38, KINGLER Lv42, CHANSEY Lv42, MURKROW Lv42, LEDIAN Lv38, MURKROW Lv42, LEDIAN Lv38
+Set #138 - VICTORY ROAD Rock Smash (rate=20) - POLIWHIRL Lvs 30-40, DUSKULL Lvs 30-40, POLIWHIRL Lvs 35-40, POLIWHIRL Lvs 35-40, POLIWHIRL Lvs 35-40
+Set #139 - VICTORY ROAD Grass/Cave (rate=10) - NOCTOWL Lv40, GLOOM Lv40, PILOSWINE Lv40, PILOSWINE Lv40, NOCTOWL Lv42, GLOOM Lv42, NOCTOWL Lv44, GLOOM Lv44, PILOSWINE Lv42, DUNSPARCE Lv42, PILOSWINE Lv44, DUNSPARCE Lv44
+Set #140 - VICTORY ROAD Surfing (rate=4) - CAMERUPT Lvs 30-35, CAMERUPT Lvs 25-30, CAMERUPT Lvs 35-40, CAMERUPT Lvs 35-40, CAMERUPT Lvs 35-40
+Set #141 - VICTORY ROAD Fishing (rate=30) - SILCOON Lvs 5-10, LARVITAR Lvs 5-10, SILCOON Lvs 10-30, LARVITAR Lvs 10-30, NUMEL Lvs 10-30, NUMEL Lvs 25-30, NUMEL Lvs 30-35, LAIRON Lvs 30-35, LAIRON Lvs 35-40, LAIRON Lvs 40-45
+Set #142 - METEOR FALLS Grass/Cave (rate=10) - RATTATA Lv16, RATTATA Lv17, RATTATA Lv18, RATTATA Lv15, RATTATA Lv14, HITMONCHAN Lv16, HITMONCHAN Lv18, HITMONCHAN Lv14, RATTATA Lv19, RATTATA Lv20, RATTATA Lv19, RATTATA Lv20
+Set #143 - METEOR FALLS Surfing (rate=4) - MARILL Lvs 5-35, MARILL Lvs 30-35, BELLOSSOM Lvs 25-35, BELLOSSOM Lvs 15-25, BELLOSSOM Lvs 5-15
+Set #144 - METEOR FALLS Fishing (rate=30) - PICHU Lvs 5-10, STARYU Lvs 5-10, PICHU Lvs 10-30, STARYU Lvs 10-30, MEOWTH Lvs 10-30, MEOWTH Lvs 25-30, MEOWTH Lvs 30-35, MEOWTH Lvs 20-25, MEOWTH Lvs 35-40, MEOWTH Lvs 40-45
+Set #145 - METEOR FALLS Grass/Cave (rate=10) - XATU Lv33, XATU Lv35, XATU Lv33, CHANSEY Lv35, CHANSEY Lv33, CHANSEY Lv37, XATU Lv35, CHANSEY Lv39, XATU Lv38, XATU Lv40, XATU Lv38, XATU Lv40
+Set #146 - METEOR FALLS Surfing (rate=4) - JYNX Lvs 30-35, JYNX Lvs 30-35, SANDSLASH Lvs 25-35, SANDSLASH Lvs 15-25, SANDSLASH Lvs 5-15
+Set #147 - METEOR FALLS Fishing (rate=30) - LOTAD Lvs 5-10, DRATINI Lvs 5-10, LOTAD Lvs 10-30, DRATINI Lvs 10-30, SNUBBULL Lvs 10-30, SNUBBULL Lvs 25-30, SNUBBULL Lvs 30-35, EXPLOUD Lvs 30-35, EXPLOUD Lvs 35-40, EXPLOUD Lvs 40-45
+Set #148 - METEOR FALLS Grass/Cave (rate=10) - MUK Lv33, MUK Lv35, MUK Lv33, WOBBUFFET Lv35, WOBBUFFET Lv33, WOBBUFFET Lv37, MUK Lv35, WOBBUFFET Lv39, MUK Lv38, MUK Lv40, MUK Lv38, MUK Lv40
+Set #149 - METEOR FALLS Surfing (rate=4) - GOLDUCK Lvs 30-35, GOLDUCK Lvs 30-35, CASTFORM Lvs 25-35, CASTFORM Lvs 15-25, CASTFORM Lvs 5-15
+Set #150 - METEOR FALLS Fishing (rate=30) - TYROGUE Lvs 5-10, PSYDUCK Lvs 5-10, TYROGUE Lvs 10-30, PSYDUCK Lvs 10-30, NIDORAN♂ Lvs 10-30, NIDORAN♂ Lvs 25-30, NIDORAN♂ Lvs 30-35, JYNX Lvs 30-35, JYNX Lvs 35-40, JYNX Lvs 40-45
+Set #151 - SHOAL CAVE Grass/Cave (rate=10) - DIGLETT Lv26, REMORAID Lv26, DIGLETT Lv28, REMORAID Lv28, DIGLETT Lv30, REMORAID Lv30, DIGLETT Lv32, REMORAID Lv32, MIGHTYENA Lv32, REMORAID Lv32, MIGHTYENA Lv32, REMORAID Lv32
+Set #152 - SHOAL CAVE Grass/Cave (rate=10) - RATTATA Lv26, NIDORAN♀ Lv26, RATTATA Lv28, NIDORAN♀ Lv28, RATTATA Lv30, NIDORAN♀ Lv30, RATTATA Lv32, NIDORAN♀ Lv32, CHANSEY Lv32, NIDORAN♀ Lv32, CHANSEY Lv32, NIDORAN♀ Lv32
+Set #153 - SHOAL CAVE Grass/Cave (rate=10) - HOPPIP Lv26, TREECKO Lv26, HOPPIP Lv28, TREECKO Lv28, HOPPIP Lv30, TREECKO Lv30, HOPPIP Lv32, TREECKO Lv32, XATU Lv32, TREECKO Lv32, XATU Lv32, TREECKO Lv32
+Set #154 - SHOAL CAVE Surfing (rate=4) - KRABBY Lvs 5-35, ZUBAT Lvs 5-35, BULBASAUR Lvs 25-30, BULBASAUR Lvs 25-30, BULBASAUR Lvs 25-35
+Set #155 - SHOAL CAVE Fishing (rate=10) - CATERPIE Lvs 5-10, GASTLY Lvs 5-10, CATERPIE Lvs 10-30, GASTLY Lvs 10-30, MAGBY Lvs 10-30, MAGBY Lvs 25-30, MAGBY Lvs 30-35, MAGBY Lvs 20-25, MAGBY Lvs 35-40, MAGBY Lvs 40-45
+Set #156 - SHOAL CAVE Grass/Cave (rate=10) - WHISMUR Lv26, HOOTHOOT Lv26, WHISMUR Lv28, HOOTHOOT Lv28, WHISMUR Lv30, HOOTHOOT Lv30, WHISMUR Lv32, HOOTHOOT Lv32, PINSIR Lv32, HOOTHOOT Lv32, PINSIR Lv32, HOOTHOOT Lv32
+Set #157 - SHOAL CAVE Surfing (rate=4) - FARFETCH’D Lvs 5-35, WYNAUT Lvs 5-35, NIDORAN♂ Lvs 25-30, NIDORAN♂ Lvs 25-30, NIDORAN♂ Lvs 25-35
+Set #158 - SHOAL CAVE Fishing (rate=10) - TYROGUE Lvs 5-10, NIDORINA Lvs 5-10, TYROGUE Lvs 10-30, NIDORINA Lvs 10-30, RATICATE Lvs 10-30, RATICATE Lvs 25-30, RATICATE Lvs 30-35, RATICATE Lvs 20-25, RATICATE Lvs 35-40, RATICATE Lvs 40-45
+Set #159 - LILYCOVE CITY Surfing (rate=4) - TENTACOOL Lvs 5-35, JIGGLYPUFF Lvs 10-30, JIGGLYPUFF Lvs 15-25, KECLEON Lvs 25-30, KECLEON Lvs 25-30
+Set #160 - LILYCOVE CITY Fishing (rate=10) - CATERPIE Lvs 5-10, EXEGGCUTE Lvs 5-10, CATERPIE Lvs 10-30, EXEGGCUTE Lvs 10-30, QWILFISH Lvs 10-30, QWILFISH Lvs 25-30, QWILFISH Lvs 30-35, GROWLITHE Lvs 25-30, QWILFISH Lvs 35-40, QWILFISH Lvs 40-45
+Set #161 - DEWFORD TOWN Surfing (rate=4) - BULBASAUR Lvs 5-35, RATTATA Lvs 10-30, RATTATA Lvs 15-25, GRAVELER Lvs 25-30, GRAVELER Lvs 25-30
+Set #162 - DEWFORD TOWN Fishing (rate=10) - MAGIKARP Lvs 5-10, MAGNEMITE Lvs 5-10, MAGIKARP Lvs 10-30, MAGNEMITE Lvs 10-30, CORSOLA Lvs 10-30, CORSOLA Lvs 25-30, CORSOLA Lvs 30-35, CORSOLA Lvs 20-25, CORSOLA Lvs 35-40, CORSOLA Lvs 40-45
+Set #163 - SLATEPORT CITY Surfing (rate=4) - SQUIRTLE Lvs 5-35, WINGULL Lvs 10-30, WINGULL Lvs 15-25, MEDICHAM Lvs 25-30, MEDICHAM Lvs 25-30
+Set #164 - SLATEPORT CITY Fishing (rate=10) - SEEDOT Lvs 5-10, LILEEP Lvs 5-10, SEEDOT Lvs 10-30, LILEEP Lvs 10-30, WEEPINBELL Lvs 10-30, WEEPINBELL Lvs 25-30, WEEPINBELL Lvs 30-35, WEEPINBELL Lvs 20-25, WEEPINBELL Lvs 35-40, WEEPINBELL Lvs 40-45
+Set #165 - MOSSDEEP CITY Surfing (rate=4) - NIDORINO Lvs 5-35, PINECO Lvs 10-30, PINECO Lvs 15-25, FEAROW Lvs 25-30, FEAROW Lvs 25-30
+Set #166 - MOSSDEEP CITY Fishing (rate=10) - PICHU Lvs 5-10, CHARMANDER Lvs 5-10, PICHU Lvs 10-30, CHARMANDER Lvs 10-30, KADABRA Lvs 10-30, MISDREAVUS Lvs 30-35, KADABRA Lvs 30-35, KADABRA Lvs 25-30, KADABRA Lvs 35-40, KADABRA Lvs 40-45
+Set #167 - PACIFIDLOG TOWN Surfing (rate=4) - AIPOM Lvs 5-35, MEDITITE Lvs 10-30, MEDITITE Lvs 15-25, PILOSWINE Lvs 25-30, PILOSWINE Lvs 25-30
+Set #168 - PACIFIDLOG TOWN Fishing (rate=10) - POOCHYENA Lvs 5-10, TREECKO Lvs 5-10, POOCHYENA Lvs 10-30, TREECKO Lvs 10-30, LUNATONE Lvs 10-30, DUSCLOPS Lvs 30-35, LUNATONE Lvs 30-35, LUNATONE Lvs 25-30, LUNATONE Lvs 35-40, LUNATONE Lvs 40-45
+Set #169 - EVER GRANDE CITY Surfing (rate=4) - VENONAT Lvs 5-35, EKANS Lvs 10-30, EKANS Lvs 15-25, IVYSAUR Lvs 25-30, IVYSAUR Lvs 25-30
+Set #170 - EVER GRANDE CITY Fishing (rate=10) - SUNKERN Lvs 5-10, CLEFAIRY Lvs 5-10, SUNKERN Lvs 10-30, MANKEY Lvs 10-30, SNEASEL Lvs 10-30, MANKEY Lvs 30-35, SNEASEL Lvs 30-35, ANORITH Lvs 30-35, SNEASEL Lvs 35-40, SNEASEL Lvs 40-45
+Set #171 - PETALBURG CITY Surfing (rate=1) - MARILL Lvs 20-30, MARILL Lvs 10-20, MARILL Lvs 30-35, MARILL Lvs 5-10, MARILL Lvs 5-10
+Set #172 - PETALBURG CITY Fishing (rate=10) - CLEFFA Lvs 5-10, NUZLEAF Lvs 5-10, CLEFFA Lvs 10-30, NUZLEAF Lvs 10-30, SNORUNT Lvs 10-30, SNORUNT Lvs 25-30, SNORUNT Lvs 30-35, SNORUNT Lvs 20-25, SNORUNT Lvs 35-40, SNORUNT Lvs 40-45
+Set #173 - UNDERWATER Surfing (rate=4) - NIDORINA Lvs 20-30, PHANPY Lvs 20-30, NIDORINA Lvs 30-35, BRELOOM Lvs 30-35, BRELOOM Lvs 30-35
+Set #174 - SHOAL CAVE Grass/Cave (rate=10) - HOPPIP Lv26, BAGON Lv26, HOPPIP Lv28, BAGON Lv28, HOPPIP Lv30, BAGON Lv30, PSYDUCK Lv26, BAGON Lv32, SEALEO Lv30, PSYDUCK Lv28, SEALEO Lv32, PSYDUCK Lv30
+Set #175 - SKY PILLAR Grass/Cave (rate=10) - MAGCARGO Lv33, HERACROSS Lv34, HERACROSS Lv35, MAGCARGO Lv34, BLISSEY Lv36, SWELLOW Lv37, SWELLOW Lv38, BLISSEY Lv36, BLISSEY Lv37, BLISSEY Lv38, BLISSEY Lv37, BLISSEY Lv38
+Set #176 - SOOTOPOLIS CITY Surfing (rate=1) - FEEBAS Lvs 5-35, FEEBAS Lvs 10-30, FEEBAS Lvs 15-25, FEEBAS Lvs 25-30, FEEBAS Lvs 25-30
+Set #177 - SOOTOPOLIS CITY Fishing (rate=10) - PICHU Lvs 5-10, LILEEP Lvs 5-10, PICHU Lvs 10-30, PICHU Lvs 10-30, PICHU Lvs 10-30, PICHU Lvs 30-35, PICHU Lvs 30-35, MACHAMP Lvs 35-40, MACHAMP Lvs 35-45, MACHAMP Lvs 5-45
+Set #178 - SKY PILLAR Grass/Cave (rate=10) - MARSHTOMP Lv33, METANG Lv34, METANG Lv35, MARSHTOMP Lv34, ELECTRODE Lv36, GOLEM Lv37, GOLEM Lv38, ELECTRODE Lv36, ELECTRODE Lv37, ELECTRODE Lv38, ELECTRODE Lv37, ELECTRODE Lv38
+Set #179 - SKY PILLAR Grass/Cave (rate=10) - IVYSAUR Lv33, PUPITAR Lv34, PUPITAR Lv35, IVYSAUR Lv34, SLOWBRO Lv36, MAGMAR Lv37, MAGMAR Lv38, SLOWBRO Lv36, SLOWBRO Lv37, TAUROS Lv38, TAUROS Lv39, TAUROS Lv39
+Set #180 - SAFARI ZONE Grass/Cave (rate=25) - WURMPLE Lv33, DUSKULL Lv34, WURMPLE Lv35, DUSKULL Lv36, ARON Lv34, TAILLOW Lv33, TOGEPI Lv35, BELLSPROUT Lv34, PELIPPER Lv36, QUILAVA Lv37, PELIPPER Lv39, QUILAVA Lv40
+Set #181 - SAFARI ZONE Surfing (rate=9) - POOCHYENA Lvs 25-30, RATTATA Lvs 25-30, RATTATA Lvs 25-30, RATTATA Lvs 30-35, MR. MIME Lvs 35-40
+Set #182 - SAFARI ZONE Fishing (rate=35) - SILCOON Lvs 25-30, EXEGGCUTE Lvs 25-30, SILCOON Lvs 25-30, EXEGGCUTE Lvs 25-30, SHUPPET Lvs 30-35, EXEGGCUTE Lvs 25-30, SHUPPET Lvs 25-30, SHUPPET Lvs 30-35, SHUPPET Lvs 30-35, STARMIE Lvs 35-40
+Set #183 - SAFARI ZONE Grass/Cave (rate=25) - GLOOM Lv33, DROWZEE Lv34, GLOOM Lv35, DROWZEE Lv36, WEEDLE Lv34, PINECO Lv33, DIGLETT Lv35, CHIKORITA Lv34, PSYDUCK Lv36, MR. MIME Lv37, PSYDUCK Lv39, MR. MIME Lv40
+Set #184 - SAFARI ZONE Rock Smash (rate=25) - ESPEON Lvs 25-30, ESPEON Lvs 20-25, ESPEON Lvs 30-35, ESPEON Lvs 30-35, ESPEON Lvs 35-40
+Set #185 - MAGMA HIDEOUT Grass/Cave (rate=10) - SHELLDER Lv27, HITMONCHAN Lv28, SHELLDER Lv28, HITMONCHAN Lv30, SHELLDER Lv29, SHELLDER Lv30, SHELLDER Lv30, LINOONE Lv30, LINOONE Lv30, LINOONE Lv31, LINOONE Lv32, LINOONE Lv33
+Set #186 - MAGMA HIDEOUT Grass/Cave (rate=10) - NUMEL Lv27, LUNATONE Lv28, NUMEL Lv28, LUNATONE Lv30, NUMEL Lv29, NUMEL Lv30, NUMEL Lv30, BEAUTIFLY Lv30, BEAUTIFLY Lv30, BEAUTIFLY Lv31, BEAUTIFLY Lv32, BEAUTIFLY Lv33
+Set #187 - MAGMA HIDEOUT Grass/Cave (rate=10) - VOLTORB Lv27, STANTLER Lv28, VOLTORB Lv28, STANTLER Lv30, VOLTORB Lv29, VOLTORB Lv30, VOLTORB Lv30, DUNSPARCE Lv30, DUNSPARCE Lv30, DUNSPARCE Lv31, DUNSPARCE Lv32, DUNSPARCE Lv33
+Set #188 - MAGMA HIDEOUT Grass/Cave (rate=10) - JIGGLYPUFF Lv27, POLIWRATH Lv28, JIGGLYPUFF Lv28, POLIWRATH Lv30, JIGGLYPUFF Lv29, JIGGLYPUFF Lv30, JIGGLYPUFF Lv30, ILLUMISE Lv30, ILLUMISE Lv30, ILLUMISE Lv31, ILLUMISE Lv32, ILLUMISE Lv33
+Set #189 - MAGMA HIDEOUT Grass/Cave (rate=10) - NUMEL Lv27, MANTINE Lv28, NUMEL Lv28, MANTINE Lv30, NUMEL Lv29, NUMEL Lv30, NUMEL Lv30, IVYSAUR Lv30, IVYSAUR Lv30, IVYSAUR Lv31, IVYSAUR Lv32, IVYSAUR Lv33
+Set #190 - MAGMA HIDEOUT Grass/Cave (rate=10) - ELECTRIKE Lv27, SEVIPER Lv28, ELECTRIKE Lv28, SEVIPER Lv30, ELECTRIKE Lv29, ELECTRIKE Lv30, ELECTRIKE Lv30, SUDOWOODO Lv30, SUDOWOODO Lv30, SUDOWOODO Lv31, SUDOWOODO Lv32, SUDOWOODO Lv33
+Set #191 - MAGMA HIDEOUT Grass/Cave (rate=10) - PINECO Lv27, LANTURN Lv28, PINECO Lv28, LANTURN Lv30, PINECO Lv29, PINECO Lv30, PINECO Lv30, GROVYLE Lv30, GROVYLE Lv30, GROVYLE Lv31, GROVYLE Lv32, GROVYLE Lv33
+Set #192 - MAGMA HIDEOUT Grass/Cave (rate=10) - NATU Lv27, GOLDUCK Lv28, NATU Lv28, GOLDUCK Lv30, NATU Lv29, NATU Lv30, NATU Lv30, DUNSPARCE Lv30, DUNSPARCE Lv30, DUNSPARCE Lv31, DUNSPARCE Lv32, DUNSPARCE Lv33
+Set #193 - MIRAGE TOWER Grass/Cave (rate=10) - SMOOCHUM Lv21, SNORUNT Lv21, SMOOCHUM Lv20, SNORUNT Lv20, SMOOCHUM Lv20, SNORUNT Lv20, SMOOCHUM Lv22, SNORUNT Lv22, SMOOCHUM Lv23, SNORUNT Lv23, SMOOCHUM Lv24, SNORUNT Lv24
+Set #194 - MIRAGE TOWER Grass/Cave (rate=10) - TEDDIURSA Lv21, VENONAT Lv21, TEDDIURSA Lv20, VENONAT Lv20, TEDDIURSA Lv20, VENONAT Lv20, TEDDIURSA Lv22, VENONAT Lv22, TEDDIURSA Lv23, VENONAT Lv23, TEDDIURSA Lv24, VENONAT Lv24
+Set #195 - MIRAGE TOWER Grass/Cave (rate=10) - JIGGLYPUFF Lv21, TREECKO Lv21, JIGGLYPUFF Lv20, TREECKO Lv20, JIGGLYPUFF Lv20, TREECKO Lv20, JIGGLYPUFF Lv22, TREECKO Lv22, JIGGLYPUFF Lv23, TREECKO Lv23, JIGGLYPUFF Lv24, TREECKO Lv24
+Set #196 - MIRAGE TOWER Grass/Cave (rate=10) - CHINCHOU Lv21, BAGON Lv21, CHINCHOU Lv20, BAGON Lv20, CHINCHOU Lv20, BAGON Lv20, CHINCHOU Lv22, BAGON Lv22, CHINCHOU Lv23, BAGON Lv23, CHINCHOU Lv24, BAGON Lv24
+Set #197 - DESERT UNDERPASS Grass/Cave (rate=10) - MACHOP Lv38, HOOTHOOT Lv35, MACHOP Lv40, BUTTERFREE Lv40, MACHOP Lv41, HOOTHOOT Lv36, BUTTERFREE Lv38, MACHOP Lv42, HOOTHOOT Lv38, MACHOP Lv43, BUTTERFREE Lv44, MACHOP Lv45
+Set #198 - ARTISAN CAVE Grass/Cave (rate=10) - SWINUB Lv40, SWINUB Lv41, SWINUB Lv42, SWINUB Lv43, SWINUB Lv44, SWINUB Lv45, SWINUB Lv46, SWINUB Lv47, SWINUB Lv48, SWINUB Lv49, SWINUB Lv50, SWINUB Lv50
+Set #199 - ARTISAN CAVE Grass/Cave (rate=10) - SWINUB Lv40, SWINUB Lv41, SWINUB Lv42, SWINUB Lv43, SWINUB Lv44, SWINUB Lv45, SWINUB Lv46, SWINUB Lv47, SWINUB Lv48, SWINUB Lv49, SWINUB Lv50, SWINUB Lv50
+Set #200 - ALTERING CAVE Grass/Cave (rate=7) - TOGEPI Lv10, TOGEPI Lv12, TOGEPI Lv8, TOGEPI Lv14, TOGEPI Lv10, TOGEPI Lv12, TOGEPI Lv16, TOGEPI Lv6, TOGEPI Lv8, TOGEPI Lv14, TOGEPI Lv8, TOGEPI Lv14
+Set #201 - ALTERING CAVE Grass/Cave (rate=7) - BAGON Lv7, BAGON Lv9, BAGON Lv5, BAGON Lv11, BAGON Lv7, BAGON Lv9, BAGON Lv13, BAGON Lv3, BAGON Lv5, BAGON Lv11, BAGON Lv5, BAGON Lv11
+Set #202 - ALTERING CAVE Grass/Cave (rate=7) - DIGLETT Lv23, DIGLETT Lv25, DIGLETT Lv22, DIGLETT Lv27, DIGLETT Lv23, DIGLETT Lv25, DIGLETT Lv29, DIGLETT Lv19, DIGLETT Lv21, DIGLETT Lv27, DIGLETT Lv21, DIGLETT Lv27
+Set #203 - ALTERING CAVE Grass/Cave (rate=7) - OMANYTE Lv16, OMANYTE Lv18, OMANYTE Lv14, OMANYTE Lv20, OMANYTE Lv16, OMANYTE Lv18, OMANYTE Lv22, OMANYTE Lv12, OMANYTE Lv14, OMANYTE Lv20, OMANYTE Lv14, OMANYTE Lv20
+Set #204 - ALTERING CAVE Grass/Cave (rate=7) - VIBRAVA Lv10, VIBRAVA Lv12, VIBRAVA Lv8, VIBRAVA Lv14, VIBRAVA Lv10, VIBRAVA Lv12, VIBRAVA Lv16, VIBRAVA Lv6, VIBRAVA Lv8, VIBRAVA Lv14, VIBRAVA Lv8, VIBRAVA Lv14
+Set #205 - ALTERING CAVE Grass/Cave (rate=7) - TEDDIURSA Lv22, TEDDIURSA Lv24, TEDDIURSA Lv20, TEDDIURSA Lv26, TEDDIURSA Lv22, TEDDIURSA Lv24, TEDDIURSA Lv28, TEDDIURSA Lv18, TEDDIURSA Lv20, TEDDIURSA Lv26, TEDDIURSA Lv20, TEDDIURSA Lv26
+Set #206 - ALTERING CAVE Grass/Cave (rate=7) - AGGRON Lv22, AGGRON Lv24, AGGRON Lv20, AGGRON Lv26, AGGRON Lv22, AGGRON Lv24, AGGRON Lv28, AGGRON Lv18, AGGRON Lv20, AGGRON Lv26, AGGRON Lv20, AGGRON Lv26
+Set #207 - ALTERING CAVE Grass/Cave (rate=7) - TROPIUS Lv22, TROPIUS Lv24, TROPIUS Lv20, TROPIUS Lv26, TROPIUS Lv22, TROPIUS Lv24, TROPIUS Lv28, TROPIUS Lv18, TROPIUS Lv20, TROPIUS Lv26, TROPIUS Lv20, TROPIUS Lv26
+Set #208 - ALTERING CAVE Grass/Cave (rate=7) - SMEARGLE Lv22, SMEARGLE Lv24, SMEARGLE Lv20, SMEARGLE Lv26, SMEARGLE Lv22, SMEARGLE Lv24, SMEARGLE Lv28, SMEARGLE Lv18, SMEARGLE Lv20, SMEARGLE Lv26, SMEARGLE Lv20, SMEARGLE Lv26
+Set #209 - METEOR FALLS Grass/Cave (rate=10) - POLITOED Lv33, POLITOED Lv35, POLITOED Lv33, HYPNO Lv35, HYPNO Lv33, HYPNO Lv37, POLITOED Lv35, HYPNO Lv39, POLITOED Lv38, POLITOED Lv40, POLITOED Lv38, POLITOED Lv40
+
+--TM Moves--
+TM01 SLAM
+TM02 TRI ATTACK
+TM03 RAZOR LEAF
+TM04 VITAL THROW
+TM05 SLUDGE BOMB
+TM06 DEFENSE CURL
+TM07 NIGHTMARE
+TM08 SLASH
+TM09 PSYCHO BOOST
+TM10 BARRIER
+TM11 SOLARBEAM
+TM12 EXTREMESPEED
+TM13 THRASH
+TM14 MIST BALL
+TM15 PSYWAVE
+TM16 ROCK THROW
+TM17 AIR CUTTER
+TM18 TAKE DOWN
+TM19 SACRED FIRE
+TM20 UPROAR
+TM21 ERUPTION
+TM22 DISABLE
+TM23 PSYBEAM
+TM24 PSYCHIC
+TM25 NIGHT SHADE
+TM26 HYDRO PUMP
+TM27 DOOM DESIRE
+TM28 DIG
+TM29 SILVER WIND
+TM30 BITE
+TM31 FOCUS ENERGY
+TM32 EMBER
+TM33 SLUDGE
+TM34 HYPER FANG
+TM35 LUSTER PURGE
+TM36 SHOCK WAVE
+TM37 BRICK BREAK
+TM38 TAUNT
+TM39 STEEL WING
+TM40 AEROBLAST
+TM41 FIRE BLAST
+TM42 CAMOUFLAGE
+TM43 SECRET POWER
+TM44 FACADE
+TM45 HYPER BEAM
+TM46 AERIAL ACE
+TM47 ZAP CANNON
+TM48 WEATHER BALL
+TM49 ROLLING KICK
+TM50 BONEMERANG
+
+--Move Tutor Moves--
+MEGA PUNCH => MEGA PUNCH
+SWORDS DANCE => POISON TAIL
+MEGA KICK => ACID ARMOR
+BODY SLAM => FLAME WHEEL
+DOUBLE-EDGE => SUPERPOWER
+COUNTER => AROMATHERAPY
+SEISMIC TOSS => SHADOW PUNCH
+MIMIC => CRUSH CLAW
+METRONOME => SWALLOW
+SOFTBOILED => CROSS CHOP
+DREAM EATER => BONE CLUB
+THUNDER WAVE => MIRROR MOVE
+EXPLOSION => SPARK
+ROCK SLIDE => SWIFT
+SUBSTITUTE => DRAGON CLAW
+DYNAMICPUNCH => FRENZY PLANT
+ROLLOUT => REVENGE
+PSYCH UP => METEOR MASH
+SNORE => THUNDERPUNCH
+ICY WIND => FLAMETHROWER
+ENDURE => EXTRASENSORY
+MUD-SLAP => DOUBLE-EDGE
+ICE PUNCH => METAL CLAW
+SWAGGER => SHADOW BALL
+SLEEP TALK => THUNDERBOLT
+SWIFT => SKULL BASH
+DEFENSE CURL => LEAF BLADE
+THUNDERPUNCH => FIRE PUNCH
+FIRE PUNCH => HEAT WAVE
+FURY CUTTER => CONFUSION
+
+--In-Game Trades--
+Trading RALTS for DOTS the SEEDOT has become trading SMEARGLE for DOTS the STEELIX
+Trading VOLBEAT for PLUSES the PLUSLE has become trading SWABLU for PLUSES the ZUBAT
+Trading BAGON for SEASOR the HORSEA has become trading CASCOON for SEASOR the ABRA
+Trading SKITTY for MEOWOW the MEOWTH has become trading TOGEPI for MEOWOW the HUNTAIL
+
+------------------------------------------------------------------
+Randomization of Emerald (U) completed.
+Time elapsed: 333ms
+RNG Calls: 40572
+------------------------------------------------------------------

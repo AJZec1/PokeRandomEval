@@ -1,0 +1,53 @@
+﻿Pokemon base stats & type: unchanged
+
+--Removing Trade Evolutions--
+Made POLIWHIRL evolve into POLITOED at level 37
+Made KADABRA evolve into ALAKAZAM at level 37
+Made MACHOKE evolve into MACHAMP at level 37
+Made GRAVELER evolve into GOLEM at level 37
+Made SLOWPOKE evolve into SLOWKING using a WATER STONE
+Made HAUNTER evolve into GENGAR at level 37
+Made ONIX evolve into STEELIX at level 30
+Made SEADRA evolve into KINGDRA at level 40
+Made SCYTHER evolve into SCIZOR at level 30
+Made EEVEE evolve into ESPEON using a SUN STONE
+Made EEVEE evolve into UMBREON using a MOON STONE
+Made PORYGON evolve into PORYGON2 at level 30
+Made FEEBAS evolve into MILOTIC at level 35
+Made CLAMPERL evolve into HUNTAIL at level 30
+Made CLAMPERL evolve into GOREBYSS using a WATER STONE
+
+--Condensed Level Evolutions--
+RHYHORN now evolves into RHYDON at minimum level 40
+HORSEA now evolves into SEADRA at minimum level 30
+DRAGONAIR now evolves into DRAGONITE at minimum level 40
+PUPITAR now evolves into TYRANITAR at minimum level 40
+ARON now evolves into LAIRON at minimum level 30
+LAIRON now evolves into AGGRON at minimum level 40
+TRAPINCH now evolves into VIBRAVA at minimum level 30
+VIBRAVA now evolves into FLYGON at minimum level 40
+SNORUNT now evolves into GLALIE at minimum level 40
+SPHEAL now evolves into SEALEO at minimum level 30
+SEALEO now evolves into WALREIN at minimum level 40
+SHELGON now evolves into SALAMENCE at minimum level 40
+METANG now evolves into METAGROSS at minimum level 40
+
+Move Data: Unchanged.
+
+Pokemon Movesets: Unchanged.
+
+Trainers: Unchanged.
+
+Static Pokemon: Unchanged.
+
+Wild Pokemon: Unchanged.
+
+TM Moves: Unchanged.
+
+Move Tutor Moves: Unchanged.
+
+------------------------------------------------------------------
+Randomization of Fire Red (U) 1.1 completed.
+Time elapsed: 191ms
+RNG Calls: 1
+------------------------------------------------------------------
